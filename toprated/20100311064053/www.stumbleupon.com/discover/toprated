@@ -1,0 +1,989 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><!-- is_embed=True -->
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.stumbleupon.com:80/discover/toprated/","20100311064053","https://web.archive.org/","web","/_static/",
+	      "1268289653");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+	
+				<link rel="stylesheet" href="https://web.archive.org/web/20100311064053cs_/http://cdn.stumble-upon.com/css/global_su.css?v=su.10.03.10f" type="text/css" media="screen, projection"/>
+		<!--[if lte IE 6]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie_su.css?v=su.10.03.10f" type="text/css" media="screen, projection" />
+		<![endif]-->
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie7_su.css?v=su.10.03.10f" type="text/css" media="screen, projection" />
+		<![endif]-->
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie8_su.css?v=su.10.03.10f" type="text/css" media="screen, projection" />
+		<![endif]-->
+				
+				
+		<script type="text/javascript" src="https://web.archive.org/web/20100311064053js_/http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+				<!--[if lte IE 6]>
+			<script type="text/javascript" src="http://cdn.stumble-upon.com/js/json2.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="https://web.archive.org/web/20100311064053js_/http://cdn.stumble-upon.com/js/plugins_su.js?v=su.10.03.10f"></script>
+		
+		
+		
+	
+	
+	
+
+	<title>Discover - Recent Activity</title>
+
+    <script type="text/javascript"> 
+     
+        function trk(u) {  
+            if (document.images) 
+            { 
+                    (new Image).src=u;  
+            } 
+            return true; 
+        } 
+     
+    </script> 
+    
+    
+</head>
+<body class="discover">
+	<div id="inflator"></div>
+	<div id="wrapperPanel">
+					<a id="closePanel" class="close" href="javascript:void(0);">close</a>
+			<div class="panel">
+				
+				<iframe name="panel" frameborder="0" src="/web/20100311064053if_/http://www.stumbleupon.com/discover/toprated" scrolling="yes" noresize="0"></iframe>			
+				
+				<script type="text/javascript">
+					$('#closePanel').click(function(){
+						$('.listStumble .active').each(function () {
+							$(this).removeClass('active');
+							$('.open').slideUp(200);                
+							}
+						);
+						$('#inflator.open').slideUp(200).removeClass('open');
+						$('#addContent.open').slideUp(200).removeClass('open');
+					});
+				</script>
+				
+			</div> <!-- end panel -->
+			<div id="fadeout"></div>
+			<div id="ff-install-helper" style="display: none;">
+				<img id="close-button" src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/images/close-button.png" alt="x"/>
+				<h2>Installing is Easy!<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24"/></h2>
+				<ol>
+					<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
+					<li style="margin-bottom:0.7em;">Click Install Now</li>
+					<li style="color:#666;">After installing, Restart Firefox</li>
+				</ol>
+			</div>
+			</div> <!-- end wrapperWebToolbar -->	
+		<div id="wrapper">
+			<div id="wrapperHeader">
+	<div id="header" class="">	
+	   	<a id="logo" href="/web/20100311064053/http://www.stumbleupon.com/">StumbleUpon</a> <!-- end logo -->
+	   	
+			<div id="headerLogin" class="hidden">
+				<a style="margin-right: 62px; font-size: 10px; text-decoration: none;" href="/web/20100311064053/http://www.stumbleupon.com/recover_password.php">Forgot your password?</a>
+			 	<form action="/web/20100311064053/http://www.stumbleupon.com/login.php" name="formLogin" method="post" id="formLogin">			 		
+			 		<ul>
+			 			<li class="iefix">
+			 				<label for="username">Email or username</label>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value=""/>			 			</li>			 			
+			 			<li class="iefix" id="wrapperPassword">
+			 				<label for="password">Password</label>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16"/>
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch"/>
+			 				
+			 			</li>			 			
+			 			<li>
+			 				<input class="btnGreen" type="submit" name="login" value="Login"/>
+							<input type="hidden" name="rememberme" value="1"/>
+			 			</li>
+			 		</ul>			 												 		
+			 	</form>
+			</div>
+
+			<p id="loginLinks">
+	   			<a class="signin" href="/web/20100311064053/http://www.stumbleupon.com/signup/">Join StumbleUpon</a>
+	   			<span class="separator">&bull;</span>
+	   			<a class="login" href="/web/20100311064053/http://www.stumbleupon.com/login.php">Login</a>
+
+				
+			</p>
+			</div>  <!-- end header -->
+</div> <!-- end wrapperHeader -->
+
+
+<div id="wrapperNav">
+	<ul id="navMain">
+		<li class="discover first"><a href="/web/20100311064053/http://www.stumbleupon.com/discover/toprated/">Discover</a></li>
+		<li class="favorites"><a href="/web/20100311064053/http://www.stumbleupon.com/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/web/20100311064053/http://www.stumbleupon.com/stumblers/onlinenow/">Stumblers</a></li>
+			</ul> <!-- end navMain -->  
+</div> <!-- end wrapperNav -->
+<div id="wrapperContent">
+    <div id="content" class="hasColRight toprated list">
+    	<div class="colRight">
+			<div class="box borderBottom">
+	<h4>Popular Topics</h4>
+	<ul class="listTopics">
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/news/">News</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/humor/">Humor</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/video/">Video</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/photography/">Photography</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/cats/">Cats</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/animation/">Animation</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/graphic design/">Graphic Design</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/online games/">Online Games</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/arts/">Arts</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/politics/">Politics</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/photography/">Photography</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/bizarre/">Bizarre</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/internet/">Internet</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/psychology/">Psychology</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/books/">Books</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/internet tools/">Internet Tools</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/satire/">Satire</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/computer graphics/">Computer Graphics</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/movies/">Movies</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/science/">Science</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/drawing/">Drawing</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/self improvement/">Self Improvement</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/food/">Food</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/music/">Music</a>			</li>
+					<li>
+				<a href="/web/20100311064053/http://www.stumbleupon.com/discover/travel/">Travel</a>			</li>
+			</ul>
+</div>
+
+		</div> <!-- end colRight -->
+
+		<div class="colMain">				
+			<ul class="headerControls">
+				<li class="first"><a href="/web/20100311064053/http://www.stumbleupon.com/to/stumble/go/" class="btnYellow" title="Stumble Now!">Stumble &gt;</a></li>				
+				<li><h1>Top Rated Websites</h1></li>
+			</ul>	
+			
+			<div id="navSecondary">
+	<ul class="left">
+				<li class="toprated"><a href="/web/20100311064053/http://www.stumbleupon.com/discover/toprated/">Top Rated</a></li>
+				<li class="hasChild">
+			<a href="javascript:void(0);">Topics</a>
+						<ul class="public">
+											<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/videos/">Videos</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/arts/">Arts</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/business/">Business</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/computers/">Computers</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/health/">Health</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/fun/">Fun</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/lifestyle/">Lifestyle</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/music/">Music</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/science/">Science</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/sports/">Sports</a></li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/discover/technology/">Technology</a></li>
+			</ul>
+		</li>
+	</ul>
+		<ul class="right">
+		<li class="grid"><a href="?grid">Grid</a></li>
+		<li class="list"><a href="?list">List</a></li>
+	</ul>
+	</div>	<!-- end controls -->
+			
+			<ul class="listStumble">
+	<li id="addContent">		
+		<form>
+			<fieldset class="labelLeft">				
+				<div class="wrapperInput">
+					<label for="url">URL</label>
+					<div class="iefix">
+						<input class="text" type="text" name="url" value="" id="url"/>						
+					</div>
+				</div> <!-- end wrapperInput --> 
+				<div class="wrapperInput">
+					<label for="review">Review</label>
+					<div class="iefix">
+						<textarea cols="40" rows="6" id="review" name="review"></textarea>
+					</div>
+				</div> <!-- end wrapperInput --> 
+								<ul>
+					<li class="submit first iefix"><a class="submit btnWhite" href="javascript:void(0);">Add a site &gt;</a></li>					
+					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
+					
+					<li class="sticky last">
+						<label class="checkbox">					
+							<input type="checkbox" name="sticky" value="" id="sticky"/>
+							Sticky
+						</label>
+					</li>
+					<li class="blog right">
+						<label class="checkbox">					
+							<input type="checkbox" name="blog_mode" value="" class="blogMode"/>
+							Blog mode
+						</label>
+					</li>
+				</ul>								 
+			</fieldset>
+		</form>
+	</li>
+
+				
+							
+							
+		
+		<li class="listLi  first">
+				
+			<var id="40474568" class="2ZnBOQ"></var>						
+			<div class="text">							
+									<a class="avatar" id="6771682" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/miketian507/" title="miketian507">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/6771682.jpg" width="32px" alt="miketian507"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/2ZnBOQ/9gag.com/gag/19319/t:4b989075110d0;src:toprated">9GAG - Five years old kid</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/9gag.com/gag/19319/">14 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/2ZnBOQ/9gag.com/gag/19319/t:4b989075110d0;src:toprated">9gag.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												I can see this kid being muted on xbox live.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/9gag.com/gag/19319/" title="19,746 views">
+					<span>20K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/2ZnBOQ/9gag.com/gag/19319/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/altmthumb/196/45658196.jpg" alt="9GAG - Five years old kid"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40229244" class="8JaISr"></var>						
+			<div class="text">							
+									<a class="avatar" id="650522" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/Nutzilla/" title="Nutzilla">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/650522.jpg" width="32px" alt="Nutzilla"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/8JaISr/awesome.good.is/transparency/web/1002/almighty-dollar/flat.html/t:4b989075110d0;src:toprated">GOOD.is | The Almighty Dollar (Raw Image)</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/awesome.good.is/transparency/web/1002/almighty-dollar/flat.html">35 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/8JaISr/awesome.good.is/transparency/web/1002/almighty-dollar/flat.html/t:4b989075110d0;src:toprated">good.is</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Not surprised by the Jews or Black Christians, but the Hindu was surprising; but I shouldn&#039;t be because there are a lot moving into my neighborhood.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/awesome.good.is/transparency/web/1002/almighty-dollar/flat.html" title="65,128 views">
+					<span>65K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/8JaISr/awesome.good.is/transparency/web/1002/almighty-dollar/flat.html/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/altmthumb/305/44943305.jpg" alt="GOOD.is | The Almighty Dollar (Raw Image)"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40318703" class="21mkUE"></var>						
+			<div class="text">							
+									<a class="avatar" id="6425680" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/TRENDKILL86/" title="TRENDKILL86">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/6425680.jpg" width="32px" alt="TRENDKILL86"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/21mkUE/www.wired.com/autopia/2010/03/porsche-918-spyder/t:4b989075110d0;src:toprated">500-Horsepower Plug-In Porsche Makes Us Swoon | Autopia |...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.wired.com/autopia/2010/03/porsche-918-spyder/">17 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/21mkUE/www.wired.com/autopia/2010/03/porsche-918-spyder/t:4b989075110d0;src:toprated">wired.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Holy fuck.
+
+Finally a Porsche that doesn&#039;t scream mid life crisis. It looks a million times better than all the others, which all look the same... I scoured for a price estimate to no avail, but I would expect 300,000 plus. I dare you to prove me wrong Porsche, but you... <a href="/web/20100311064053/http://www.stumbleupon.com/stumbler/TRENDKILL86/review/40318703/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.wired.com/autopia/2010/03/porsche-918-spyder/" title="42,473 views">
+					<span>42K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/21mkUE/www.wired.com/autopia/2010/03/porsche-918-spyder/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/altmthumb/44/45254044.jpg" alt="500-Horsepower Plug-In Porsche Makes Us Swoon | Autopia | Wired.com"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40244310" class="27P3DC"></var>						
+			<div class="text">							
+									<a class="avatar" id="3758732" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/TalSiach/" title="TalSiach">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/3758732.jpg" width="32px" alt="TalSiach"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/27P3DC/thedesigninspiration.com/articles/amazing-album-covers-mix-and-match/t:4b989075110d0;src:toprated"> Amazing Album Covers Mix and Match | The Design Inspiration</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/thedesigninspiration.com/articles/amazing-album-covers-mix-and-match/">28 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/27P3DC/thedesigninspiration.com/articles/amazing-album-covers-mix-and-match/t:4b989075110d0;src:toprated">thedesigninspiration.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Amazing Album Covers Mix and Match
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/thedesigninspiration.com/articles/amazing-album-covers-mix-and-match/" title="155,689 views">
+					<span>156K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/27P3DC/thedesigninspiration.com/articles/amazing-album-covers-mix-and-match/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/altmthumb/60/45208060.jpg" alt=" Amazing Album Covers Mix and Match | The Design Inspiration"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40416020" class="1pwy6l"></var>						
+			<div class="text">							
+									<a class="avatar" id="5532084" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/dhuglas/" title="dhuglas">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/5532084.jpg" width="32px" alt="dhuglas"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/1pwy6l/www.stylecaster.com/news/7758/6-classic-dishes-everyone-should-know-how-to-make/t:4b989075110d0;src:toprated">6 Classic Dishes Everyone Should Know How to Make  -...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.stylecaster.com/news/7758/6-classic-dishes-everyone-should-know-how-to-make">41 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/1pwy6l/www.stylecaster.com/news/7758/6-classic-dishes-everyone-should-know-how-to-make/t:4b989075110d0;src:toprated">stylecaster.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												The site piqued my interest...for about deux seconds. I quickly realized that these &quot;classic&quot; dishes were only classic for blue collar american plumbers and their obese families...where was the foie gras? the poulet en sauce blanche? i hope people don&#039;t think... <a href="/web/20100311064053/http://www.stumbleupon.com/stumbler/dhuglas/review/40416020/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.stylecaster.com/news/7758/6-classic-dishes-everyone-should-know-how-to-make" title="135,051 views">
+					<span>135K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/1pwy6l/www.stylecaster.com/news/7758/6-classic-dishes-everyone-should-know-how-to-make/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/altmthumb/113/45471113.jpg" alt="6 Classic Dishes Everyone Should Know How to Make  - StyleCaster"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40383186" class="4bxFKW"></var>						
+			<div class="text">							
+									<a class="avatar" id="3306571" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/thewhizzer/" title="thewhizzer">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/3306571.jpg" width="32px" alt="thewhizzer"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/4bxFKW/beautifulplacestovisit.com/lakes/plitvice-lakes-national-park-croatia/t:4b989075110d0;src:toprated">Plitvice Lakes National Park, Croatia | Beautiful Places...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/beautifulplacestovisit.com/lakes/plitvice-lakes-national-park-croatia/">32 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/4bxFKW/beautifulplacestovisit.com/lakes/plitvice-lakes-national-park-croatia/t:4b989075110d0;src:toprated">beautifulplacestovisit.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												It looks quite a scenic place; Thank goodness there is no more war there now
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/beautifulplacestovisit.com/lakes/plitvice-lakes-national-park-croatia/" title="125,149 views">
+					<span>125K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/4bxFKW/beautifulplacestovisit.com/lakes/plitvice-lakes-national-park-croatia/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/altmthumb/778/45324778.jpg" alt="Plitvice Lakes National Park, Croatia | Beautiful Places to Visit"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40192768" class="2kW7rm"></var>						
+			<div class="text">							
+									<a class="avatar" id="3751494" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/miranda622/" title="miranda622">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/3751494.jpg" width="32px" alt="miranda622"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/2kW7rm/gimundo.com/videos/view/get-out-a-bizarre-french-animation-with-a-twist/t:4b989075110d0;src:toprated">Get Out: A Bizarre French Animation with a Twist  |...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/gimundo.com/videos/view/get-out-a-bizarre-french-animation-with-a-twist/">45 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/2kW7rm/gimundo.com/videos/view/get-out-a-bizarre-french-animation-with-a-twist/t:4b989075110d0;src:toprated">gimundo.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: &quot;This French animated film may seem frightening, but hang in there for the surprise ending.&quot;
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/gimundo.com/videos/view/get-out-a-bizarre-french-animation-with-a-twist/" title="162,938 views">
+					<span>163K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/2kW7rm/gimundo.com/videos/view/get-out-a-bizarre-french-animation-with-a-twist/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/mthumb/930/45099930.jpg" alt="Get Out: A Bizarre French Animation with a Twist  |  Gimundo  |  Good News... Served Daily"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40219873" class="9fjCGC"></var>						
+			<div class="text">							
+									<a class="avatar" id="3616080" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/SofieFaulkner/" title="SofieFaulkner">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/3616080.jpg" width="32px" alt="SofieFaulkner"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/9fjCGC/www.gearfuse.com/real-life-dragon-found-in-indonesia/t:4b989075110d0;src:toprated">GEARFUSE &amp; Real Life Dragon Found in Indonesia</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.gearfuse.com/real-life-dragon-found-in-indonesia/">20 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/9fjCGC/www.gearfuse.com/real-life-dragon-found-in-indonesia/t:4b989075110d0;src:toprated">gearfuse.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Yes ...
+
+Is a lizard with skin flaps with movable rib cage like for gliding 
+Been know to fly up to 25 feet
+From tree to tree
+
+There fore giving it the name ... Draco Volan or Flying Dragon
+
+Buts Rmg12 ...
+
+You miss the point
+Fail in seeing 
+
+The funness part
+
+Dragons
+Make... <a href="/web/20100311064053/http://www.stumbleupon.com/stumbler/SofieFaulkner/review/40219873/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.gearfuse.com/real-life-dragon-found-in-indonesia/" title="114,365 views">
+					<span>114K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/9fjCGC/www.gearfuse.com/real-life-dragon-found-in-indonesia/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/altmthumb/697/44708697.jpg" alt="GEARFUSE &amp; Real Life Dragon Found in Indonesia"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40278177" class="9qU6Dr"></var>						
+			<div class="text">							
+									<a class="avatar" id="1530173" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/Gener21839/" title="Gener21839">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/1530173.jpg" width="32px" alt="Gener21839"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/9qU6Dr/www.9kik.com/2010/02/not-very-super-effective.html/t:4b989075110d0;src:toprated">9kik: Not Very - Super Effective</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.9kik.com/2010/02/not-very-super-effective.html">46 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/9qU6Dr/www.9kik.com/2010/02/not-very-super-effective.html/t:4b989075110d0;src:toprated">9kik.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												MAYBE fake? I don&#039;t care in this case. The story played out seems realistic, novel, with intuitively hilarious manipulation goin&#039; on here. More of this would be cool.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.9kik.com/2010/02/not-very-super-effective.html" title="166,007 views">
+					<span>166K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/9qU6Dr/www.9kik.com/2010/02/not-very-super-effective.html/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/altmthumb/310/45210310.jpg" alt="9kik: Not Very - Super Effective"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  last">
+				
+			<var id="40490511" class="5IASZw"></var>						
+			<div class="text">							
+									<a class="avatar" id="2747229" href="/web/20100311064053/http://www.stumbleupon.com/stumbler/elmanco/" title="elmanco">
+						<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/superminipics/2747229.jpg" width="32px" alt="elmanco"/>
+					</a>
+				                                				<h4><a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/5IASZw/www.webofentertainment.com/2010/03/urban-camouflage.html/t:4b989075110d0;src:toprated">Entertainment Web: Urban Camouflage</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.webofentertainment.com/2010/03/urban-camouflage.html">31 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/5IASZw/www.webofentertainment.com/2010/03/urban-camouflage.html/t:4b989075110d0;src:toprated">webofentertainment.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												LOL!
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/url/www.webofentertainment.com/2010/03/urban-camouflage.html" title="89,472 views">
+					<span>89K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="https://web.archive.org/web/20100311064053/http://www.stumbleupon.com/to/5IASZw/www.webofentertainment.com/2010/03/urban-camouflage.html/t:4b989075110d0;src:toprated">
+                                					<img src="https://web.archive.org/web/20100311064053im_/http://cdn.stumble-upon.com/altmthumb/578/45345578.jpg" alt="Entertainment Web: Urban Camouflage"/>
+				</a>
+			</span>																				
+			
+											</li>
+					
+</ul>
+
+
+			
+	<ul class="module modulePagination clearfix">
+						<li><a id="paginationNext" href="/web/20100311064053/http://www.stumbleupon.com/discover/toprated/10/">Next &raquo;</a>
+				</ul>
+
+<script language="javascript">
+function navigate_blog(e)
+{
+        var kcode;
+
+        if (e == null)
+        {
+                // IE
+                if (typeof(event.srcElement.type != 'undefined') && (event.srcElement.type == 'text' || event.srcElement.type == 'textarea'))
+                        return true;
+
+                kcode = event.keyCode;
+                if (typeof(event.srcElement.type) != 'undefined' && (event.srcElement.id == 'search_q' || event.srcElement.id == 'stumblesearch' || event.srcElement.id == 'searchtext' || event.srcElement.id == 'tagtext' || event.srcElement.id == 'blogContent' || event.srcElement.id == 'blogContentFCK' || event.srcElement.id == 'newtags' || event.srcElement.id == 'addTag' || event.srcElement.id == 'qmsg_ta' ))
+                        return true;
+        }
+        else
+        {
+                // Mozilla
+                if (e.altKey || e.ctrlKey)
+                {
+                        return true; // moz doesn't override ctrl keys
+                }
+                kcode = e.which;
+
+                if (typeof(e.target.type != 'undefined') && (e.target.type == 'text' || e.target.type == 'textarea'))
+                        return true;
+
+                if (typeof(e.target.type) != 'undefined' && (e.target.id == 'search_q' || e.target.id == 'stumblesearch' || e.target.id == 'searchtext' || e.target.id == 'tagtext' || e.target.id == 'blogContent' || e.target.id == 'blogContentFCK' || e.target.id == 'newtags' || e.target.id == 'addTag' || e.target.id == 'qmsg_ta' ))
+                        return true;
+        }
+        var key = String.fromCharCode(kcode).toLowerCase();
+        var keyCode = document.layers ? e.which :
+                        document.all ? event.keyCode :
+                        document.getElementById ? e.keyCode : 0;
+
+        var n = null;
+        if(keyCode == 39)
+        {
+                if (n = document.getElementById('paginationNext'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+        if(keyCode == 37)
+        {
+                if (n = document.getElementById('paginationPrevious'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+
+        return true;
+}
+
+document.onkeydown = navigate_blog;
+
+</script>
+
+
+		</div> <!-- end colMain -->
+    </div> <!-- end content -->
+</div> <!-- end wrapperContent -->
+<div id="wrapperFooter">
+    <div id="footer" class="clearfix">
+<div class="clearfix colFour">	
+	<ul class="col">
+		<li class="header">About StumbleUpon</li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/aboutus/">About Us</a></li>	
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/productdemo/">Take a Tour</a></li>	
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/press/">Press Information</a>
+		<li><a href="https://web.archive.org/web/20100311064053/http://blog.stumbleupon.com/">Official Blog</a></li>	
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/devblog/">Developers Blog</a></li>	
+	</ul>
+
+	<ul class="col">
+		<li class="header">Explore StumbleUpon</li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/tag/">Tags</a>, <a href="/web/20100311064053/http://www.stumbleupon.com/book/">Books</a>, <a href="/web/20100311064053/http://www.stumbleupon.com/music/">Music</a>, <a href="/web/20100311064053/http://www.stumbleupon.com/movie/">Movies</a></li>	
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/tv/">TV Shows</a>, <a href="/web/20100311064053/http://www.stumbleupon.com/city/">Cities</a>, <a href="/web/20100311064053/http://www.stumbleupon.com/country/">Countries</a></li>	
+		<li class="header">Community</li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/topstumblers/">Top Stumblers</a></li>	
+		<li>
+			<a href="/web/20100311064053/http://www.stumbleupon.com/groups/">Groups</a>		</li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/aboutus/community_rules">Community Rules</a></li>	
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Tools and Services</li>
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/ads/">StumbleUpon Advertising</a></li>	
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/buttons/">Stumble Badges</a></li>	
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/stumblethru/">StumbleThru</a></li>	
+		<li class="header">Your Profile</li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/findfriends/">Connect with Friends</a></li>	
+				<li><a href="/web/20100311064053/http://www.stumbleupon.com/settings/">Account Preferences</a></li>		
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Help</li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/help/">Help Center</a></li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/feedback/">Contact Us</a></li>	
+		<li class="header">Company</li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/jobs/">Jobs at StumbleUpon</a></li>	
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/management/">Management</a></li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/terms/">Terms of Use</a></li>
+		<li><a href="/web/20100311064053/http://www.stumbleupon.com/privacy/">Privacy</a></li>	
+	</ul>
+</div>
+	<p class="copyright">&copy; StumbleUpon 2001 - 2010</p>
+</div> <!-- end footer -->
+</div> <!-- end wrapperFooter -->
+	</div> <!-- end wrapper -->
+		
+		<script type="text/javascript" charset="utf-8" src="https://web.archive.org/web/20100311064053js_/http://cdn.stumble-upon.com/js/attach_su.js?v=su.10.03.10f"></script>
+		
+			
+<script type="text/javascript" src="https://web.archive.org/web/20100311064053js_/http://www.stumbleupon.com/js/s_code.js"></script>
+<script type="text/javascript"><!--
+s.pageName="Top Rated v4";
+s.eVar9 = 'Visitor';
+s.prop9 = 'Visitor';
+if(window.tp_variation !== undefined && window.tp_variation != ""){s.prop10=tp_variation;s.eVar10=tp_variation;}
+if(window.hp_variation !== undefined && window.hp_variation != ""){s.pageName=hp_variation;}
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+</script>
+
+<!-- Start Quantcast tag --> 
+			 <script type="text/javascript" src="https://web.archive.org/web/20100311064053js_/http://edge.quantserve.com/quant.js"></script> 
+			 <script type="text/javascript">_qacct="p-dez5MJMQSF95o";quantserve();</script> 
+			 <noscript> 
+			 	<a href="https://web.archive.org/web/20100311064053/http://www.quantcast.com/p-dez5MJMQSF95o" target="_blank"><img src="https://web.archive.org/web/20100311064053im_/http://pixel.quantserve.com/pixel/p-dez5MJMQSF95o.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a> 
+			</noscript> 
+			<!-- End Quantcast tag -->
+		
+		
+		
+    
+			<img src="/web/20100311064053im_/http://www.stumbleupon.com/spacer" width="0" height="0"/>
+	
+	<span id="__su_server_time__" class="1268289653"></span>
+</body>
+</html><!--
+     FILE ARCHIVED ON 06:40:53 Mar 11, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:25:32 Oct 17, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.48
+  exclusion.robots: 0.024
+  exclusion.robots.policy: 0.015
+  esindex: 0.009
+  cdx.remote: 10.007
+  LoadShardBlock: 397.453 (3)
+  PetaboxLoader3.datanode: 113.58 (5)
+  load_resource: 93.623 (2)
+  PetaboxLoader3.resolve: 48.412
+-->
