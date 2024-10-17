@@ -3,25 +3,12 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
-<head><!-- is_embed=True -->
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
-<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
-<script type="text/javascript">
-    __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://www.stumbleupon.com:80/discover/toprated/","20111024052946","https://web.archive.org/","web","/_static/",
-	      "1319434186");
-</script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
-<!-- End Wayback Rewrite JS Include -->
-
+<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		
-			<meta name="description" content="Top rated on StumbleUpon"/>
+			<meta name="description" content="Top rated on StumbleUpon" />
 	
-	<link rel="stylesheet" href="https://web.archive.org/web/20111024052946cs_/http://cdn.stumble-upon.com/css/global_su.css?v=20111020" type="text/css" media="screen, projection"/>
+	<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/global_su.css?v=20111020" type="text/css" media="screen, projection" />
 	<!--[if lte IE 6]>
 	<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie_su.css?v=20111020" type="text/css" media="screen, projection" />
 	<![endif]-->
@@ -34,13 +21,13 @@
 		
 		
 		
-	<script type="text/javascript" src="https://web.archive.org/web/20111024052946js_/http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 	<!--[if lte IE 6]>
 		<script type="text/javascript" src="http://cdn.stumble-upon.com/js/json2.js"></script>
 	<![endif]-->
-	<script type="text/javascript" src="https://web.archive.org/web/20111024052946js_/http://cdn.stumble-upon.com/js/plugins_su.js?v=20111020"></script>
+	<script type="text/javascript" src="http://cdn.stumble-upon.com/js/plugins_su.js?v=20111020"></script>
 
-	<link rel="shortcut icon" href="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/favicon.ico"/>
+	<link rel="shortcut icon" href="http://cdn.stumble-upon.com/favicon.ico" />
 
 		
 		
@@ -62,7 +49,7 @@
 				_gaq.push(['_initData']);
 				_gaq.push(['_setAccount', 'UA-16124905-1']); _gaq.push(['_setDomainName', '.stumbleupon.com']); _gaq.push(['_setCustomVar', 1, 'user_class', 'v', 1]); _gaq.push(['_trackPageview']); (function() {
 					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-					ga.src = ('https:' == document.location.protocol ? 'https://web.archive.org/web/20111024052946/https://ssl' : 'https://web.archive.org/web/20111024052946/http://www') + '.google-analytics.com/ga.js';
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 				})();
 			</script>
@@ -71,12 +58,12 @@
 					_comscore.push({ c1: '2', c2: '7677660' });
 					(function() {
 						var s = document.createElement('script'), el = document.getElementsByTagName('script')[0]; s.async = true;
-						s.src = (document.location.protocol == 'https:' ? 'https://web.archive.org/web/20111024052946/https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+						s.src = (document.location.protocol == 'https:' ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
 						el.parentNode.insertBefore(s, el);
 					})();
 				</script>
 				<noscript>
-					<img src="https://web.archive.org/web/20111024052946im_/http://b.scorecardresearch.com/p?c1=2&amp;c2=7677660&amp;cv=2.0&amp;cj=1"/>
+					<img src="http://b.scorecardresearch.com/p?c1=2&c2=7677660&cv=2.0&cj=1" />
 				</noscript>
 			
 </head>
@@ -85,7 +72,7 @@
 	<div id="wrapperPanel">
 					<a id="closePanel" class="close" href="javascript:void(0);">close</a>
 			<div class="panel" id="panelReplace">
-				<iframe name="panel" frameborder="0" src="/web/20111024052946if_/http://www.stumbleupon.com/discover/toprated" scrolling="yes" noresize="0"></iframe>
+				<iframe name="panel" frameborder="0" src="" scrolling="yes" noresize="0"></iframe>
 				
 				<script type="text/javascript">
 				$(function(){
@@ -107,8 +94,8 @@
 			</div> <!-- end panel -->
 			<div id="fadeout"></div>
 			<div id="ff-install-helper" style="display: none;">
-				<img id="close-button" src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/images/close-button.png" alt="x"/>
-				<h2>Installing is Easy!<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24"/></h2>
+				<img id="close-button" src="http://cdn.stumble-upon.com/images/close-button.png" alt="x" />
+				<h2>Installing is Easy!<img src="http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24" /></h2>
 				<ol>
 					<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
 					<li style="margin-bottom:0.7em;">Click Install Now</li>
@@ -129,51 +116,51 @@
 
 	
 <div id="wrapperHeader">
-<div id="loginOverlay" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; opacity: 0.7; background: black url(https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/images/loader_dark.gif) no-repeat 50% 50%; z-index: 7000; display: none;">
+<div id="loginOverlay" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; opacity: 0.7; background: black url(http://cdn.stumble-upon.com/images/loader_dark.gif) no-repeat 50% 50%; z-index: 7000; display: none;">
 </div>
 <div id="loginOrCreate" style="color: #4d4d4d; font-size: 10pt; position: absolute; height: 85px; width: 386px; z-index: 8000; top: 240px; left: 33%;    background-color: #FFFFFF; border: 5px solid #BFBFBF; border-radius: 8px 8px 8px 8px; padding: 15px 20px; display: none;"><div id="loginOrCreatePic" style="float: left; padding-right: 20px;"></div><div id="loginOrCreateText" style="padding-bottom: 5px;font-size: 10pt;"></div>
 Do you already have a StumbleUpon account?
-<br/><div style="padding-top: 20px;"><input type="button" onclick="$('#loginOrCreate').hide(); window.top.location = '/signup.php?pre=fbc_header'" value="No" id="btnNo" class="btnWhite joinnow" style="width: 50px; font-size: 1.1em; float: right;">
-<input type="button" value="Yes" id="btnYes" style="width: 50px; font-size: 1.1em; float: right; margin-right: 5px;" onclick="$('#loginOrCreate').hide(); window.top.location = '/login.php'" class="btnWhite joinnow">
+<br/><div style="padding-top: 20px;"><input type="button" OnClick="$('#loginOrCreate').hide(); window.top.location = '/signup.php?pre=fbc_header'" value="No" id="btnNo" class="btnWhite joinnow" style="width: 50px; font-size: 1.1em; float: right;">
+<input type="button" value="Yes" id="btnYes" style="width: 50px; font-size: 1.1em; float: right; margin-right: 5px;" onClick="$('#loginOrCreate').hide(); window.top.location = '/login.php'" class="btnWhite joinnow">
 </div>
 </div>
 
 	<div id="header" class="">	
-		<a id="logo" href="/web/20111024052946/http://www.stumbleupon.com/">StumbleUpon</a> <!-- end logo -->
+		<a id="logo" href="/">StumbleUpon</a> <!-- end logo -->
 					<div id="headerLogin" class="hidden">
-				<a style="margin-right: 62px; font-size: 10px; text-decoration: none;" href="/web/20111024052946/http://www.stumbleupon.com/reset_password/">Forgot your password?</a>
-			 	<form action="/web/20111024052946/http://www.stumbleupon.com/login.php" name="formLogin" method="post" id="formLogin">			 		
+				<a style="margin-right: 62px; font-size: 10px; text-decoration: none;" href="/reset_password/">Forgot your password?</a>
+			 	<form action="/login.php" name="formLogin" method="post" id="formLogin">			 		
 			 		<ul>
 			 			<li class="iefix">
 			 				<label for="username">Email or username</label>
-			 				<input class="text" type="text" name="username" tabindex="0" id="username" value=""/>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value="" />
 			 			</li>			 			
 			 			<li class="iefix" id="wrapperPassword">
 			 				<label for="password">Password</label>
-			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16"/>
-			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch"/>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16" />
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch" />
 			 				
 			 			</li>			 			
 			 			<li>
-			 				<input class="btnGreen" type="submit" name="login" value="Login"/>
-							<input type="hidden" name="rememberme" value="1"/>
+			 				<input class="btnGreen" type="submit" name="login" value="Login" />
+							<input type="hidden" name="rememberme" value="1" />
 			 			</li>
 			 		</ul>			 												 		
 			 	</form>
 			</div>
 
 			<p id="loginLinks">
-	   			<a class="login" href="/web/20111024052946/http://www.stumbleupon.com/login.php">Login</a>
+	   			<a class="login" href="/login.php">Login</a>
 							</p>
 			</div>  <!-- end header -->
 </div> <!-- end wrapperHeader -->
 
 <div id="wrapperNav">
 	<ul id="navMain">
-		<li class="home first"><a href="/web/20111024052946/http://www.stumbleupon.com/home/">Home</a></li>
-		<li class="discover"><a href="/web/20111024052946/http://www.stumbleupon.com/discover/activity/">Discover</a></li>
-		<li class="favorites"><a href="/web/20111024052946/http://www.stumbleupon.com/favorites/">Favorites</a></li>
-		<li class="stumblers"><a href="/web/20111024052946/http://www.stumbleupon.com/stumblers/onlinenow/">Stumblers</a></li>
+		<li class="home first"><a href="/home/">Home</a></li>
+		<li class="discover"><a href="/discover/activity/">Discover</a></li>
+		<li class="favorites"><a href="/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/stumblers/onlinenow/">Stumblers</a></li>
 					</ul> <!-- end navMain --> 
  
 </div> <!-- end wrapperNav -->
@@ -183,7 +170,7 @@ Do you already have a StumbleUpon account?
 					 
 <div class="boxMod1" id="calloutSignup">
 	<div class="left">
-				<a href="/web/20111024052946/http://www.stumbleupon.com/signup/?pre=callout" class="btnYellow">Join Now</a>
+				<a href="/signup/?pre=callout" class="btnYellow">Join Now</a>
 			</div>
 	<h3>Welcome to StumbleUpon!</h3>
 	<p>StumbleUpon is a discovery engine that finds the best of the web, recommended just for you.</p>
@@ -194,55 +181,55 @@ Do you already have a StumbleUpon account?
 	<h4>Popular Interests</h4>
 	<ul class="listTopics">
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/news/">News</a>			</li>
+				<a href="/discover/news/">News</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/humor/">Humor</a>			</li>
+				<a href="/discover/humor/">Humor</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/video/">Video</a>			</li>
+				<a href="/discover/video/">Video</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/photography/">Photography</a>			</li>
+				<a href="/discover/photography/">Photography</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/cats/">Cats</a>			</li>
+				<a href="/discover/cats/">Cats</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/animation/">Animation</a>			</li>
+				<a href="/discover/animation/">Animation</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/graphic-design/">Graphic Design</a>			</li>
+				<a href="/discover/graphic-design/">Graphic Design</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/online-games/">Online Games</a>			</li>
+				<a href="/discover/online-games/">Online Games</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/arts/">Arts</a>			</li>
+				<a href="/discover/arts/">Arts</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/politics/">Politics</a>			</li>
+				<a href="/discover/politics/">Politics</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/photography/">Photography</a>			</li>
+				<a href="/discover/photography/">Photography</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/bizarre/">Bizarre</a>			</li>
+				<a href="/discover/bizarre/">Bizarre</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/internet/">Internet</a>			</li>
+				<a href="/discover/internet/">Internet</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/psychology/">Psychology</a>			</li>
+				<a href="/discover/psychology/">Psychology</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/books/">Books</a>			</li>
+				<a href="/discover/books/">Books</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/internet-tools/">Internet Tools</a>			</li>
+				<a href="/discover/internet-tools/">Internet Tools</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/satire/">Satire</a>			</li>
+				<a href="/discover/satire/">Satire</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/computer-graphics/">Computer Graphics</a>			</li>
+				<a href="/discover/computer-graphics/">Computer Graphics</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/movies/">Movies</a>			</li>
+				<a href="/discover/movies/">Movies</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/science/">Science</a>			</li>
+				<a href="/discover/science/">Science</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/drawing/">Drawing</a>			</li>
+				<a href="/discover/drawing/">Drawing</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/self-improvement/">Self Improvement</a>			</li>
+				<a href="/discover/self-improvement/">Self Improvement</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/food/">Food</a>			</li>
+				<a href="/discover/food/">Food</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/music/">Music</a>			</li>
+				<a href="/discover/music/">Music</a>			</li>
 					<li>
-				<a href="/web/20111024052946/http://www.stumbleupon.com/discover/travel/">Travel</a>			</li>
+				<a href="/discover/travel/">Travel</a>			</li>
 			</ul>
 </div>
 
@@ -275,28 +262,28 @@ Do you already have a StumbleUpon account?
 			litebarLinkHandler_toolbarLink4ea4f7c9b6165();
 		}
 		</script>
-		<a id="toolbarLink4ea4f7c9b6165" href="/web/20111024052946/http://www.stumbleupon.com/to/stumble/go/" class="btnYellow" title="Stumble > Top Rated Websites">Stumble &gt;</a></li>				
+		<a id="toolbarLink4ea4f7c9b6165" href="/to/stumble/go/" class="btnYellow" title="Stumble &gt; Top Rated Websites">Stumble &gt;</a></li>				
 				<li><h1>Top Rated Websites</h1></li>
 			</ul>	
 			
 			
 <div id="navSecondary">
 	<ul class="left">
-				<li class="toprated"><a href="/web/20111024052946/http://www.stumbleupon.com/discover/toprated/">Top Rated</a></li>
+				<li class="toprated"><a href="/discover/toprated/">Top Rated</a></li>
 				<li class="hasChild">
 			<a href="javascript:void(0);">Interests</a>
 						<ul class="public">
-											<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/videos/">Videos</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/arts/">Arts</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/business/">Business</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/computers/">Computers</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/health/">Health</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/fun/">Fun</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/lifestyle/">Lifestyle</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/music/">Music</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/science/">Science</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/sports/">Sports</a></li>
-				<li><a href="/web/20111024052946/http://www.stumbleupon.com/discover/technology/">Technology</a></li>
+											<li><a href="/discover/videos/">Videos</a></li>
+				<li><a href="/discover/arts/">Arts</a></li>
+				<li><a href="/discover/business/">Business</a></li>
+				<li><a href="/discover/computers/">Computers</a></li>
+				<li><a href="/discover/health/">Health</a></li>
+				<li><a href="/discover/fun/">Fun</a></li>
+				<li><a href="/discover/lifestyle/">Lifestyle</a></li>
+				<li><a href="/discover/music/">Music</a></li>
+				<li><a href="/discover/science/">Science</a></li>
+				<li><a href="/discover/sports/">Sports</a></li>
+				<li><a href="/discover/technology/">Technology</a></li>
 			</ul>
 		</li>
 	</ul>
@@ -315,7 +302,7 @@ Do you already have a StumbleUpon account?
 				<div class="wrapperInput">
 					<label for="url">URL</label>
 					<div class="iefix">
-						<input class="text" type="text" name="url" value="" id="url"/>
+						<input class="text" type="text" name="url" value="" id="url" />
 					</div>
 				</div> <!-- end wrapperInput --> 
 				<div class="wrapperInput">
@@ -327,7 +314,7 @@ Do you already have a StumbleUpon account?
 				<div class="wrapperInput" style="display: none;" id="alertMsg">
 					<div class="iefix"> 
 					<b>NOTE:</b> In the coming weeks, we will be removing the ability to post reviews in Blog Mode or use Stickies.<br/>
-					<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/help/account-changes-faq/">Learn more about this change.</a>
+					<a href="http://www.stumbleupon.com/help/account-changes-faq/">Learn more about this change.</a>
 					</div>
 				</div>
 
@@ -336,13 +323,13 @@ Do you already have a StumbleUpon account?
 					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
 					<li class="sticky last">
 						<label class="checkbox">
-							<input type="checkbox" name="sticky" value="" id="sticky" class="stickyBtn"/>
+							<input type="checkbox" name="sticky" value="" id="sticky" class="stickyBtn" />
 							Sticky
 						</label>
 					</li>
 					<li class="blog right">
 						<label class="checkbox">
-							<input type="checkbox" name="blog_mode" value="" class="blogMode"/>
+							<input type="checkbox" name="blog_mode" value="" class="blogMode" />
 							Blog mode
 						</label>
 					</li>
@@ -355,26 +342,27 @@ Do you already have a StumbleUpon account?
 																		<li class="listLi  first">	
 			<var id="53646000" class="8Mh34Y"></var>
 			<div class="text">
-									<a class="avatar" id="7865226" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/barryr666/" title="barryr666">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/7865226.jpg" width="32px" alt="barryr666"/>
+									<a class="avatar" id="7865226" href="/stumbler/barryr666/" 
+						title="barryr666">
+						<img src="http://cdn.stumble-upon.com/superminipics/7865226.jpg" width="32px" alt="barryr666" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/8Mh34Y/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam/t:4ea4f7c95203d;src:toprated">Crazy Illustrations By Chow Hon Lam</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/8Mh34Y/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam/t:4ea4f7c95203d;src:toprated" >Crazy Illustrations By Chow Hon Lam</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam">124 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam">124 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/8Mh34Y/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam/t:4ea4f7c95203d;src:toprated">pokkisam.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/8Mh34Y/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam/t:4ea4f7c95203d;src:toprated" >pokkisam.com</a>
 															</p>
 
 									<div class="review">
 																												Chow Hon Lam aka Flying Mouse, a tee shirt designer/illustrator from Malaysia. Chow just completed his personal project called Flying Mouse 365, which is create 1 design a day, 365 designs a year.
 
-Chow currently working and collaboration with some clients like AirAsia, Nike,... <a href="/web/20111024052946/http://www.stumbleupon.com/stumbler/barryr666/review/53646000/">more</a>
+Chow currently working and collaboration with some clients like AirAsia, Nike,... <a href="/stumbler/barryr666/review/53646000/">more</a>
 																								</div>
 													<ul class="controls clearfix">
 																							<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
@@ -384,12 +372,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam" title="1,029,165 views">
+				<a href="http://www.stumbleupon.com/url/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam" title="1,029,165 views">
 					<span>1.0M</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/8Mh34Y/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/mthumb/462/70529462.jpg" alt="Crazy Illustrations By Chow Hon Lam"/>
+									<a href="http://www.stumbleupon.com/to/8Mh34Y/blog.pokkisam.com/content/crazy-illustrations-chow-hon-lam/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/mthumb/462/70529462.jpg" alt="Crazy Illustrations By Chow Hon Lam"/>
 				</a>
 			</span>
 					</li>
@@ -397,20 +385,21 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 																		<li class="listLi  ">	
 			<var id="59460678" class="4MT7pX"></var>
 			<div class="text">
-									<a class="avatar" id="20483323" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/TriflingTrini/" title="TriflingTrini">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/20483323.jpg" width="32px" alt="TriflingTrini"/>
+									<a class="avatar" id="20483323" href="/stumbler/TriflingTrini/" 
+						title="TriflingTrini">
+						<img src="http://cdn.stumble-upon.com/superminipics/20483323.jpg" width="32px" alt="TriflingTrini" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/4MT7pX/themetapicture.com/dont-mind-me-just-building-my-house/t:4ea4f7c95203d;src:toprated">Don&#039;t mind me, just building my house | The Meta...</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/4MT7pX/themetapicture.com/dont-mind-me-just-building-my-house/t:4ea4f7c95203d;src:toprated" >Don&#039;t mind me, just building my house | The Meta...</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/themetapicture.com/dont-mind-me-just-building-my-house/">69 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/themetapicture.com/dont-mind-me-just-building-my-house/">69 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/4MT7pX/themetapicture.com/dont-mind-me-just-building-my-house/t:4ea4f7c95203d;src:toprated">themetapicture.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/4MT7pX/themetapicture.com/dont-mind-me-just-building-my-house/t:4ea4f7c95203d;src:toprated" >themetapicture.com</a>
 															</p>
 
 									<div class="review">
@@ -424,12 +413,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/themetapicture.com/dont-mind-me-just-building-my-house/" title="643,166 views">
+				<a href="http://www.stumbleupon.com/url/themetapicture.com/dont-mind-me-just-building-my-house/" title="643,166 views">
 					<span>643K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/4MT7pX/themetapicture.com/dont-mind-me-just-building-my-house/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/altmthumb/335/70834335.jpg" alt="Don't mind me, just building my house | The Meta Picture"/>
+									<a href="http://www.stumbleupon.com/to/4MT7pX/themetapicture.com/dont-mind-me-just-building-my-house/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/335/70834335.jpg" alt="Don&#039;t mind me, just building my house | The Meta Picture"/>
 				</a>
 			</span>
 					</li>
@@ -437,20 +426,21 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 																		<li class="listLi  ">	
 			<var id="55553884" class="32EhYd"></var>
 			<div class="text">
-									<a class="avatar" id="12076747" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/Rocker1018/" title="Rocker1018">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/12076747.jpg" width="32px" alt="Rocker1018"/>
+									<a class="avatar" id="12076747" href="/stumbler/Rocker1018/" 
+						title="Rocker1018">
+						<img src="http://cdn.stumble-upon.com/superminipics/12076747.jpg" width="32px" alt="Rocker1018" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/32EhYd/www.behemothgaming.com/2011/05/02/the-super-mario-party/t:4ea4f7c95203d;src:toprated">The Super Mario Party | Behemoth Gaming</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/32EhYd/www.behemothgaming.com/2011/05/02/the-super-mario-party/t:4ea4f7c95203d;src:toprated" >The Super Mario Party | Behemoth Gaming</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.behemothgaming.com/2011/05/02/the-super-mario-party/">83 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.behemothgaming.com/2011/05/02/the-super-mario-party/">83 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/32EhYd/www.behemothgaming.com/2011/05/02/the-super-mario-party/t:4ea4f7c95203d;src:toprated">behemothgaming.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/32EhYd/www.behemothgaming.com/2011/05/02/the-super-mario-party/t:4ea4f7c95203d;src:toprated" >behemothgaming.com</a>
 															</p>
 
 									<div class="review">
@@ -464,12 +454,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.behemothgaming.com/2011/05/02/the-super-mario-party/" title="570,130 views">
+				<a href="http://www.stumbleupon.com/url/www.behemothgaming.com/2011/05/02/the-super-mario-party/" title="570,130 views">
 					<span>570K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/32EhYd/www.behemothgaming.com/2011/05/02/the-super-mario-party/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/altmthumb/532/69869532.jpg" alt="The Super Mario Party | Behemoth Gaming"/>
+									<a href="http://www.stumbleupon.com/to/32EhYd/www.behemothgaming.com/2011/05/02/the-super-mario-party/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/532/69869532.jpg" alt="The Super Mario Party | Behemoth Gaming"/>
 				</a>
 			</span>
 					</li>
@@ -477,20 +467,21 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 																		<li class="listLi  ">	
 			<var id="55425592" class="2mlJpr"></var>
 			<div class="text">
-									<a class="avatar" id="3964342" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/Serinadruid/" title="Serinadruid">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/3964342.jpg" width="32px" alt="Serinadruid"/>
+									<a class="avatar" id="3964342" href="/stumbler/Serinadruid/" 
+						title="Serinadruid">
+						<img src="http://cdn.stumble-upon.com/superminipics/3964342.jpg" width="32px" alt="Serinadruid" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/2mlJpr/bigthink.com/ideas/38299/t:4ea4f7c95203d;src:toprated">This Awesome Urn Will Turn You into a Tree After You Die...</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/2mlJpr/bigthink.com/ideas/38299/t:4ea4f7c95203d;src:toprated" >This Awesome Urn Will Turn You into a Tree After You Die...</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/bigthink.com/ideas/38299">84 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/bigthink.com/ideas/38299">84 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/2mlJpr/bigthink.com/ideas/38299/t:4ea4f7c95203d;src:toprated">bigthink.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2mlJpr/bigthink.com/ideas/38299/t:4ea4f7c95203d;src:toprated" >bigthink.com</a>
 															</p>
 
 									<div class="review">
@@ -504,12 +495,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/bigthink.com/ideas/38299" title="599,090 views">
+				<a href="http://www.stumbleupon.com/url/bigthink.com/ideas/38299" title="599,090 views">
 					<span>599K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/2mlJpr/bigthink.com/ideas/38299/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/mthumb/443/70257443.jpg" alt="This Awesome Urn Will Turn You into a Tree After You Die | Design for Good | Big Think"/>
+									<a href="http://www.stumbleupon.com/to/2mlJpr/bigthink.com/ideas/38299/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/mthumb/443/70257443.jpg" alt="This Awesome Urn Will Turn You into a Tree After You Die | Design for Good | Big Think"/>
 				</a>
 			</span>
 					</li>
@@ -517,20 +508,21 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 																		<li class="listLi  ">	
 			<var id="59558815" class="2WuERn"></var>
 			<div class="text">
-									<a class="avatar" id="3616080" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/ToeTagJaneDoe/" title="ToeTagJaneDoe">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/3616080.jpg" width="32px" alt="ToeTagJaneDoe"/>
+									<a class="avatar" id="3616080" href="/stumbler/ToeTagJaneDoe/" 
+						title="ToeTagJaneDoe">
+						<img src="http://cdn.stumble-upon.com/superminipics/3616080.jpg" width="32px" alt="ToeTagJaneDoe" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/2WuERn/www.booksofadam.com/2011/05/never-be-my-friend.html/t:4ea4f7c95203d;src:toprated">Books of Adam: Never Be My Friend</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/2WuERn/www.booksofadam.com/2011/05/never-be-my-friend.html/t:4ea4f7c95203d;src:toprated" >Books of Adam: Never Be My Friend</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.booksofadam.com/2011/05/never-be-my-friend.html">90 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.booksofadam.com/2011/05/never-be-my-friend.html">90 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/2WuERn/www.booksofadam.com/2011/05/never-be-my-friend.html/t:4ea4f7c95203d;src:toprated">booksofadam.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2WuERn/www.booksofadam.com/2011/05/never-be-my-friend.html/t:4ea4f7c95203d;src:toprated" >booksofadam.com</a>
 															</p>
 
 									<div class="review">
@@ -547,12 +539,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.booksofadam.com/2011/05/never-be-my-friend.html" title="959,444 views">
+				<a href="http://www.stumbleupon.com/url/www.booksofadam.com/2011/05/never-be-my-friend.html" title="959,444 views">
 					<span>959K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/2WuERn/www.booksofadam.com/2011/05/never-be-my-friend.html/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/altmthumb/690/70797690.jpg" alt="Books of Adam: Never Be My Friend"/>
+									<a href="http://www.stumbleupon.com/to/2WuERn/www.booksofadam.com/2011/05/never-be-my-friend.html/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/690/70797690.jpg" alt="Books of Adam: Never Be My Friend"/>
 				</a>
 			</span>
 					</li>
@@ -560,24 +552,25 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 																		<li class="listLi  ">	
 			<var id="53797476" class="2XnTcU"></var>
 			<div class="text">
-									<a class="avatar" id="8988025" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/qualla3stfiqui/" title="qualla3stfiqui">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/8988025.jpg" width="32px" alt="qualla3stfiqui"/>
+									<a class="avatar" id="8988025" href="/stumbler/qualla3stfiqui/" 
+						title="qualla3stfiqui">
+						<img src="http://cdn.stumble-upon.com/superminipics/8988025.jpg" width="32px" alt="qualla3stfiqui" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/2XnTcU/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html/t:4ea4f7c95203d;src:toprated">Obi-Wan Kenobi Is Dead, Vader Says - Galactic Empire Times</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/2XnTcU/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html/t:4ea4f7c95203d;src:toprated" >Obi-Wan Kenobi Is Dead, Vader Says - Galactic Empire Times</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html">97 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html">97 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/2XnTcU/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html/t:4ea4f7c95203d;src:toprated">galacticempiretimes.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2XnTcU/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html/t:4ea4f7c95203d;src:toprated" >galacticempiretimes.com</a>
 															</p>
 
 									<div class="review">
-																												&quot;For over two decades, Kenobi has been the Jedi rebellion&#039;s leader and symbol,&quot; the Lord of the Sith said in a statement broadcast across the galaxy via HoloNet. &quot;The death of Kenobi marks the most significant achievement to date in our empire&#039;s effort... <a href="/web/20111024052946/http://www.stumbleupon.com/stumbler/qualla3stfiqui/review/53797476/">more</a>
+																												&quot;For over two decades, Kenobi has been the Jedi rebellion&#039;s leader and symbol,&quot; the Lord of the Sith said in a statement broadcast across the galaxy via HoloNet. &quot;The death of Kenobi marks the most significant achievement to date in our empire&#039;s effort... <a href="/stumbler/qualla3stfiqui/review/53797476/">more</a>
 																								</div>
 													<ul class="controls clearfix">
 																							<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
@@ -587,12 +580,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html" title="383,237 views">
+				<a href="http://www.stumbleupon.com/url/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html" title="383,237 views">
 					<span>383K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/2XnTcU/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/altmthumb/733/70480733.jpg" alt="Obi-Wan Kenobi Is Dead, Vader Says - Galactic Empire Times"/>
+									<a href="http://www.stumbleupon.com/to/2XnTcU/www.galacticempiretimes.com/2011/05/09/galaxy/outer-rim/obi-wan-kenobi-is-killed.html/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/733/70480733.jpg" alt="Obi-Wan Kenobi Is Dead, Vader Says - Galactic Empire Times"/>
 				</a>
 			</span>
 					</li>
@@ -600,20 +593,21 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 																		<li class="listLi  ">	
 			<var id="53677748" class="23arAI"></var>
 			<div class="text">
-									<a class="avatar" id="17104745" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/Blu3vibration/" title="Blu3vibration">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/17104745.jpg" width="32px" alt="Blu3vibration"/>
+									<a class="avatar" id="17104745" href="/stumbler/Blu3vibration/" 
+						title="Blu3vibration">
+						<img src="http://cdn.stumble-upon.com/superminipics/17104745.jpg" width="32px" alt="Blu3vibration" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/23arAI/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142/t:4ea4f7c95203d;src:toprated">Solitude - 2010/2011 - A work in progress on the Behance...</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/23arAI/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142/t:4ea4f7c95203d;src:toprated" >Solitude - 2010/2011 - A work in progress on the Behance...</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142">164 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142">164 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/23arAI/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142/t:4ea4f7c95203d;src:toprated">behance.net</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/23arAI/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142/t:4ea4f7c95203d;src:toprated" >behance.net</a>
 															</p>
 
 									<div class="review">
@@ -627,12 +621,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142" title="1,212,795 views">
+				<a href="http://www.stumbleupon.com/url/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142" title="1,212,795 views">
 					<span>1.2M</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/23arAI/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/altmthumb/818/70453818.jpg" alt="Solitude - 2010/2011 - A work in progress on the Behance Network"/>
+									<a href="http://www.stumbleupon.com/to/23arAI/www.behance.net/gallery/Solitude-20102011-A-work-in-progress/954142/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/818/70453818.jpg" alt="Solitude - 2010/2011 - A work in progress on the Behance Network"/>
 				</a>
 			</span>
 					</li>
@@ -640,20 +634,21 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 																		<li class="listLi  ">	
 			<var id="57765351" class="1sG8HM"></var>
 			<div class="text">
-									<a class="avatar" id="19614578" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/mysterywomanex/" title="mysterywomanex">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/19614578.jpg" width="32px" alt="mysterywomanex"/>
+									<a class="avatar" id="19614578" href="/stumbler/mysterywomanex/" 
+						title="mysterywomanex">
+						<img src="http://cdn.stumble-upon.com/superminipics/19614578.jpg" width="32px" alt="mysterywomanex" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/1sG8HM/www.futilitycloset.com/2011/04/29/mistaken-identity-2/t:4ea4f7c95203d;src:toprated">   Mistaken Identity | Futility Closet</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/1sG8HM/www.futilitycloset.com/2011/04/29/mistaken-identity-2/t:4ea4f7c95203d;src:toprated" >   Mistaken Identity | Futility Closet</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.futilitycloset.com/2011/04/29/mistaken-identity-2/">124 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.futilitycloset.com/2011/04/29/mistaken-identity-2/">124 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/1sG8HM/www.futilitycloset.com/2011/04/29/mistaken-identity-2/t:4ea4f7c95203d;src:toprated">futilitycloset.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1sG8HM/www.futilitycloset.com/2011/04/29/mistaken-identity-2/t:4ea4f7c95203d;src:toprated" >futilitycloset.com</a>
 															</p>
 
 									<div class="review">
@@ -667,12 +662,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.futilitycloset.com/2011/04/29/mistaken-identity-2/" title="1,526,051 views">
+				<a href="http://www.stumbleupon.com/url/www.futilitycloset.com/2011/04/29/mistaken-identity-2/" title="1,526,051 views">
 					<span>1.5M</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/1sG8HM/www.futilitycloset.com/2011/04/29/mistaken-identity-2/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/altmthumb/131/69701131.jpg" alt="   Mistaken Identity | Futility Closet"/>
+									<a href="http://www.stumbleupon.com/to/1sG8HM/www.futilitycloset.com/2011/04/29/mistaken-identity-2/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/131/69701131.jpg" alt="   Mistaken Identity | Futility Closet"/>
 				</a>
 			</span>
 					</li>
@@ -680,20 +675,21 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 																		<li class="listLi  ">	
 			<var id="52972909" class="3E3qLq"></var>
 			<div class="text">
-									<a class="avatar" id="3712634" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/themetrosexiest/" title="themetrosexiest">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/3712634.jpg" width="32px" alt="themetrosexiest"/>
+									<a class="avatar" id="3712634" href="/stumbler/themetrosexiest/" 
+						title="themetrosexiest">
+						<img src="http://cdn.stumble-upon.com/superminipics/3712634.jpg" width="32px" alt="themetrosexiest" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/3E3qLq/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/t:4ea4f7c95203d;src:toprated">http://www.jamiewieck.com/visual-essays/the-50-things-eve...</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/3E3qLq/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/t:4ea4f7c95203d;src:toprated" >http://www.jamiewieck.com/visual-essays/the-50-things-eve...</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/">39 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/">39 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/3E3qLq/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/t:4ea4f7c95203d;src:toprated">jamiewieck.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/3E3qLq/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/t:4ea4f7c95203d;src:toprated" >jamiewieck.com</a>
 															</p>
 
 									<div class="review">
@@ -707,12 +703,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/" title="371,321 views">
+				<a href="http://www.stumbleupon.com/url/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/" title="371,321 views">
 					<span>371K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/3E3qLq/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/mthumb/960/69085960.jpg" alt="http://www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/"/>
+									<a href="http://www.stumbleupon.com/to/3E3qLq/www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/mthumb/960/69085960.jpg" alt="http://www.jamiewieck.com/visual-essays/the-50-things-every-graphic-design-student-should-know/"/>
 				</a>
 			</span>
 					</li>
@@ -720,20 +716,21 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 																		<li class="listLi  last">	
 			<var id="57799806" class="25dXew"></var>
 			<div class="text">
-									<a class="avatar" id="5" href="/web/20111024052946/http://www.stumbleupon.com/stumbler/StumbleUpon/" title="StumbleUpon">
-						<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/superminipics/5.jpg" width="32px" alt="StumbleUpon"/>
+									<a class="avatar" id="5" href="/stumbler/StumbleUpon/" 
+						title="StumbleUpon">
+						<img src="http://cdn.stumble-upon.com/superminipics/5.jpg" width="32px" alt="StumbleUpon" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/25dXew/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/t:4ea4f7c95203d;src:toprated">Jamie Beck e Kevin Burg - Cinemagraphs - fotografie in...</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/25dXew/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/t:4ea4f7c95203d;src:toprated" >Jamie Beck e Kevin Burg - Cinemagraphs - fotografie in...</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/">291 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/">291 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/25dXew/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/t:4ea4f7c95203d;src:toprated">cocacolla.it</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/25dXew/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/t:4ea4f7c95203d;src:toprated" >cocacolla.it</a>
 															</p>
 
 									<div class="review">
@@ -747,12 +744,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/url/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/" title="1,062,084 views">
+				<a href="http://www.stumbleupon.com/url/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/" title="1,062,084 views">
 					<span>1.1M</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20111024052946/http://www.stumbleupon.com/to/25dXew/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/t:4ea4f7c95203d;src:toprated">
-									<img src="https://web.archive.org/web/20111024052946im_/http://cdn.stumble-upon.com/mthumb/666/70064666.jpg" alt="Jamie Beck e Kevin Burg - Cinemagraphs - fotografie in movimento | CocaColla.it"/>
+									<a href="http://www.stumbleupon.com/to/25dXew/www.cocacolla.it/arts/jamie-beck-e-kevin-burg-cinemagraphs/t:4ea4f7c95203d;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/mthumb/666/70064666.jpg" alt="Jamie Beck e Kevin Burg - Cinemagraphs - fotografie in movimento | CocaColla.it"/>
 				</a>
 			</span>
 					</li>
@@ -764,7 +761,7 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 
 	<ul class="module modulePagination clearfix">
 											<li>
-					<a id="paginationNext" href="/web/20111024052946/http://www.stumbleupon.com/discover/toprated/10/">Next &raquo;</a>
+					<a id="paginationNext" href="/discover/toprated/10/">Next &raquo;</a>
 				</li>
 						</ul>
 	
@@ -837,48 +834,48 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 <div class="clearfix colFour">	
 	<ul class="col">
 		<li class="header">About StumbleUpon</li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/aboutus/">About Us</a></li>	
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/productdemo/">Take a Tour</a></li>	
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/technology/">Our Recommendation Engine</a></li>	
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/press/">Press Information</a></li>
-		<li><a href="https://web.archive.org/web/20111024052946/http://blog.stumbleupon.com/">Official Blog</a></li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/ads/blog/">Paid Discovery Blog</a></li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/devblog/">Developers Blog</a></li>
+		<li><a href="/aboutus/">About Us</a></li>	
+		<li><a href="/productdemo/">Take a Tour</a></li>	
+		<li><a href="/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/press/">Press Information</a></li>
+		<li><a href="http://blog.stumbleupon.com/">Official Blog</a></li>
+		<li><a href="/ads/blog/">Paid Discovery Blog</a></li>
+		<li><a href="/devblog/">Developers Blog</a></li>
 	</ul>
 
 	<ul class="col">
 		<li class="header">Explore StumbleUpon</li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/tag/">Tags</a>, <a href="/web/20111024052946/http://www.stumbleupon.com/book/">Books</a>, <a href="/web/20111024052946/http://www.stumbleupon.com/music/">Music</a>, <a href="/web/20111024052946/http://www.stumbleupon.com/movie/">Movies</a></li>	
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/tv/">TV Shows</a>, <a href="/web/20111024052946/http://www.stumbleupon.com/city/">Cities</a>, <a href="/web/20111024052946/http://www.stumbleupon.com/country/">Countries</a></li>
+		<li><a href="/tag/">Tags</a>, <a href="/book/">Books</a>, <a href="/music/">Music</a>, <a href="/movie/">Movies</a></li>	
+		<li><a href="/tv/">TV Shows</a>, <a href="/city/">Cities</a>, <a href="/country/">Countries</a></li>
 		<li class="header">Community</li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/stumblers/onlinenow/">Recent Stumblers</a></li>	
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/topstumblers/">Top Stumblers</a></li>	
+		<li><a href="/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/topstumblers/">Top Stumblers</a></li>	
 		<li>
-			<a href="/web/20111024052946/http://www.stumbleupon.com/groups/">Groups</a>		</li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/community_rules/">Community Rules</a></li>	
+			<a href="/groups/">Groups</a>		</li>
+		<li><a href="/community_rules/">Community Rules</a></li>	
 	</ul>
 
 	<ul class="col">
 		<li class="header">Tools and Services</li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/mobile/">Mobile</a></li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/help/download_stumbleupon/">Add-ons and Bookmarks</a></li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/pd/">Paid Discovery for Advertisers</a></li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/audiencetools/">Audience Tools for Publishers</a></li>
+		<li><a href="/mobile/">Mobile</a></li>
+		<li><a href="/help/download_stumbleupon/">Add-ons and Bookmarks</a></li>
+		<li><a href="/pd/">Paid Discovery for Advertisers</a></li>
+		<li><a href="/audiencetools/">Audience Tools for Publishers</a></li>
 		<li></li>
 		<li class="header">Your Profile</li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/findfriends/">Connect with Friends</a></li>
+		<li><a href="/findfriends/">Connect with Friends</a></li>
 			</ul>
 
 
 	<ul class="col">
 		<li class="header">Help</li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/help/">Help Center</a></li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/feedback/">Contact Us</a></li>
+		<li><a href="/help/">Help Center</a></li>
+		<li><a href="/feedback/">Contact Us</a></li>
 		<li class="header">Company</li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/jobs/">Jobs at StumbleUpon</a></li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/management/">Management</a></li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/terms/">Terms of Service</a></li>
-		<li><a href="/web/20111024052946/http://www.stumbleupon.com/privacy/">Privacy</a></li>	
+		<li><a href="/jobs/">Jobs at StumbleUpon</a></li>
+		<li><a href="/management/">Management</a></li>
+		<li><a href="/terms/">Terms of Service</a></li>
+		<li><a href="/privacy/">Privacy</a></li>	
 	</ul>
 </div>
 		<p class="copyright">&copy; StumbleUpon 2001 - 2011</p>
@@ -889,32 +886,12 @@ Chow currently working and collaboration with some clients like AirAsia, Nike,..
 
 	</div> <!-- end wrapper -->
 
-	<script type="text/javascript" charset="utf-8" src="https://web.archive.org/web/20111024052946js_/http://cdn.stumble-upon.com/js/attach_su.js?v=20111020"></script>
+	<script type="text/javascript" charset="utf-8" src="http://cdn.stumble-upon.com/js/attach_su.js?v=20111020"></script>
 		
 	
 
-			<img src="/web/20111024052946im_/http://www.stumbleupon.com/spacer" width="0" height="0"/>
+			<img src="/spacer" width=0 height=0 />
 	
 	<span id="__su_server_time__" class="1319434185"></span>
 </body>
 </html>
-<!--
-     FILE ARCHIVED ON 05:29:46 Oct 24, 2011 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:49:08 Oct 17, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  captures_list: 0.949
-  exclusion.robots: 0.043
-  exclusion.robots.policy: 0.025
-  esindex: 0.015
-  cdx.remote: 4.725
-  LoadShardBlock: 68.851 (3)
-  PetaboxLoader3.datanode: 61.658 (5)
-  PetaboxLoader3.resolve: 60.185 (2)
-  load_resource: 100.663 (2)
--->

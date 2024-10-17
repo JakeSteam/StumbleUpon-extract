@@ -3,25 +3,12 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
-<head><!-- is_embed=True -->
-<script type="text/javascript" src="/_static/js/bundle-playback.js?v=krFivnjJ" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
-<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
-<script type="text/javascript" src="/_static/js/ruffle/ruffle.js"></script>
-<script type="text/javascript">
-    __wm.init("https://web.archive.org/web");
-  __wm.wombat("http://www.stumbleupon.com:80/discover/toprated/","20101110151624","https://web.archive.org/","web","/_static/",
-	      "1289402184");
-</script>
-<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
-<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=3PDvdIFv" />
-<!-- End Wayback Rewrite JS Include -->
-
+<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		
-			<meta name="description" content="Top rated on StumbleUpon"/>
+			<meta name="description" content="Top rated on StumbleUpon" />
 		
-			<link rel="stylesheet" href="https://web.archive.org/web/20101110151624cs_/http://cdn.stumble-upon.com/css/global_su.css?v=20101109.02" type="text/css" media="screen, projection"/>
+			<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/global_su.css?v=20101109.02" type="text/css" media="screen, projection" />
 		<!--[if lte IE 6]>
 		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie_su.css?v=20101109.02" type="text/css" media="screen, projection" />
 		<![endif]-->
@@ -33,13 +20,13 @@
 		<![endif]-->
 		
 				
-				<script type="text/javascript" src="https://web.archive.org/web/20101110151624js_/http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+				<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 		<!--[if lte IE 6]>
 			<script type="text/javascript" src="http://cdn.stumble-upon.com/js/json2.js"></script>
 		<![endif]-->
 		
-		<script type="text/javascript" src="https://web.archive.org/web/20101110151624js_/http://cdn.stumble-upon.com/js/plugins_su.js?v=20101109.02"></script>
-		<link rel="shortcut icon" href="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/favicon.ico"/>
+		<script type="text/javascript" src="http://cdn.stumble-upon.com/js/plugins_su.js?v=20101109.02"></script>
+		<link rel="shortcut icon" href="http://cdn.stumble-upon.com/favicon.ico" />
 		
 		
 		
@@ -65,7 +52,7 @@
 					<a id="closePanel" class="close" href="javascript:void(0);">close</a>
 			<div class="panel">
 				
-				<iframe name="panel" frameborder="0" src="/web/20101110151624if_/http://www.stumbleupon.com/discover/toprated" scrolling="yes" noresize="0"></iframe>			
+				<iframe name="panel" frameborder="0" src="" scrolling="yes" noresize="0"></iframe>			
 				
 				<script type="text/javascript">
 					$('#closePanel').click(function(){
@@ -82,8 +69,8 @@
 			</div> <!-- end panel -->
 			<div id="fadeout"></div>
 			<div id="ff-install-helper" style="display: none;">
-				<img id="close-button" src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/images/close-button.png" alt="x"/>
-				<h2>Installing is Easy!<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24"/></h2>
+				<img id="close-button" src="http://cdn.stumble-upon.com/images/close-button.png" alt="x" />
+				<h2>Installing is Easy!<img src="http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24" /></h2>
 				<ol>
 					<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
 					<li style="margin-bottom:0.7em;">Click Install Now</li>
@@ -107,39 +94,39 @@
 	
 <div id="wrapperHeader">
 	<div id="header" class="">	
-	   	<a id="logo" href="/web/20101110151624/http://www.stumbleupon.com/">StumbleUpon</a> <!-- end logo -->
+	   	<a id="logo" href="/">StumbleUpon</a> <!-- end logo -->
 	   	
 			<div id="headerLogin" class="hidden">
-				<a style="margin-right: 62px; font-size: 10px; text-decoration: none;" href="/web/20101110151624/http://www.stumbleupon.com/recover_password.php">Forgot your password?</a>
-			 	<form action="/web/20101110151624/http://www.stumbleupon.com/login.php" name="formLogin" method="post" id="formLogin">			 		
+				<a style="margin-right: 62px; font-size: 10px; text-decoration: none;" href="/recover_password.php">Forgot your password?</a>
+			 	<form action="/login.php" name="formLogin" method="post" id="formLogin">			 		
 			 		<ul>
 			 			<li class="iefix">
 			 				<label for="username">Email or username</label>
-			 				<input class="text" type="text" name="username" tabindex="0" id="username" value=""/>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value="" />
 			 			</li>			 			
 			 			<li class="iefix" id="wrapperPassword">
 			 				<label for="password">Password</label>
-			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16"/>
-			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch"/>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16" />
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch" />
 			 				
 			 			</li>			 			
 			 			<li>
-			 				<input class="btnGreen" type="submit" name="login" value="Login"/>
-							<input type="hidden" name="rememberme" value="1"/>
+			 				<input class="btnGreen" type="submit" name="login" value="Login" />
+							<input type="hidden" name="rememberme" value="1" />
 			 			</li>
 			 		</ul>			 												 		
 			 	</form>
 			</div>
 
 			<p id="loginLinks">
-	   			<a class="login" href="/web/20101110151624/http://www.stumbleupon.com/login.php">Login</a>
+	   			<a class="login" href="/login.php">Login</a>
 									<span class="separator">&bull;</span>
-					<a class="signin" href="/web/20101110151624/http://www.stumbleupon.com/signup/?pre=header">Join StumbleUpon</a>
+					<a class="signin" href="/signup/?pre=header">Join StumbleUpon</a>
 													<span class="separator">&bull;</span>
-					<script src="https://web.archive.org/web/20101110151624js_/http://connect.facebook.net/en_US/all.js"></script>
+					<script src="http://connect.facebook.net/en_US/all.js"></script>
 
 <a href="#" onclick="javascript:dofbconnect();">
-			<img id="fbc_header_link" src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/i/btn/btnFbLogin.png">
+			<img id="fbc_header_link" src="http://cdn.stumble-upon.com/i/btn/btnFbLogin.png">
 	</a>
 <div id="fb-root"></div>
 <script>
@@ -201,11 +188,11 @@
 			dataType: "json",
 			success: function(data) {
 				if (data.mapping == false)
-					window.location.href = 'https://web.archive.org/web/20101110151624/http://www' + suFb.tld + '/signup.php?pre=fbc_' + suFb.source;
+					window.location.href = 'http://www' + suFb.tld + '/signup.php?pre=fbc_' + suFb.source;
 				else
 					window.location.href = data.login ? 
-						'https://web.archive.org/web/20101110151624/http://www' + suFb.tld:
-						'https://web.archive.org/web/20101110151624/http://www' + suFb.tld + '/login.php?FBC=1';
+						'http://www' + suFb.tld:
+						'http://www' + suFb.tld + '/login.php?FBC=1';
 			}
 		});
 	}
@@ -222,9 +209,9 @@
 
 <div id="wrapperNav">
 	<ul id="navMain">
-		<li class="discover first"><a href="/web/20101110151624/http://www.stumbleupon.com/discover/toprated/">Discover</a></li>
-		<li class="favorites"><a href="/web/20101110151624/http://www.stumbleupon.com/favorites/">Favorites</a></li>
-		<li class="stumblers"><a href="/web/20101110151624/http://www.stumbleupon.com/stumblers/onlinenow/">Stumblers</a></li>
+		<li class="discover first"><a href="/discover/toprated/">Discover</a></li>
+		<li class="favorites"><a href="/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/stumblers/onlinenow/">Stumblers</a></li>
 			</ul> <!-- end navMain --> 
  
 </div> <!-- end wrapperNav -->
@@ -237,55 +224,55 @@
 	<h4>Popular Topics</h4>
 	<ul class="listTopics">
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/news/">News</a>			</li>
+				<a href="/discover/news/">News</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/humor/">Humor</a>			</li>
+				<a href="/discover/humor/">Humor</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/video/">Video</a>			</li>
+				<a href="/discover/video/">Video</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/photography/">Photography</a>			</li>
+				<a href="/discover/photography/">Photography</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/cats/">Cats</a>			</li>
+				<a href="/discover/cats/">Cats</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/animation/">Animation</a>			</li>
+				<a href="/discover/animation/">Animation</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/graphic design/">Graphic Design</a>			</li>
+				<a href="/discover/graphic design/">Graphic Design</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/online games/">Online Games</a>			</li>
+				<a href="/discover/online games/">Online Games</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/arts/">Arts</a>			</li>
+				<a href="/discover/arts/">Arts</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/politics/">Politics</a>			</li>
+				<a href="/discover/politics/">Politics</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/photography/">Photography</a>			</li>
+				<a href="/discover/photography/">Photography</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/bizarre/">Bizarre</a>			</li>
+				<a href="/discover/bizarre/">Bizarre</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/internet/">Internet</a>			</li>
+				<a href="/discover/internet/">Internet</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/psychology/">Psychology</a>			</li>
+				<a href="/discover/psychology/">Psychology</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/books/">Books</a>			</li>
+				<a href="/discover/books/">Books</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/internet tools/">Internet Tools</a>			</li>
+				<a href="/discover/internet tools/">Internet Tools</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/satire/">Satire</a>			</li>
+				<a href="/discover/satire/">Satire</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/computer graphics/">Computer Graphics</a>			</li>
+				<a href="/discover/computer graphics/">Computer Graphics</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/movies/">Movies</a>			</li>
+				<a href="/discover/movies/">Movies</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/science/">Science</a>			</li>
+				<a href="/discover/science/">Science</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/drawing/">Drawing</a>			</li>
+				<a href="/discover/drawing/">Drawing</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/self improvement/">Self Improvement</a>			</li>
+				<a href="/discover/self improvement/">Self Improvement</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/food/">Food</a>			</li>
+				<a href="/discover/food/">Food</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/music/">Music</a>			</li>
+				<a href="/discover/music/">Music</a>			</li>
 					<li>
-				<a href="/web/20101110151624/http://www.stumbleupon.com/discover/travel/">Travel</a>			</li>
+				<a href="/discover/travel/">Travel</a>			</li>
 			</ul>
 </div>
 
@@ -318,28 +305,28 @@
 			litebarLinkHandler_toolbarLink4cdab74605a3e();
 		}
 		</script>
-		<a id="toolbarLink4cdab74605a3e" href="/web/20101110151624/http://www.stumbleupon.com/to/stumble/go/" class="btnYellow" title="Stumble > Top Rated Websites">Stumble &gt;</a></li>				
+		<a id="toolbarLink4cdab74605a3e" href="/to/stumble/go/" class="btnYellow" title="Stumble &gt; Top Rated Websites">Stumble &gt;</a></li>				
 				<li><h1>Top Rated Websites</h1></li>
 			</ul>	
 			
 			
 <div id="navSecondary">
 	<ul class="left">
-				<li class="toprated"><a href="/web/20101110151624/http://www.stumbleupon.com/discover/toprated/">Top Rated</a></li>
+				<li class="toprated"><a href="/discover/toprated/">Top Rated</a></li>
 				<li class="hasChild">
 			<a href="javascript:void(0);">Topics</a>
 						<ul class="public">
-											<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/videos/">Videos</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/arts/">Arts</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/business/">Business</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/computers/">Computers</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/health/">Health</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/fun/">Fun</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/lifestyle/">Lifestyle</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/music/">Music</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/science/">Science</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/sports/">Sports</a></li>
-				<li><a href="/web/20101110151624/http://www.stumbleupon.com/discover/technology/">Technology</a></li>
+											<li><a href="/discover/videos/">Videos</a></li>
+				<li><a href="/discover/arts/">Arts</a></li>
+				<li><a href="/discover/business/">Business</a></li>
+				<li><a href="/discover/computers/">Computers</a></li>
+				<li><a href="/discover/health/">Health</a></li>
+				<li><a href="/discover/fun/">Fun</a></li>
+				<li><a href="/discover/lifestyle/">Lifestyle</a></li>
+				<li><a href="/discover/music/">Music</a></li>
+				<li><a href="/discover/science/">Science</a></li>
+				<li><a href="/discover/sports/">Sports</a></li>
+				<li><a href="/discover/technology/">Technology</a></li>
 			</ul>
 		</li>
 	</ul>
@@ -358,7 +345,7 @@
 				<div class="wrapperInput">
 					<label for="url">URL</label>
 					<div class="iefix">
-						<input class="text" type="text" name="url" value="" id="url"/>
+						<input class="text" type="text" name="url" value="" id="url" />
 					</div>
 				</div> <!-- end wrapperInput --> 
 				<div class="wrapperInput">
@@ -373,13 +360,13 @@
 					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
 					<li class="sticky last">
 						<label class="checkbox">
-							<input type="checkbox" name="sticky" value="" id="sticky"/>
+							<input type="checkbox" name="sticky" value="" id="sticky" />
 							Sticky
 						</label>
 					</li>
 					<li class="blog right">
 						<label class="checkbox">
-							<input type="checkbox" name="blog_mode" value="" class="blogMode"/>
+							<input type="checkbox" name="blog_mode" value="" class="blogMode" />
 							Blog mode
 						</label>
 					</li>
@@ -392,20 +379,21 @@
 																		<li class="listLi  first">	
 			<var id="47236864" class="5m0P0E"></var>
 			<div class="text">
-									<a class="avatar" id="5075645" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/eccentrix/" title="eccentrix">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/5075645.jpg" width="32px" alt="eccentrix"/>
+									<a class="avatar" id="5075645" href="/stumbler/eccentrix/" 
+						title="eccentrix">
+						<img src="http://cdn.stumble-upon.com/superminipics/5075645.jpg" width="32px" alt="eccentrix" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/5m0P0E/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever/t:4cdab745be8e8;src:toprated">How to Ditch Big Brother and Disappear Forever</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/5m0P0E/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever/t:4cdab745be8e8;src:toprated" >How to Ditch Big Brother and Disappear Forever</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever">12 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever">12 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/5m0P0E/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever/t:4cdab745be8e8;src:toprated">lifehacker.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/5m0P0E/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever/t:4cdab745be8e8;src:toprated" >lifehacker.com</a>
 															</p>
 
 									<div class="review">
@@ -419,12 +407,12 @@
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever" title="174,591 views">
+				<a href="http://www.stumbleupon.com/url/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever" title="174,591 views">
 					<span>175K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/5m0P0E/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/altmthumb/176/57976176.jpg" alt="How to Ditch Big Brother and Disappear Forever"/>
+									<a href="http://www.stumbleupon.com/to/5m0P0E/lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/176/57976176.jpg" alt="How to Ditch Big Brother and Disappear Forever"/>
 				</a>
 			</span>
 					</li>
@@ -432,26 +420,27 @@
 																		<li class="listLi  ">	
 			<var id="47146177" class="2QNZ7o"></var>
 			<div class="text">
-									<a class="avatar" id="5078110" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/ed1t/" title="ed1t">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/5078110.jpg" width="32px" alt="ed1t"/>
+									<a class="avatar" id="5078110" href="/stumbler/ed1t/" 
+						title="ed1t">
+						<img src="http://cdn.stumble-upon.com/superminipics/5078110.jpg" width="32px" alt="ed1t" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2QNZ7o/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1/t:4cdab745be8e8;src:toprated">This time-lapse montage will blow your mind | Geek.com</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/2QNZ7o/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1/t:4cdab745be8e8;src:toprated" >This time-lapse montage will blow your mind | Geek.com</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1">27 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1">27 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2QNZ7o/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1/t:4cdab745be8e8;src:toprated">geek.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2QNZ7o/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1/t:4cdab745be8e8;src:toprated" >geek.com</a>
 															</p>
 
 									<div class="review">
 																												What struck me about the nature scenes was definitely the skies. Watching the stars move made me realize that we are moving with and among the stars. Seeing the sky move really makes me think of the scale of the universe, in time and space. 
 
-So when the cars and then the city... <a href="/web/20101110151624/http://www.stumbleupon.com/stumbler/ed1t/review/47146177/">more</a>
+So when the cars and then the city... <a href="/stumbler/ed1t/review/47146177/">more</a>
 																								</div>
 													<ul class="controls clearfix">
 																							<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
@@ -461,12 +450,12 @@ So when the cars and then the city... <a href="/web/20101110151624/http://www.st
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1" title="113,966 views">
+				<a href="http://www.stumbleupon.com/url/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1" title="113,966 views">
 					<span>114K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2QNZ7o/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/mthumb/674/57860674.jpg" alt="This time-lapse montage will blow your mind | Geek.com"/>
+									<a href="http://www.stumbleupon.com/to/2QNZ7o/www.geek.com/articles/geek-cetera/this-time-lapse-montage-will-blow-your-mind-20100925/comment-page-1/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/mthumb/674/57860674.jpg" alt="This time-lapse montage will blow your mind | Geek.com"/>
 				</a>
 			</span>
 					</li>
@@ -474,27 +463,28 @@ So when the cars and then the city... <a href="/web/20101110151624/http://www.st
 																		<li class="listLi  ">	
 			<var id="47210057" class="2272Pd"></var>
 			<div class="text">
-									<a class="avatar" id="1993169" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/alice44/" title="alice44">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/1993169.jpg" width="32px" alt="alice44"/>
+									<a class="avatar" id="1993169" href="/stumbler/alice44/" 
+						title="alice44">
+						<img src="http://cdn.stumble-upon.com/superminipics/1993169.jpg" width="32px" alt="alice44" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2272Pd/bestoftheblogs.com/Home/33919/t:4cdab745be8e8;src:toprated"> 8 Lies Republicans Want Us To Believe</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/2272Pd/bestoftheblogs.com/Home/33919/t:4cdab745be8e8;src:toprated" > 8 Lies Republicans Want Us To Believe</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/bestoftheblogs.com/Home/33919">31 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/bestoftheblogs.com/Home/33919">31 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2272Pd/bestoftheblogs.com/Home/33919/t:4cdab745be8e8;src:toprated">bestoftheblogs.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2272Pd/bestoftheblogs.com/Home/33919/t:4cdab745be8e8;src:toprated" >bestoftheblogs.com</a>
 															</p>
 
 									<div class="review">
 																												From the page: 1) President Obama tripled the deficit.
 Reality: Bush&#039;s last budget had a $1.416 trillion deficit. Obama&#039;s first budgetreduced that to $1.29 trillion.
 2) President Obama raised taxes, which hurt the economy.
-Reality: Obama cut taxes. 40% of the... <a href="/web/20101110151624/http://www.stumbleupon.com/stumbler/alice44/review/47210057/">more</a>
+Reality: Obama cut taxes. 40% of the... <a href="/stumbler/alice44/review/47210057/">more</a>
 																								</div>
 													<ul class="controls clearfix">
 																							<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
@@ -504,12 +494,12 @@ Reality: Obama cut taxes. 40% of the... <a href="/web/20101110151624/http://www.
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/bestoftheblogs.com/Home/33919" title="42,728 views">
+				<a href="http://www.stumbleupon.com/url/bestoftheblogs.com/Home/33919" title="42,728 views">
 					<span>43K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2272Pd/bestoftheblogs.com/Home/33919/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/altmthumb/475/57715475.jpg" alt=" 8 Lies Republicans Want Us To Believe"/>
+									<a href="http://www.stumbleupon.com/to/2272Pd/bestoftheblogs.com/Home/33919/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/475/57715475.jpg" alt=" 8 Lies Republicans Want Us To Believe"/>
 				</a>
 			</span>
 					</li>
@@ -517,20 +507,21 @@ Reality: Obama cut taxes. 40% of the... <a href="/web/20101110151624/http://www.
 																		<li class="listLi  ">	
 			<var id="47417576" class="4Ykqm6"></var>
 			<div class="text">
-									<a class="avatar" id="5884386" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/SuSrsBzns/" title="SuSrsBzns">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/5884386.jpg" width="32px" alt="SuSrsBzns"/>
+									<a class="avatar" id="5884386" href="/stumbler/SuSrsBzns/" 
+						title="SuSrsBzns">
+						<img src="http://cdn.stumble-upon.com/superminipics/5884386.jpg" width="32px" alt="SuSrsBzns" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/4Ykqm6/www.geekosystem.com/fake-capsizing-boat/t:4cdab745be8e8;src:toprated">Fake Capsizing Boat | Geekosystem</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/4Ykqm6/www.geekosystem.com/fake-capsizing-boat/t:4cdab745be8e8;src:toprated" >Fake Capsizing Boat | Geekosystem</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.geekosystem.com/fake-capsizing-boat/">56 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.geekosystem.com/fake-capsizing-boat/">56 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/4Ykqm6/www.geekosystem.com/fake-capsizing-boat/t:4cdab745be8e8;src:toprated">geekosystem.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/4Ykqm6/www.geekosystem.com/fake-capsizing-boat/t:4cdab745be8e8;src:toprated" >geekosystem.com</a>
 															</p>
 
 									<div class="review">
@@ -544,12 +535,12 @@ Reality: Obama cut taxes. 40% of the... <a href="/web/20101110151624/http://www.
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.geekosystem.com/fake-capsizing-boat/" title="344,811 views">
+				<a href="http://www.stumbleupon.com/url/www.geekosystem.com/fake-capsizing-boat/" title="344,811 views">
 					<span>345K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/4Ykqm6/www.geekosystem.com/fake-capsizing-boat/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/altmthumb/448/58195448.jpg" alt="Fake Capsizing Boat | Geekosystem"/>
+									<a href="http://www.stumbleupon.com/to/4Ykqm6/www.geekosystem.com/fake-capsizing-boat/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/448/58195448.jpg" alt="Fake Capsizing Boat | Geekosystem"/>
 				</a>
 			</span>
 					</li>
@@ -557,24 +548,25 @@ Reality: Obama cut taxes. 40% of the... <a href="/web/20101110151624/http://www.
 																		<li class="listLi  ">	
 			<var id="47071142" class="2WFqSs"></var>
 			<div class="text">
-									<a class="avatar" id="2920577" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/TheRareZilla/" title="TheRareZilla">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/2920577.jpg" width="32px" alt="TheRareZilla"/>
+									<a class="avatar" id="2920577" href="/stumbler/TheRareZilla/" 
+						title="TheRareZilla">
+						<img src="http://cdn.stumble-upon.com/superminipics/2920577.jpg" width="32px" alt="TheRareZilla" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2WFqSs/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%22christians%22_calling_my_wife_a_murderer?page=entire/t:4cdab745be8e8;src:toprated">What Happened When I Yelled Back at the...</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/2WFqSs/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%22christians%22_calling_my_wife_a_murderer?page=entire/t:4cdab745be8e8;src:toprated" >What Happened When I Yelled Back at the...</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%252522christians%252522_calling_my_wife_a_murderer%253Fpage%253Dentire">45 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%252522christians%252522_calling_my_wife_a_murderer%253Fpage%253Dentire">45 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2WFqSs/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%22christians%22_calling_my_wife_a_murderer?page=entire/t:4cdab745be8e8;src:toprated">alternet.org</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2WFqSs/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%22christians%22_calling_my_wife_a_murderer?page=entire/t:4cdab745be8e8;src:toprated" >alternet.org</a>
 															</p>
 
 									<div class="review">
-																												Reminds me of the video some guys did where they approached these sorts of bullies to ask them what they thought the penalty should be toward women who got abortions if abortion was made illegal (How long a prison sentence, death penalty for murder, etc). The pro-lifers have... <a href="/web/20101110151624/http://www.stumbleupon.com/stumbler/TheRareZilla/review/47071142/">more</a>
+																												Reminds me of the video some guys did where they approached these sorts of bullies to ask them what they thought the penalty should be toward women who got abortions if abortion was made illegal (How long a prison sentence, death penalty for murder, etc). The pro-lifers have... <a href="/stumbler/TheRareZilla/review/47071142/">more</a>
 																								</div>
 													<ul class="controls clearfix">
 																							<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
@@ -584,12 +576,12 @@ Reality: Obama cut taxes. 40% of the... <a href="/web/20101110151624/http://www.
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%252522christians%252522_calling_my_wife_a_murderer%253Fpage%253Dentire" title="36,307 views">
+				<a href="http://www.stumbleupon.com/url/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%252522christians%252522_calling_my_wife_a_murderer%253Fpage%253Dentire" title="36,307 views">
 					<span>36K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2WFqSs/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%22christians%22_calling_my_wife_a_murderer?page=entire/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/mthumb/603/57781603.jpg" alt="What Happened When I Yelled Back at the &quot;Christians&quot; Calling My Wife a Murderer | Reproductive Justice | AlterNet"/>
+									<a href="http://www.stumbleupon.com/to/2WFqSs/www.alternet.org/reproductivejustice/148607/what_happened_when_i_yelled_back_at_the_%22christians%22_calling_my_wife_a_murderer?page=entire/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/mthumb/603/57781603.jpg" alt="What Happened When I Yelled Back at the &quot;Christians&quot; Calling My Wife a Murderer | Reproductive Justice | AlterNet"/>
 				</a>
 			</span>
 					</li>
@@ -597,20 +589,21 @@ Reality: Obama cut taxes. 40% of the... <a href="/web/20101110151624/http://www.
 																		<li class="listLi  ">	
 			<var id="47357666" class="2kfVk6"></var>
 			<div class="text">
-									<a class="avatar" id="1474989" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/teknek/" title="teknek">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/1474989.jpg" width="32px" alt="teknek"/>
+									<a class="avatar" id="1474989" href="/stumbler/teknek/" 
+						title="teknek">
+						<img src="http://cdn.stumble-upon.com/superminipics/1474989.jpg" width="32px" alt="teknek" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2kfVk6/listverse.com/2010/11/04/10-strange-things-about-the-universe/t:4cdab745be8e8;src:toprated">10 Strange Things About The Universe - Top 10 Lists |...</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/2kfVk6/listverse.com/2010/11/04/10-strange-things-about-the-universe/t:4cdab745be8e8;src:toprated" >10 Strange Things About The Universe - Top 10 Lists |...</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/listverse.com/2010/11/04/10-strange-things-about-the-universe/">38 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/listverse.com/2010/11/04/10-strange-things-about-the-universe/">38 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2kfVk6/listverse.com/2010/11/04/10-strange-things-about-the-universe/t:4cdab745be8e8;src:toprated">listverse.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2kfVk6/listverse.com/2010/11/04/10-strange-things-about-the-universe/t:4cdab745be8e8;src:toprated" >listverse.com</a>
 															</p>
 
 									<div class="review">
@@ -618,7 +611,7 @@ Reality: Obama cut taxes. 40% of the... <a href="/web/20101110151624/http://www.
 
 Very frustrating to read, and very inaccurate - full of poor explanations. For example:
 
-This led to the idea that antimatter is just ordinary matter going backwards in... <a href="/web/20101110151624/http://www.stumbleupon.com/stumbler/teknek/review/47357666/">more</a>
+This led to the idea that antimatter is just ordinary matter going backwards in... <a href="/stumbler/teknek/review/47357666/">more</a>
 																								</div>
 													<ul class="controls clearfix">
 																							<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
@@ -628,12 +621,12 @@ This led to the idea that antimatter is just ordinary matter going backwards in.
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/listverse.com/2010/11/04/10-strange-things-about-the-universe/" title="181,984 views">
+				<a href="http://www.stumbleupon.com/url/listverse.com/2010/11/04/10-strange-things-about-the-universe/" title="181,984 views">
 					<span>182K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2kfVk6/listverse.com/2010/11/04/10-strange-things-about-the-universe/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/mthumb/851/58297851.jpg" alt="10 Strange Things About The Universe - Top 10 Lists | Listverse"/>
+									<a href="http://www.stumbleupon.com/to/2kfVk6/listverse.com/2010/11/04/10-strange-things-about-the-universe/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/mthumb/851/58297851.jpg" alt="10 Strange Things About The Universe - Top 10 Lists | Listverse"/>
 				</a>
 			</span>
 					</li>
@@ -641,20 +634,21 @@ This led to the idea that antimatter is just ordinary matter going backwards in.
 																		<li class="listLi  ">	
 			<var id="47330801" class="8AIoeT"></var>
 			<div class="text">
-									<a class="avatar" id="1951252" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/mirkohumbert/" title="mirkohumbert">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/1951252.jpg" width="32px" alt="mirkohumbert"/>
+									<a class="avatar" id="1951252" href="/stumbler/mirkohumbert/" 
+						title="mirkohumbert">
+						<img src="http://cdn.stumble-upon.com/superminipics/1951252.jpg" width="32px" alt="mirkohumbert" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/8AIoeT/www.designer-daily.com/tapi-by-dreamfarm-10886/t:4cdab745be8e8;src:toprated">http://www.designer-daily.com/tapi-by-dreamfarm-10886</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/8AIoeT/www.designer-daily.com/tapi-by-dreamfarm-10886/t:4cdab745be8e8;src:toprated" >http://www.designer-daily.com/tapi-by-dreamfarm-10886</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.designer-daily.com/tapi-by-dreamfarm-10886">12 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.designer-daily.com/tapi-by-dreamfarm-10886">12 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/8AIoeT/www.designer-daily.com/tapi-by-dreamfarm-10886/t:4cdab745be8e8;src:toprated">designer-daily.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/8AIoeT/www.designer-daily.com/tapi-by-dreamfarm-10886/t:4cdab745be8e8;src:toprated" >designer-daily.com</a>
 															</p>
 
 									<div class="review">
@@ -668,12 +662,12 @@ This led to the idea that antimatter is just ordinary matter going backwards in.
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.designer-daily.com/tapi-by-dreamfarm-10886" title="35,799 views">
+				<a href="http://www.stumbleupon.com/url/www.designer-daily.com/tapi-by-dreamfarm-10886" title="35,799 views">
 					<span>36K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/8AIoeT/www.designer-daily.com/tapi-by-dreamfarm-10886/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/altmthumb/43/58275043.jpg" alt="http://www.designer-daily.com/tapi-by-dreamfarm-10886"/>
+									<a href="http://www.stumbleupon.com/to/8AIoeT/www.designer-daily.com/tapi-by-dreamfarm-10886/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/43/58275043.jpg" alt="http://www.designer-daily.com/tapi-by-dreamfarm-10886"/>
 				</a>
 			</span>
 					</li>
@@ -681,20 +675,21 @@ This led to the idea that antimatter is just ordinary matter going backwards in.
 																		<li class="listLi  ">	
 			<var id="47371839" class="AJlO5i"></var>
 			<div class="text">
-									<a class="avatar" id="1299067" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/ionysus/" title="ionysus">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/1299067.jpg" width="32px" alt="ionysus"/>
+									<a class="avatar" id="1299067" href="/stumbler/ionysus/" 
+						title="ionysus">
+						<img src="http://cdn.stumble-upon.com/superminipics/1299067.jpg" width="32px" alt="ionysus" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/AJlO5i/www.yankodesign.com/2010/10/18/exit-made-easy/t:4cdab745be8e8;src:toprated">REDesign Exit Door by Chen Guan-Yuan &amp; Yanko Design</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/AJlO5i/www.yankodesign.com/2010/10/18/exit-made-easy/t:4cdab745be8e8;src:toprated" >REDesign Exit Door by Chen Guan-Yuan &amp; Yanko Design</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.yankodesign.com/2010/10/18/exit-made-easy/">19 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.yankodesign.com/2010/10/18/exit-made-easy/">19 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/AJlO5i/www.yankodesign.com/2010/10/18/exit-made-easy/t:4cdab745be8e8;src:toprated">yankodesign.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/AJlO5i/www.yankodesign.com/2010/10/18/exit-made-easy/t:4cdab745be8e8;src:toprated" >yankodesign.com</a>
 															</p>
 
 									<div class="review">
@@ -708,12 +703,12 @@ This led to the idea that antimatter is just ordinary matter going backwards in.
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.yankodesign.com/2010/10/18/exit-made-easy/" title="89,544 views">
+				<a href="http://www.stumbleupon.com/url/www.yankodesign.com/2010/10/18/exit-made-easy/" title="89,544 views">
 					<span>90K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/AJlO5i/www.yankodesign.com/2010/10/18/exit-made-easy/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/altmthumb/890/57304890.jpg" alt="REDesign Exit Door by Chen Guan-Yuan &amp; Yanko Design"/>
+									<a href="http://www.stumbleupon.com/to/AJlO5i/www.yankodesign.com/2010/10/18/exit-made-easy/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/890/57304890.jpg" alt="REDesign Exit Door by Chen Guan-Yuan &amp; Yanko Design"/>
 				</a>
 			</span>
 					</li>
@@ -721,20 +716,21 @@ This led to the idea that antimatter is just ordinary matter going backwards in.
 																		<li class="listLi  ">	
 			<var id="47181552" class="19RFwQ"></var>
 			<div class="text">
-									<a class="avatar" id="4851114" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/pasatter/" title="pasatter">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/4851114.jpg" width="32px" alt="pasatter"/>
+									<a class="avatar" id="4851114" href="/stumbler/pasatter/" 
+						title="pasatter">
+						<img src="http://cdn.stumble-upon.com/superminipics/4851114.jpg" width="32px" alt="pasatter" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/19RFwQ/www.icantfindmyphone.com/t:4cdab745be8e8;src:toprated">I Cant Find My Phone</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/19RFwQ/www.icantfindmyphone.com/t:4cdab745be8e8;src:toprated" >I Cant Find My Phone</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.icantfindmyphone.com/">77 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/www.icantfindmyphone.com/">77 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/19RFwQ/www.icantfindmyphone.com/t:4cdab745be8e8;src:toprated">icantfindmyphone.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/19RFwQ/www.icantfindmyphone.com/t:4cdab745be8e8;src:toprated" >icantfindmyphone.com</a>
 															</p>
 
 									<div class="review">
@@ -748,12 +744,12 @@ This led to the idea that antimatter is just ordinary matter going backwards in.
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/www.icantfindmyphone.com/" title="127,382 views">
+				<a href="http://www.stumbleupon.com/url/www.icantfindmyphone.com/" title="127,382 views">
 					<span>127K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/19RFwQ/www.icantfindmyphone.com/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/altmthumb/620/57726620.jpg" alt="I Cant Find My Phone"/>
+									<a href="http://www.stumbleupon.com/to/19RFwQ/www.icantfindmyphone.com/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/620/57726620.jpg" alt="I Cant Find My Phone"/>
 				</a>
 			</span>
 					</li>
@@ -761,27 +757,28 @@ This led to the idea that antimatter is just ordinary matter going backwards in.
 																		<li class="listLi  last">	
 			<var id="47282326" class="2KY2Gv"></var>
 			<div class="text">
-									<a class="avatar" id="2575462" href="/web/20101110151624/http://www.stumbleupon.com/stumbler/yobaba/" title="yobaba">
-						<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/superminipics/2575462.jpg" width="32px" alt="yobaba"/>
+									<a class="avatar" id="2575462" href="/stumbler/yobaba/" 
+						title="yobaba">
+						<img src="http://cdn.stumble-upon.com/superminipics/2575462.jpg" width="32px" alt="yobaba" />
 					</a>
-												<h4><a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2KY2Gv/whatthefuckhasobamadonesofar.com/t:4cdab745be8e8;src:toprated">What the fuck has Obama done so far?</a></h4>
+												<h4><a href="http://www.stumbleupon.com/to/2KY2Gv/whatthefuckhasobamadonesofar.com/t:4cdab745be8e8;src:toprated" >What the fuck has Obama done so far?</a></h4>
 				
 																																		
 				<p class="showReview">
 					 
 					
-																		<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/whatthefuckhasobamadonesofar.com/">69 reviews</a>
+																		<a href="http://www.stumbleupon.com/url/whatthefuckhasobamadonesofar.com/">69 reviews</a>
 											
 											
 						
-													<span class="separator">&bull;</span> <a class="nowrap url" href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2KY2Gv/whatthefuckhasobamadonesofar.com/t:4cdab745be8e8;src:toprated">whatthefuckhasobamadonesofar.com</a>
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2KY2Gv/whatthefuckhasobamadonesofar.com/t:4cdab745be8e8;src:toprated" >whatthefuckhasobamadonesofar.com</a>
 															</p>
 
 									<div class="review">
 																												What the fuck has Obama done so far?
 
 Signed the Children&#039;s Health Insurance Reauthorization Act, 
-which provides health care to 11 million kids -- 4 million of whom were previously uninsured... <a href="/web/20101110151624/http://www.stumbleupon.com/stumbler/yobaba/review/47282326/">more</a>
+which provides health care to 11 million kids -- 4 million of whom were previously uninsured... <a href="/stumbler/yobaba/review/47282326/">more</a>
 																								</div>
 													<ul class="controls clearfix">
 																							<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
@@ -791,12 +788,12 @@ which provides health care to 11 million kids -- 4 million of whom were previous
 				
 			</div> <!-- end text -->
 						<div class="views">
-				<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/url/whatthefuckhasobamadonesofar.com/" title="29,099 views">
+				<a href="http://www.stumbleupon.com/url/whatthefuckhasobamadonesofar.com/" title="29,099 views">
 					<span>29K</span> views				</a>
 			</div>	
 			<span class="img">
-									<a href="https://web.archive.org/web/20101110151624/http://www.stumbleupon.com/to/2KY2Gv/whatthefuckhasobamadonesofar.com/t:4cdab745be8e8;src:toprated">
-									<img src="https://web.archive.org/web/20101110151624im_/http://cdn.stumble-upon.com/mthumb/989/58155989.jpg" alt="What the fuck has Obama done so far?"/>
+									<a href="http://www.stumbleupon.com/to/2KY2Gv/whatthefuckhasobamadonesofar.com/t:4cdab745be8e8;src:toprated" >
+									<img src="http://cdn.stumble-upon.com/mthumb/989/58155989.jpg" alt="What the fuck has Obama done so far?"/>
 				</a>
 			</span>
 					</li>
@@ -808,7 +805,7 @@ which provides health care to 11 million kids -- 4 million of whom were previous
 
 	<ul class="module modulePagination clearfix">
 											<li>
-					<a id="paginationNext" href="/web/20101110151624/http://www.stumbleupon.com/discover/toprated/10/">Next &raquo;</a>
+					<a id="paginationNext" href="/discover/toprated/10/">Next &raquo;</a>
 				</li>
 						</ul>
 	
@@ -881,48 +878,48 @@ which provides health care to 11 million kids -- 4 million of whom were previous
 <div class="clearfix colFour">	
 	<ul class="col">
 		<li class="header">About StumbleUpon</li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/aboutus/">About Us</a></li>	
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/productdemo/">Take a Tour</a></li>	
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/technology/">Our Recommendation Engine</a></li>	
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/press/">Press Information</a>
-		<li><a href="https://web.archive.org/web/20101110151624/http://blog.stumbleupon.com/">Official Blog</a></li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/ads/blog/">Ads Blog</a></li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/devblog/">Developers Blog</a></li>
+		<li><a href="/aboutus/">About Us</a></li>	
+		<li><a href="/productdemo/">Take a Tour</a></li>	
+		<li><a href="/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/press/">Press Information</a>
+		<li><a href="http://blog.stumbleupon.com/">Official Blog</a></li>
+		<li><a href="/ads/blog/">Ads Blog</a></li>
+		<li><a href="/devblog/">Developers Blog</a></li>
 	</ul>
 
 	<ul class="col">
 		<li class="header">Explore StumbleUpon</li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/tag/">Tags</a>, <a href="/web/20101110151624/http://www.stumbleupon.com/book/">Books</a>, <a href="/web/20101110151624/http://www.stumbleupon.com/music/">Music</a>, <a href="/web/20101110151624/http://www.stumbleupon.com/movie/">Movies</a></li>	
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/tv/">TV Shows</a>, <a href="/web/20101110151624/http://www.stumbleupon.com/city/">Cities</a>, <a href="/web/20101110151624/http://www.stumbleupon.com/country/">Countries</a></li>
+		<li><a href="/tag/">Tags</a>, <a href="/book/">Books</a>, <a href="/music/">Music</a>, <a href="/movie/">Movies</a></li>	
+		<li><a href="/tv/">TV Shows</a>, <a href="/city/">Cities</a>, <a href="/country/">Countries</a></li>
 		<li class="header">Community</li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/stumblers/onlinenow/">Recent Stumblers</a></li>	
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/topstumblers/">Top Stumblers</a></li>	
+		<li><a href="/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/topstumblers/">Top Stumblers</a></li>	
 		<li>
-			<a href="/web/20101110151624/http://www.stumbleupon.com/groups/">Groups</a>		</li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/community_rules">Community Rules</a></li>	
+			<a href="/groups/">Groups</a>		</li>
+		<li><a href="/community_rules">Community Rules</a></li>	
 	</ul>
 
 	<ul class="col">
 		<li class="header">Tools and Services</li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/addon/">Add-ons and Bookmarks</a></li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/ads/">StumbleUpon Ads</a></li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/badges/landing/">Stumble Badges</a></li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/stumblethru/">StumbleThru</a></li>
-		<li><a href="https://web.archive.org/web/20101110151624/http://su.pr/">Su.pr</a></li>
+		<li><a href="/addon/">Add-ons and Bookmarks</a></li>
+		<li><a href="/ads/">StumbleUpon Ads</a></li>
+		<li><a href="/badges/landing/">Stumble Badges</a></li>
+		<li><a href="/stumblethru/">StumbleThru</a></li>
+		<li><a href="http://su.pr">Su.pr</a></li>
 		<li class="header">Your Profile</li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/findfriends/">Connect with Friends</a></li>
+		<li><a href="/findfriends/">Connect with Friends</a></li>
 			</ul>
 
 
 	<ul class="col">
 		<li class="header">Help</li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/help/">Help Center</a></li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/feedback/">Contact Us</a></li>
+		<li><a href="/help/">Help Center</a></li>
+		<li><a href="/feedback/">Contact Us</a></li>
 		<li class="header">Company</li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/jobs/">Jobs at StumbleUpon</a></li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/management/">Management</a></li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/terms/">Terms of Service</a></li>
-		<li><a href="/web/20101110151624/http://www.stumbleupon.com/privacy/">Privacy</a></li>	
+		<li><a href="/jobs/">Jobs at StumbleUpon</a></li>
+		<li><a href="/management/">Management</a></li>
+		<li><a href="/terms/">Terms of Service</a></li>
+		<li><a href="/privacy/">Privacy</a></li>	
 	</ul>
 </div>
 	<p class="copyright">&copy; StumbleUpon 2001 - 2010</p>
@@ -933,7 +930,7 @@ which provides health care to 11 million kids -- 4 million of whom were previous
 
 	</div> <!-- end wrapper -->
 		
-		<script type="text/javascript" charset="utf-8" src="https://web.archive.org/web/20101110151624js_/http://cdn.stumble-upon.com/js/attach_su.js?v=20101109.02"></script>
+		<script type="text/javascript" charset="utf-8" src="http://cdn.stumble-upon.com/js/attach_su.js?v=20101109.02"></script>
 		
 				
 	
@@ -942,13 +939,13 @@ which provides health care to 11 million kids -- 4 million of whom were previous
 
 
 
-			<img src="/web/20101110151624im_/http://www.stumbleupon.com/spacer" width="0" height="0"/>
+			<img src="/spacer" width=0 height=0 />
 	
 	<span id="__su_server_time__" class="1289402181"></span>
 
 	
 	<script type="text/javascript">
-	var gaJsHost = (("https:" == document.location.protocol) ? "https://web.archive.org/web/20101110151624/https://ssl." : "https://web.archive.org/web/20101110151624/http://www.");
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 	</script>
 	<script type="text/javascript">
@@ -960,23 +957,3 @@ which provides health care to 11 million kids -- 4 million of whom were previous
 	
 </body>
 </html>
-<!--
-     FILE ARCHIVED ON 15:16:24 Nov 10, 2010 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 14:29:05 Oct 17, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  captures_list: 0.475
-  exclusion.robots: 0.022
-  exclusion.robots.policy: 0.013
-  esindex: 0.01
-  cdx.remote: 5.887
-  LoadShardBlock: 42.782 (3)
-  PetaboxLoader3.datanode: 98.459 (5)
-  load_resource: 114.96 (2)
-  PetaboxLoader3.resolve: 29.486
--->
