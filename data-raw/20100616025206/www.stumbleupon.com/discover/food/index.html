@@ -1,0 +1,994 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+	
+				<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/global_su.css?v=su.15.06.10" type="text/css" media="screen, projection" />
+		<!--[if lte IE 6]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie_su.css?v=su.15.06.10" type="text/css" media="screen, projection" />
+		<![endif]-->
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie7_su.css?v=su.15.06.10" type="text/css" media="screen, projection" />
+		<![endif]-->
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie8_su.css?v=su.15.06.10" type="text/css" media="screen, projection" />
+		<![endif]-->
+				
+				
+					<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+				
+				<!--[if lte IE 6]>
+			<script type="text/javascript" src="http://cdn.stumble-upon.com/js/json2.js"></script>
+		<![endif]-->
+		
+		<script type="text/javascript" src="http://cdn.stumble-upon.com/js/plugins_su.js?v=su.15.06.10"></script>
+		<link rel="shortcut icon" href="http://cdn.stumble-upon.com/favicon.ico" />
+		
+		
+		
+	
+	<title>Discover - Recent Activity</title>
+
+    <script type="text/javascript"> 
+     
+        function trk(u) {  
+            if (document.images) { 
+                (new Image).src=u;  
+            } 
+            return true; 
+        } 
+     
+    </script> 
+    
+    
+</head>
+<body class="discover">
+	<div id="inflator"></div>
+	<div id="wrapperPanel">
+					<a id="closePanel" class="close" href="javascript:void(0);">close</a>
+			<div class="panel">
+				
+				<iframe name="panel" frameborder="0" src="" scrolling="yes" noresize="0"></iframe>			
+				
+				<script type="text/javascript">
+					$('#closePanel').click(function(){
+						$('.listStumble .active').each(function () {
+							$(this).removeClass('active');
+							$('.open').slideUp(200);                
+							}
+						);
+						$('#inflator.open').slideUp(200).removeClass('open');
+						$('#addContent.open').slideUp(200).removeClass('open');
+					});
+				</script>
+				
+			</div> <!-- end panel -->
+			<div id="fadeout"></div>
+			<div id="ff-install-helper" style="display: none;">
+				<img id="close-button" src="http://cdn.stumble-upon.com/images/close-button.png" alt="x" />
+				<h2>Installing is Easy!<img src="http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24" /></h2>
+				<ol>
+					<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
+					<li style="margin-bottom:0.7em;">Click Install Now</li>
+					<li style="color:#666;">After installing, Restart Firefox</li>
+				</ol>
+			</div>
+			</div> <!-- end wrapperWebToolbar -->	
+
+	 
+
+		<div id="wrapper">
+			<div id="wrapperHeader">
+	<div id="header" class="">	
+	   	<a id="logo" href="/">StumbleUpon</a> <!-- end logo -->
+	   	
+			<div id="headerLogin" class="hidden">
+				<a style="margin-right: 62px; font-size: 10px; text-decoration: none;" href="/recover_password.php">Forgot your password?</a>
+			 	<form action="/login.php" name="formLogin" method="post" id="formLogin">			 		
+			 		<ul>
+			 			<li class="iefix">
+			 				<label for="username">Email or username</label>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value="" />			 			</li>			 			
+			 			<li class="iefix" id="wrapperPassword">
+			 				<label for="password">Password</label>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16" />
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch" />
+			 				
+			 			</li>			 			
+			 			<li>
+			 				<input class="btnGreen" type="submit" name="login" value="Login" />
+							<input type="hidden" name="rememberme" value="1" />
+			 			</li>
+			 		</ul>			 												 		
+			 	</form>
+			</div>
+
+			<p id="loginLinks">
+	   			<a class="login" href="/login.php">Login</a>
+				<span class="separator">&bull;</span>
+				<a class="signin" href="/signup/?pre=header">Join StumbleUpon</a>
+				<span class="separator">&bull;</span>
+				<script src="http://connect.facebook.net/en_US/all.js"></script>
+
+<a href="#" onclick="javascript:dofbconnect();"><img id="fbc_header_link" src="http://cdn.stumble-upon.com/images/Connect_light_medium_long.gif"></a>
+<div id="fb-root"></div>
+<script>
+
+
+	function dofbconnect(){
+			FB.init({appId: '8ab252785ffd2ebc69f34b48c78a931d', status: true,
+					cookie: true, xfbml: true});
+			if (FB._session && FB._session.uid)
+				check_fbuid(FB._session.uid);
+			else
+				FB.login(null, {perms:'publish_stream'});
+				/*
+				FB.login(function (response) {
+						if (response.session) {
+							alert('session');
+							check_fbuid(response.session.uid);
+						} else {														               }
+							alert('something else');
+						}, {perms:'publish_stream'});
+				// {perms:'publish_stream',display:'dialog',next:'http://www.stumbleupon.com/stumbleupon.com/facebook_closewindow.php?facebook_connect=1',return_session:'1',legacy_return:'1'});
+			*/
+			FB.Event.subscribe('auth.sessionChange', function(response) {
+    				if (response.session) {
+					check_fbuid(response.session.uid);
+				} else {
+					FB.login(null, {perms:'publish_stream',display:'dialog'});
+    				}
+  			});
+
+
+
+
+	}
+
+	// see if this fbuid is already mapped and redirect accordingly
+	function check_fbuid(fbuid){
+			$.ajax({
+				type: "POST",
+				url: "/ajax/checkfacebook",
+				data: { facebook_connect : fbuid,
+					source: 'header' },
+				dataType: "json",
+				success: function(data) {                       
+					if(data.passed) 
+						top.location.href = 'http://www.stumbleupon.com/signup/?pre=fbc_header';
+					else
+						top.location.href = 'http://www.stumbleupon.com/login.php?FBC=1';
+				}               
+			});
+	}
+
+
+</script>
+				<!--
+				<span class="separator">&bull;</span>
+				<a href="#" onclick="doFBConnect(); return false;" class="fbconnect_login_button FBConnectButton FBConnectButton_Small"><span id="RES_ID_fb_login_text" class="FBConnectButton_Text">Connect with Facebook</span></a>
+				-->
+			</p>
+			</div>  <!-- end header -->
+</div> <!-- end wrapperHeader -->
+
+
+<div id="wrapperNav">
+	<ul id="navMain">
+		<li class="discover first"><a href="/discover/toprated/">Discover</a></li>
+		<li class="favorites"><a href="/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/stumblers/onlinenow/">Stumblers</a></li>
+			</ul> <!-- end navMain -->  
+</div> <!-- end wrapperNav -->
+<div id="wrapperContent">
+	<div id="content" class="hasColRight topic clearfix">
+		<div class="colRight">
+						
+							<div class="box">
+					<a id="subscribeBtn" class="subscribe submit btnWhite" href="/sign_up.php?pre2=subscribe_tag">Subscribe</a>
+				</div>
+						<div class="box borderBottom">
+	<h4>Related Topics</h4>
+	<ul class="listTopics">
+					<li>
+				<a href="/discover/baking/">Baking</a>			</li>
+					<li>
+				<a href="/discover/food-cooking/">Food Cooking</a>			</li>
+					<li>
+				<a href="/discover/recipes/">Recipes</a>			</li>
+					<li>
+				<a href="/discover/reference/">Reference</a>			</li>
+			</ul>
+</div>
+
+		</div> <!-- end colRight -->
+		
+		<div class="colMain">				
+			<ul class="headerControls">
+				<li>
+											<a href="/to/stumble/topic:Food" class="btnYellow" title="Stumble &gt; Food">Stumble &gt;</a></li>
+									<li><h1>Food</h1></li>
+			</ul>
+
+							<div id="navSecondary" class="clearfix">
+	<ul class="left">
+		<li>People who like this</li>
+			</ul>
+	<ul class="right">
+						<li><a href="/discover/food/people/">See more</a></li>
+			</ul>
+</div>	<!-- end navSecondary -->
+				
+<div class="box">	
+	<ul class="gridUsers clearfix">
+	
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/OliviaB/" title="OliviaB - Namaste ~~~~~~~ - 96183 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/421440.jpg) ;">
+					OliviaB
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/OliviaB/" title="OliviaB">OliviaB</a><br />
+				96K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/MCB041/" title="MCB041 - 33 - San Francisco - 2357 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/4504773.jpg) ;">
+					MCB041
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/MCB041/" title="MCB041">MCB041</a><br />
+				2,357 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/lauriebox/" title="lauriebox - Nashua - 16979 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/2976992.jpg) ;">
+					lauriebox
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/lauriebox/" title="lauriebox">lauriebox</a><br />
+				17K Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/marisa11/" title="marisa11 - Portland - 14415 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/3315379.jpg) ;">
+					marisa11
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/marisa11/" title="marisa11">marisa11</a><br />
+				14K Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Selene77/" title="Selene77 - 32 - 11026 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/1608838.jpg) ;">
+					Selene77
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Selene77/" title="Selene77">Selene77</a><br />
+				11K Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Barrie501/" title="Barrie501 - Perth - 27942 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/5363226.jpg) ;">
+					Barrie501
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Barrie501/" title="Barrie501">Barrie501</a><br />
+				28K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/javamanjoe/" title="javamanjoe - 60 - Yelm - 8568 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/4315697.jpg) ;">
+					javamanjoe
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/javamanjoe/" title="javamanjoe">javama...</a><br />
+				8,568 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/honkytonkyme/" title="honkytonkyme - Nashville - 3301 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/8083609.jpg) ;">
+					honkytonkyme
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/honkytonkyme/" title="honkytonkyme">honkyt...</a><br />
+				3,301 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/lazarst/" title="lazarst - 13106 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/1985874.jpg) ;">
+					lazarst
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/lazarst/" title="lazarst">lazarst</a><br />
+				13K Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/mouesh/" title="mouesh - Montreal - 6404 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/1982595.jpg) ;">
+					mouesh
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/mouesh/" title="mouesh">mouesh</a><br />
+				6,404 Favs<br />
+																			</p>
+		</li>
+	 
+	</ul>
+	
+	</div> <!-- end box -->
+						<div id="navSecondary">
+				<ul class="left">
+					<li>Food pages</li>
+				</ul>
+			</div>
+			<ul class="listStumble">
+	<li id="addContent">
+		<form>
+			<fieldset class="labelLeft">
+				<div class="wrapperInput">
+					<label for="url">URL</label>
+					<div class="iefix">
+						<input class="text" type="text" name="url" value="" id="url" />
+					</div>
+				</div> <!-- end wrapperInput --> 
+				<div class="wrapperInput">
+					<label for="review">Review</label>
+					<div class="iefix">
+						<textarea cols="40" rows="6" id="review" name="review"></textarea>
+					</div>
+				</div> <!-- end wrapperInput --> 
+								<ul>
+					<li class="submit first iefix"><a class="submit btnWhite" href="javascript:void(0);">Add a site &gt;</a></li>
+					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
+					<li class="sticky last">
+						<label class="checkbox">
+							<input type="checkbox" name="sticky" value="" id="sticky" />
+							Sticky
+						</label>
+					</li>
+					<li class="blog right">
+						<label class="checkbox">
+							<input type="checkbox" name="blog_mode" value="" class="blogMode" />
+							Blog mode
+						</label>
+					</li>
+				</ul> 
+			</fieldset>
+		</form>
+	</li>
+
+				
+																		<li class="listLi  first">
+				
+			<var id="11390710" class="1PKdRk"></var>
+			<div class="text">
+									<a class="avatar" id="2103466" href="/stumbler/edgeoforever/" 
+						title="edgeoforever">
+						<img src="http://cdn.stumble-upon.com/superminipics/2103466.jpg" width="32px" alt="edgeoforever" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/1PKdRk/www.mosspink.com/veggies.html/t:4c183c565dcd5;src:tag:food" >Veggie Art</a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.mosspink.com/veggies.html">325 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1PKdRk/www.mosspink.com/veggies.html/t:4c183c565dcd5;src:tag:food" >mosspink.com</a>
+															</p>
+
+									<div class="review">
+																												From the page: &quot;This looks like some giant carnivorous plant I&#039;ve seen on the Discovery Channel that is supposedto smell like rotting flesh. I&#039;m sure the artist wanted those watermelons to look like roses, but....&quot;
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.mosspink.com/veggies.html" title="382,939 views">
+					<span>383K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/1PKdRk/www.mosspink.com/veggies.html/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/133/2570133.jpg" alt="Veggie Art"/>
+				</a>
+			</span>
+			
+											</li>
+				
+																		<li class="listLi  ">
+				
+			<var id="12890865" class="2obm45"></var>
+			<div class="text">
+									<a class="avatar" id="1884141" href="/stumbler/jbet777/" 
+						title="jbet777">
+						<img src="http://cdn.stumble-upon.com/superminipics/1884141.jpg" width="32px" alt="jbet777" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/2obm45/www.diet-blog.com/archives/2007/04/26/what_do_300_calorie_meals_look_like.php/t:4c183c565dcd5;src:tag:food" >What Do 300 Calorie Meals Look Like?</a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.diet-blog.com/archives/2007/04/26/what_do_300_calorie_meals_look_like.php">39 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2obm45/www.diet-blog.com/archives/2007/04/26/what_do_300_calorie_meals_look_like.php/t:4c183c565dcd5;src:tag:food" >diet-blog.com</a>
+															</p>
+
+									<div class="review">
+																												From the page: &quot;Here is a selection of meals that are in the 300-400 Calorie range. The visual representation gives an idea of portion size.&quot;
+
+Ouch! (wince)
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.diet-blog.com/archives/2007/04/26/what_do_300_calorie_meals_look_like.php" title="31,366 views">
+					<span>31K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/2obm45/www.diet-blog.com/archives/2007/04/26/what_do_300_calorie_meals_look_like.php/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/86/11326086.jpg" alt="What Do 300 Calorie Meals Look Like?"/>
+				</a>
+			</span>
+			
+											</li>
+				
+																		<li class="listLi  ">
+				
+			<var id="35967229" class="7GpxID"></var>
+			<div class="text">
+									<a class="avatar" id="6177092" href="/stumbler/CanarsieBK/" 
+						title="CanarsieBK">
+						<img src="http://cdn.stumble-upon.com/superminipics/6177092.jpg" width="32px" alt="CanarsieBK" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/7GpxID/foodgawker.com/post/category/vegan/t:4c183c565dcd5;src:tag:food" >Vegan | foodgawker</a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/foodgawker.com/post/category/vegan/">26 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/7GpxID/foodgawker.com/post/category/vegan/t:4c183c565dcd5;src:tag:food" >foodgawker.com</a>
+															</p>
+
+									<div class="review">
+																												From the page: &quot;Vegan gallery&quot;
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/foodgawker.com/post/category/vegan/" title="37,784 views">
+					<span>38K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/7GpxID/foodgawker.com/post/category/vegan/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/255/22455255.jpg" alt="Vegan | foodgawker"/>
+				</a>
+			</span>
+			
+											</li>
+				
+																		<li class="listLi  ">
+				
+			<var id="32901545" class="9qM6vl"></var>
+			<div class="text">
+									<a class="avatar" id="1863474" href="/stumbler/Clogiron/" 
+						title="Clogiron">
+						<img src="http://cdn.stumble-upon.com/superminipics/1863474.jpg" width="32px" alt="Clogiron" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/9qM6vl/www.good.is/post/picture-show-you-are-what-you-eat/t:4c183c565dcd5;src:tag:food" >Picture Show: You Are What You Eat -  - GOOD</a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.good.is/post/picture-show-you-are-what-you-eat/">87 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/9qM6vl/www.good.is/post/picture-show-you-are-what-you-eat/t:4c183c565dcd5;src:tag:food" >good.is</a>
+															</p>
+
+									<div class="review">
+																												I found this link from  Jude waiting for me this morning.Click Header for more 
+I have to say at once that I think Jude is very brave to post anything concerning refrigeration with her young sister 13 lying there, stone cold, in the Cryogenic Freezer. Jude made no comment but... <a href="/stumbler/Clogiron/review/32901545/">more</a>
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.good.is/post/picture-show-you-are-what-you-eat/" title="105,841 views">
+					<span>106K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/9qM6vl/www.good.is/post/picture-show-you-are-what-you-eat/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/990/32498990.jpg" alt="Picture Show: You Are What You Eat -  - GOOD"/>
+				</a>
+			</span>
+			
+											</li>
+				
+																		<li class="listLi  ">
+				
+			<var id="38316494" class="2mfU94"></var>
+			<div class="text">
+									<a class="avatar" id="6177092" href="/stumbler/CanarsieBK/" 
+						title="CanarsieBK">
+						<img src="http://cdn.stumble-upon.com/superminipics/6177092.jpg" width="32px" alt="CanarsieBK" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/2mfU94/shine.yahoo.com/channel/health/the-7-foods-experts-wont-eat-547963/t:4c183c565dcd5;src:tag:food" >The 7 foods experts won&#039;t eat - Healthy Living on Shine</a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/shine.yahoo.com/channel/health/the-7-foods-experts-wont-eat-547963">17 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2mfU94/shine.yahoo.com/channel/health/the-7-foods-experts-wont-eat-547963/t:4c183c565dcd5;src:tag:food" >yahoo.com</a>
+															</p>
+
+									<div class="review">
+																												From the page: Although these foods don&#039;t necessarily make up a &quot;banned&quot; list, as you head into the holidays√¢‚,¨‚Äùand all the grocery shopping that comes with it√¢‚,¨‚Äùtheir answers are, well, food for thought:
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/shine.yahoo.com/channel/health/the-7-foods-experts-wont-eat-547963" title="11,633 views">
+					<span>12K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/2mfU94/shine.yahoo.com/channel/health/the-7-foods-experts-wont-eat-547963/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/26/41123026.jpg" alt="The 7 foods experts won&#039;t eat - Healthy Living on Shine"/>
+				</a>
+			</span>
+			
+											</li>
+				
+																		<li class="listLi  ">
+				
+			<var id="24228070" class="9WV687"></var>
+			<div class="text">
+									<a class="avatar" id="962649" href="/stumbler/VanG/" 
+						title="VanG">
+						<img src="http://cdn.stumble-upon.com/superminipics/962649.jpg" width="32px" alt="VanG" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/9WV687/www.2ndwindbodyscience.com/what%20your%20food.php/t:4c183c565dcd5;src:tag:food" >Reduce Your Food Cravings</a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.2ndwindbodyscience.com/what%252520your%252520food.php">98 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/9WV687/www.2ndwindbodyscience.com/what%20your%20food.php/t:4c183c565dcd5;src:tag:food" >2ndwindbodyscience.com</a>
+															</p>
+
+									<div class="review">
+																												From the page: &quot;If you crave this... 	What you really need is... 	And here are healthy foods that have it:&quot;
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.2ndwindbodyscience.com/what%252520your%252520food.php" title="95,817 views">
+					<span>96K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/9WV687/www.2ndwindbodyscience.com/what%20your%20food.php/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/mthumb/891/22477891.jpg" alt="Reduce Your Food Cravings"/>
+				</a>
+			</span>
+			
+											</li>
+				
+																		<li class="listLi  ">
+				
+			<var id="30883006" class="2K21eI"></var>
+			<div class="text">
+									<a class="avatar" id="3304783" href="/stumbler/Spectrum108/" 
+						title="Spectrum108">
+						<img src="http://cdn.stumble-upon.com/superminipics/3304783.jpg" width="32px" alt="Spectrum108" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/2K21eI/www.nikibone.com/recipe/vegan.html/t:4c183c565dcd5;src:tag:food" >Nikibone.com - Vegan Recipes</a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.nikibone.com/recipe/vegan.html">8 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2K21eI/www.nikibone.com/recipe/vegan.html/t:4c183c565dcd5;src:tag:food" >nikibone.com</a>
+															</p>
+
+									<div class="review">
+																												Thanks &quot;Cathki.&quot; Unbelievable page from a great friend. Here&#039;s to everyone&#039;s health. Cheers!
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.nikibone.com/recipe/vegan.html" title="25,630 views">
+					<span>26K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/2K21eI/www.nikibone.com/recipe/vegan.html/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/mthumb/341/5726341.jpg" alt="Nikibone.com - Vegan Recipes"/>
+				</a>
+			</span>
+			
+											</li>
+				
+																		<li class="listLi  ">
+				
+			<var id="33411186" class="2Hcbew"></var>
+			<div class="text">
+									<a class="avatar" id="7865226" href="/stumbler/barryr666/" 
+						title="barryr666">
+						<img src="http://cdn.stumble-upon.com/superminipics/7865226.jpg" width="32px" alt="barryr666" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/2Hcbew/foodnetworkhumor.com/2009/06/unusual-canned-foods-from-around-the-world-45-pics/t:4c183c565dcd5;src:tag:food" >Unusual Canned Foods From Around The World (45 Pics) &amp;  </a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/foodnetworkhumor.com/2009/06/unusual-canned-foods-from-around-the-world-45-pics/">200 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2Hcbew/foodnetworkhumor.com/2009/06/unusual-canned-foods-from-around-the-world-45-pics/t:4c183c565dcd5;src:tag:food" >foodnetworkhumor.com</a>
+															</p>
+
+									<div class="review">
+																												Bizarre. If this doesn&#039;t keep you on a strict diet and off exotic foods nothing will.
+A whole chicken in a can. That is either a very big can or a very small chicken.
+PS I&#039;ve just thrown away the can opener.
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/foodnetworkhumor.com/2009/06/unusual-canned-foods-from-around-the-world-45-pics/" title="189,338 views">
+					<span>189K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/2Hcbew/foodnetworkhumor.com/2009/06/unusual-canned-foods-from-around-the-world-45-pics/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/418/33311418.jpg" alt="Unusual Canned Foods From Around The World (45 Pics) &amp;  Food Network Humor"/>
+				</a>
+			</span>
+			
+											</li>
+				
+																		<li class="listLi  ">
+				
+			<var id="25725386" class="2jQc80"></var>
+			<div class="text">
+									<a class="avatar" id="2159993" href="/stumbler/mlepisto/" 
+						title="mlepisto">
+						<img src="http://cdn.stumble-upon.com/superminipics/2159993.jpg" width="32px" alt="mlepisto" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/2jQc80/www.italylogue.com/food-drink/italian-pasta-names-way-beyond-spaghetti.html/t:4c183c565dcd5;src:tag:food" >Italian Names of Pasta | Italy Travel Guide</a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.italylogue.com/food-drink/italian-pasta-names-way-beyond-spaghetti.html">15 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2jQc80/www.italylogue.com/food-drink/italian-pasta-names-way-beyond-spaghetti.html/t:4c183c565dcd5;src:tag:food" >italylogue.com</a>
+															</p>
+
+									<div class="review">
+																												cool review and list of lots of different types of pasta.
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.italylogue.com/food-drink/italian-pasta-names-way-beyond-spaghetti.html" title="19,855 views">
+					<span>20K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/2jQc80/www.italylogue.com/food-drink/italian-pasta-names-way-beyond-spaghetti.html/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/425/24086425.jpg" alt="Italian Names of Pasta | Italy Travel Guide"/>
+				</a>
+			</span>
+			
+											</li>
+				
+																		<li class="listLi  last">
+				
+			<var id="32370141" class="4eAsmf"></var>
+			<div class="text">
+									<a class="avatar" id="6001846" href="/stumbler/Lotus1150/" 
+						title="Lotus1150">
+						<img src="http://cdn.stumble-upon.com/superminipics/6001846.jpg" width="32px" alt="Lotus1150" />
+					</a>
+												<h4><a href="http://www.stumbleupon.com/to/4eAsmf/stronglifts.com/20-simple-ways-to-eat-healthy-on-a-budget/t:4c183c565dcd5;src:tag:food" >20 Simple Ways to Eat Healthy on a Budget | StrongLifts.com</a></h4>
+								
+																														
+								
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/stronglifts.com/20-simple-ways-to-eat-healthy-on-a-budget/">44 reviews</a>
+											
+											
+						
+													<span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/4eAsmf/stronglifts.com/20-simple-ways-to-eat-healthy-on-a-budget/t:4c183c565dcd5;src:tag:food" >stronglifts.com</a>
+															</p>
+
+									<div class="review">
+																												From the page: &quot;Unfortunately, the rising food prices make it hard to eat healthy.
+																								</div>
+									
+								<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/stronglifts.com/20-simple-ways-to-eat-healthy-on-a-budget/" title="40,532 views">
+					<span>41K</span> views				</a>
+			</div>	
+			<span class="img">
+									<a href="http://www.stumbleupon.com/to/4eAsmf/stronglifts.com/20-simple-ways-to-eat-healthy-on-a-budget/t:4c183c565dcd5;src:tag:food" >
+									<img src="http://cdn.stumble-upon.com/altmthumb/11/21671011.jpg" alt="20 Simple Ways to Eat Healthy on a Budget | StrongLifts.com"/>
+				</a>
+			</span>
+			
+											</li>
+	</ul>
+
+
+			
+	<ul class="module modulePagination clearfix">
+						<li><a id="paginationNext" href="/discover/food/10/">Next &raquo;</a>
+				</ul>
+
+<script language="javascript">
+function navigate_blog(e)
+{
+        var kcode;
+
+        if (e == null)
+        {
+                // IE
+                if (typeof(event.srcElement.type != 'undefined') && (event.srcElement.type == 'text' || event.srcElement.type == 'textarea'))
+                        return true;
+
+                kcode = event.keyCode;
+                if (typeof(event.srcElement.type) != 'undefined' && (event.srcElement.id == 'search_q' || event.srcElement.id == 'stumblesearch' || event.srcElement.id == 'searchtext' || event.srcElement.id == 'tagtext' || event.srcElement.id == 'blogContent' || event.srcElement.id == 'blogContentFCK' || event.srcElement.id == 'newtags' || event.srcElement.id == 'addTag' || event.srcElement.id == 'qmsg_ta' ))
+                        return true;
+        }
+        else
+        {
+                // Mozilla
+                if (e.altKey || e.ctrlKey)
+                {
+                        return true; // moz doesn't override ctrl keys
+                }
+                kcode = e.which;
+
+                if (typeof(e.target.type != 'undefined') && (e.target.type == 'text' || e.target.type == 'textarea'))
+                        return true;
+
+                if (typeof(e.target.type) != 'undefined' && (e.target.id == 'search_q' || e.target.id == 'stumblesearch' || e.target.id == 'searchtext' || e.target.id == 'tagtext' || e.target.id == 'blogContent' || e.target.id == 'blogContentFCK' || e.target.id == 'newtags' || e.target.id == 'addTag' || e.target.id == 'qmsg_ta' ))
+                        return true;
+        }
+        var key = String.fromCharCode(kcode).toLowerCase();
+        var keyCode = document.layers ? e.which :
+                        document.all ? event.keyCode :
+                        document.getElementById ? e.keyCode : 0;
+
+        var n = null;
+        if(keyCode == 39)
+        {
+                if (n = document.getElementById('paginationNext'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+        if(keyCode == 37)
+        {
+                if (n = document.getElementById('paginationPrevious'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+
+        return true;
+}
+
+document.onkeydown = navigate_blog;
+
+</script>
+
+
+		</div> <!-- end colMain -->		
+    </div> <!-- end content -->
+</div> <!-- end wrapperContent -->
+<div id="wrapperFooter">
+    <div id="footer" class="clearfix">
+<div class="clearfix colFour">	
+	<ul class="col">
+		<li class="header">About StumbleUpon</li>
+		<li><a href="/aboutus/">About Us</a></li>	
+		<li><a href="/productdemo/">Take a Tour</a></li>	
+		<li><a href="/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/press/">Press Information</a>
+		<li><a href="http://blog.stumbleupon.com/">Official Blog</a></li>	
+		<li><a href="/devblog/">Developers Blog</a></li>	
+	</ul>
+
+	<ul class="col">
+		<li class="header">Explore StumbleUpon</li>
+		<li><a href="/tag/">Tags</a>, <a href="/book/">Books</a>, <a href="/music/">Music</a>, <a href="/movie/">Movies</a></li>	
+		<li><a href="/tv/">TV Shows</a>, <a href="/city/">Cities</a>, <a href="/country/">Countries</a></li>	
+		<li class="header">Community</li>
+		<li><a href="/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/topstumblers/">Top Stumblers</a></li>	
+		<li>
+			<a href="/groups/">Groups</a>		</li>
+		<li><a href="/aboutus/community_rules">Community Rules</a></li>	
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Tools and Services</li>
+				<li><a href="/ads/">StumbleUpon Ads</a></li>
+		<li><a href="/buttons/">Stumble Badges</a></li>	
+		<li><a href="/stumblethru/">StumbleThru</a></li>	
+		<li><a href="http://su.pr">Su.pr</a></li>
+		<li class="header">Your Profile</li>
+		<li><a href="/findfriends/">Connect with Friends</a></li>	
+				<li><a href="/settings/">Account Preferences</a></li>		
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Help</li>
+		<li><a href="/help/">Help Center</a></li>
+		<li><a href="/feedback/">Contact Us</a></li>	
+		<li class="header">Company</li>
+		<li><a href="/jobs/">Jobs at StumbleUpon</a></li>	
+		<li><a href="/management/">Management</a></li>
+		<li><a href="/terms/">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy</a></li>	
+	</ul>
+</div>
+	<p class="copyright">&copy; StumbleUpon 2001 - 2010</p>
+</div> <!-- end footer -->
+</div> <!-- end wrapperFooter -->
+
+
+	</div> <!-- end wrapper -->
+		
+		<script type="text/javascript" charset="utf-8" src="http://cdn.stumble-upon.com/js/attach_su.js?v=su.15.06.10"></script>
+		
+				
+	
+					
+	
+    
+			<img src="/spacer" width=0 height=0 />
+	
+	<span id="__su_server_time__" class="1276656725"></span>
+
+	
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-16124905-1");
+		pageTracker._trackPageview();
+	} catch(err) {}
+	</script>
+	
+</body>
+</html>

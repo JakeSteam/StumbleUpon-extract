@@ -1,0 +1,1026 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+	
+				<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/global_su.css?v=su.5.04.11" type="text/css" media="screen, projection" />
+		<!--[if lte IE 6]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie_su.css?v=su.5.04.11" type="text/css" media="screen, projection" />
+		<![endif]-->
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie7_su.css?v=su.5.04.11" type="text/css" media="screen, projection" />
+		<![endif]-->
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie8_su.css?v=su.5.04.11" type="text/css" media="screen, projection" />
+		<![endif]-->
+				
+				
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+				<!--[if lte IE 6]>
+			<script type="text/javascript" src="http://cdn.stumble-upon.com/js/json2.js"></script>
+		<![endif]-->
+		
+		<script type="text/javascript" src="http://cdn.stumble-upon.com/js/plugins_su.js?v=su.5.04.11"></script>
+		
+		
+		
+	
+	<title>Discover - Recent Activity</title>
+
+    <script type="text/javascript"> 
+     
+        function trk(u) {  
+            if (document.images) { 
+                (new Image).src=u;  
+            } 
+            return true; 
+        } 
+     
+    </script> 
+    
+    
+</head>
+<body class="discover">
+	<div id="inflator"></div>
+	<div id="wrapperPanel">
+					<a id="closePanel" class="close" href="javascript:void(0);">close</a>
+			<div class="panel">
+				
+				<iframe name="panel" frameborder="0" src="" scrolling="yes" noresize="0"></iframe>			
+				
+				<script type="text/javascript">
+					$('#closePanel').click(function(){
+						$('.listStumble .active').each(function () {
+							$(this).removeClass('active');
+							$('.open').slideUp(200);                
+							}
+						);
+						$('#inflator.open').slideUp(200).removeClass('open');
+						$('#addContent.open').slideUp(200).removeClass('open');
+					});
+				</script>
+				
+			</div> <!-- end panel -->
+			<div id="fadeout"></div>
+			<div id="ff-install-helper" style="display: none;">
+				<img id="close-button" src="http://cdn.stumble-upon.com/images/close-button.png" alt="x" />
+				<h2>Installing is Easy!<img src="http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24" /></h2>
+				<ol>
+					<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
+					<li style="margin-bottom:0.7em;">Click Install Now</li>
+					<li style="color:#666;">After installing, Restart Firefox</li>
+				</ol>
+			</div>
+			</div> <!-- end wrapperWebToolbar -->	
+
+	 
+
+		<div id="wrapper">
+			<div id="wrapperHeader">
+	<div id="header" class="">	
+	   	<a id="logo" href="/">StumbleUpon</a> <!-- end logo -->
+	   	
+			<div id="headerLogin" class="hidden">
+				<a style="margin-right: 62px; font-size: 10px; text-decoration: none;" href="/recover_password.php">Forgot your password?</a>
+			 	<form action="/login.php" name="formLogin" method="post" id="formLogin">			 		
+			 		<ul>
+			 			<li class="iefix">
+			 				<label for="username">Email or username</label>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value="" />			 			</li>			 			
+			 			<li class="iefix" id="wrapperPassword">
+			 				<label for="password">Password</label>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16" />
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch" />
+			 				
+			 			</li>			 			
+			 			<li>
+			 				<input class="btnGreen" type="submit" name="login" value="Login" />
+							<input type="hidden" name="rememberme" value="1" />
+			 			</li>
+			 		</ul>			 												 		
+			 	</form>
+			</div>
+
+			<p id="loginLinks">
+	   			<a class="signin" href="/signup/">Join StumbleUpon</a>
+	   			<span class="separator">&bull;</span>
+	   			<a class="login" href="/login.php">Login</a>
+
+				
+			</p>
+			</div>  <!-- end header -->
+</div> <!-- end wrapperHeader -->
+
+
+<div id="wrapperNav">
+	<ul id="navMain">
+		<li class="discover first"><a href="/discover/toprated/">Discover</a></li>
+		<li class="favorites"><a href="/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/stumblers/onlinenow/">Stumblers</a></li>
+			</ul> <!-- end navMain -->  
+</div> <!-- end wrapperNav -->
+<div id="wrapperContent">
+	<div id="content" class="hasColRight topic clearfix">
+		<div class="colRight">
+						
+							<div class="box">
+					<a id="subscribeBtn" class="subscribe submit btnWhite" href="/sign_up.php?pre2=subscribe_tag">Subscribe</a>
+				</div>
+						<div class="box borderBottom">
+	<h4>Related Topics</h4>
+	<ul class="listTopics">
+					<li>
+				<a href="/discover/bizarre/">Bizarre</a>			</li>
+					<li>
+				<a href="/discover/internet/">Internet</a>			</li>
+					<li>
+				<a href="/discover/online-games/">Online Games</a>			</li>
+					<li>
+				<a href="/discover/photography/">Photography</a>			</li>
+					<li>
+				<a href="/discover/satire/">Satire</a>			</li>
+					<li>
+				<a href="/discover/science/">Science</a>			</li>
+			</ul>
+</div>
+
+		</div> <!-- end colRight -->
+		
+		<div class="colMain">				
+			<ul class="headerControls">
+				<li>
+											<a href="/to/stumble/topic:Humor" class="btnYellow" title="Stumble &gt; Humor">Stumble &gt;</a></li>
+									<li><h1>Humor</h1></li>
+			</ul>
+
+							<div id="navSecondary" class="clearfix">
+	<ul class="left">
+		<li>People who like this</li>
+			</ul>
+	<ul class="right">
+						<li><a href="/discover/humor/people/">See more</a></li>
+			</ul>
+</div>	<!-- end navSecondary -->
+				
+<div class="box">	
+	<ul class="gridUsers clearfix">
+	
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/vitaminyes/" title="vitaminyes - 20 - 11914 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/5749939.jpg) ;">
+					vitaminyes
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/vitaminyes/" title="vitaminyes">vitami...</a><br />
+				12K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/vicky2411/" title="vicky2411 - Burnsville - 10476 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/1105600.jpg) ;">
+					vicky2411
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/vicky2411/" title="vicky2411">vicky2411</a><br />
+				10K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Yuliyart/" title="Yuliyart - 273 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/9968461.jpg) ;">
+					Yuliyart
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Yuliyart/" title="Yuliyart">Yuliyart</a><br />
+				273 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/graci89/" title="graci89 - 21 - louisville - 707 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/7429624.jpg) ;">
+					graci89
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/graci89/" title="graci89">graci89</a><br />
+				707 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/MusicalMae/" title="MusicalMae - 20 - 1120 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/7162386.jpg) ;">
+					MusicalMae
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/MusicalMae/" title="MusicalMae">Musica...</a><br />
+				1,120 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/fallen-angel-21/" title="fallen-angel-21 - 21 - 21 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/10064004.jpg) ;">
+					fallen-angel-21
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/fallen-angel-21/" title="fallen-angel-21">fallen...</a><br />
+				21 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/mdesenfants/" title="mdesenfants - 20 - Rapid City - 5064 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/4965776.jpg) ;">
+					mdesenfants
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/mdesenfants/" title="mdesenfants">mdesen...</a><br />
+				5,064 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/MichaelLero/" title="MichaelLero - 24 - 6653 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/7196895.jpg) ;">
+					MichaelLero
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/MichaelLero/" title="MichaelLero">Michae...</a><br />
+				6,653 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/nidukb/" title="nidukb - 19 - 310 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/9937484.jpg) ;">
+					nidukb
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/nidukb/" title="nidukb">nidukb</a><br />
+				310 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/kevinwaters/" title="kevinwaters - 23 - 97 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/10192528.jpg) ;">
+					kevinwaters
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/kevinwaters/" title="kevinwaters">kevinw...</a><br />
+				97 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+	 
+	</ul>
+	
+	</div> <!-- end box -->
+						<div id="navSecondary">
+				<ul class="left">
+					<li>Humor pages</li>
+				</ul>
+			</div>
+			<ul class="listStumble">
+	<li id="addContent">		
+		<form>
+			<fieldset class="labelLeft">				
+				<div class="wrapperInput">
+					<label for="url">URL</label>
+					<div class="iefix">
+						<input class="text" type="text" name="url" value="" id="url" />						
+					</div>
+				</div> <!-- end wrapperInput --> 
+				<div class="wrapperInput">
+					<label for="review">Review</label>
+					<div class="iefix">
+						<textarea cols="40" rows="6" id="review" name="review"></textarea>
+					</div>
+				</div> <!-- end wrapperInput --> 
+								<ul>
+					<li class="submit first iefix"><a class="submit btnWhite" href="javascript:void(0);">Add a site &gt;</a></li>					
+					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
+					
+					<li class="sticky last">
+						<label class="checkbox">					
+							<input type="checkbox" name="sticky" value="" id="sticky" />
+							Sticky
+						</label>
+					</li>
+					<li class="blog right">
+						<label class="checkbox">					
+							<input type="checkbox" name="blog_mode" value="" class="blogMode" />
+							Blog mode
+						</label>
+					</li>
+				</ul>								 
+			</fieldset>
+		</form>
+	</li>
+
+				
+							
+							
+		
+		<li class="listLi  first">
+				
+			<var id="41360426" class="18jXib"></var>						
+			<div class="text">							
+									<a class="avatar" id="1607303" href="/stumbler/PaladinGreen797/" 
+						title="PaladinGreen797">
+						<img src="http://cdn.stumble-upon.com/superminipics/1607303.jpg" width="32px" alt="PaladinGreen797" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/18jXib/www.myconfinedspace.com/2010/04/09/darth-vader-visiting-the-memorial/darth-jpg/t:4bc517398d128;src:tag:humor" >Darth.jpg |   My[confined]Space</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.myconfinedspace.com/2010/04/09/darth-vader-visiting-the-memorial/darth-jpg/">30 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/18jXib/www.myconfinedspace.com/2010/04/09/darth-vader-visiting-the-memorial/darth-jpg/t:4bc517398d128;src:tag:humor" >myconfinedspace.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Interesting, but it doesn&#039;t really fit with his tendency to choke the shit out of people. Maybe those six guys are the only ones on the station that he didn&#039;t hate?
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.myconfinedspace.com/2010/04/09/darth-vader-visiting-the-memorial/darth-jpg/" title="55,936 views">
+					<span>56K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/18jXib/www.myconfinedspace.com/2010/04/09/darth-vader-visiting-the-memorial/darth-jpg/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/985/47168985.jpg" alt="Darth.jpg |   My[confined]Space"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="41172965" class="1wJi3L"></var>						
+			<div class="text">							
+									<a class="avatar" id="4310421" href="/stumbler/smackinthecrack/" 
+						title="smackinthecrack">
+						<img src="http://cdn.stumble-upon.com/superminipics/4310421.jpg" width="32px" alt="smackinthecrack" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1wJi3L/www.babybacon.com/index.php/funny-motivators/motivating-times/t:4bc517398d128;src:tag:humor" >Motivating Times</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.babybacon.com/index.php/funny-motivators/motivating-times/">15 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1wJi3L/www.babybacon.com/index.php/funny-motivators/motivating-times/t:4bc517398d128;src:tag:humor" >babybacon.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Procrastilaxing - My new favorite word!
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.babybacon.com/index.php/funny-motivators/motivating-times/" title="37,519 views">
+					<span>38K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1wJi3L/www.babybacon.com/index.php/funny-motivators/motivating-times/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/24/47027024.jpg" alt="Motivating Times"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="41347395" class="2zunat"></var>						
+			<div class="text">							
+									<a class="avatar" id="10038293" href="/stumbler/Robochik/" 
+						title="Robochik">
+						<img src="http://cdn.stumble-upon.com/superminipics/10038293.jpg" width="32px" alt="Robochik" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2zunat/www.theninjaken.com/comic/2008/04/04/you-get-used-to-it/t:4bc517398d128;src:tag:humor" >The Ninja Ken : A webcomic about office life, video games, a</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.theninjaken.com/comic/2008/04/04/you-get-used-to-it">4 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2zunat/www.theninjaken.com/comic/2008/04/04/you-get-used-to-it/t:4bc517398d128;src:tag:humor" >theninjaken.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Heh. I only like this comic because the heartbreak is so well conveyed with the &quot;HWARG&quot; noise and the heart clench. Poor thing, I make that noise when I eat too much bacon
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.theninjaken.com/comic/2008/04/04/you-get-used-to-it" title="24,014 views">
+					<span>24K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2zunat/www.theninjaken.com/comic/2008/04/04/you-get-used-to-it/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/560/46623560.jpg" alt="The Ninja Ken : A webcomic about office life, video games, and man love"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="" class="2R4y7w"></var>						
+			<div class="text">							
+				                                				<h4><a href="http://www.stumbleupon.com/to/2R4y7w/funnyjunk.com/funny_pictures/347560/PHOTOBOMBS+GONE+WILD/t:4bc517398d128;src:tag:humor" >PHOTOBOMBS GONE WILD</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showStumble">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/funnyjunk.com/funny_pictures/347560/PHOTOBOMBS%252BGONE%252BWILD/">4 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2R4y7w/funnyjunk.com/funny_pictures/347560/PHOTOBOMBS+GONE+WILD/t:4bc517398d128;src:tag:humor" >funnyjunk.com</a>
+                                               					
+
+				</p>
+
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/funnyjunk.com/funny_pictures/347560/PHOTOBOMBS%252BGONE%252BWILD/" title="15,541 views">
+					<span>16K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2R4y7w/funnyjunk.com/funny_pictures/347560/PHOTOBOMBS+GONE+WILD/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/928/47337928.jpg" alt="PHOTOBOMBS GONE WILD"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="41050302" class="3LkKU8"></var>						
+			<div class="text">							
+									<a class="avatar" id="8352020" href="/stumbler/Shirleyom/" 
+						title="Shirleyom">
+						<img src="http://cdn.stumble-upon.com/superminipics/8352020.jpg" width="32px" alt="Shirleyom" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/3LkKU8/www.uberfindings.com/images/never-too-old.html/t:4bc517398d128;src:tag:humor" >Youre Never Too Old to Be Young (PIC)</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.uberfindings.com/images/never-too-old.html">20 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/3LkKU8/www.uberfindings.com/images/never-too-old.html/t:4bc517398d128;src:tag:humor" >uberfindings.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Never too old to be young.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.uberfindings.com/images/never-too-old.html" title="96,193 views">
+					<span>96K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/3LkKU8/www.uberfindings.com/images/never-too-old.html/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/969/46783969.jpg" alt="Youre Never Too Old to Be Young (PIC)"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="41295547" class="7wHQFE"></var>						
+			<div class="text">							
+									<a class="avatar" id="10048880" href="/stumbler/spiky-meek/" 
+						title="spiky-meek">
+						<img src="http://cdn.stumble-upon.com/superminipics/10048880.jpg" width="32px" alt="spiky-meek" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/7wHQFE/9gag.com/gag/10220/t:4bc517398d128;src:tag:humor" >9GAG - passcode</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/9gag.com/gag/10220/">7 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/7wHQFE/9gag.com/gag/10220/t:4bc517398d128;src:tag:humor" >9gag.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												cute funny.. :D
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/9gag.com/gag/10220/" title="36,491 views">
+					<span>36K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/7wHQFE/9gag.com/gag/10220/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/144/47219144.jpg" alt="9GAG - passcode"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="41222398" class="2XNKgM"></var>						
+			<div class="text">							
+									<a class="avatar" id="3612668" href="/stumbler/beckyyxo/" 
+						title="beckyyxo">
+						<img src="http://cdn.stumble-upon.com/superminipics/3612668.jpg" width="32px" alt="beckyyxo" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2XNKgM/funpics.classicfun.ws/index.php/Funpics/to_nom_or_not_to_n_om/t:4bc517398d128;src:tag:humor" >                                  Photo :: to nom or not to </a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/funpics.classicfun.ws/index.php/Funpics/to_nom_or_not_to_n_om">7 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2XNKgM/funpics.classicfun.ws/index.php/Funpics/to_nom_or_not_to_n_om/t:4bc517398d128;src:tag:humor" >classicfun.ws</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Tough shit.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/funpics.classicfun.ws/index.php/Funpics/to_nom_or_not_to_n_om" title="16,695 views">
+					<span>17K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2XNKgM/funpics.classicfun.ws/index.php/Funpics/to_nom_or_not_to_n_om/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/898/46585898.jpg" alt="                                  Photo :: to nom or not to nom                            "/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="41140910" class="2l5Cex"></var>						
+			<div class="text">							
+									<a class="avatar" id="7878909" href="/stumbler/midnghtjade83/" 
+						title="midnghtjade83">
+						<img src="http://cdn.stumble-upon.com/superminipics/7878909.jpg" width="32px" alt="midnghtjade83" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2l5Cex/comixed.com/2010/04/05/4-koma-comic-strip-any-questions/t:4bc517398d128;src:tag:humor" >  Any Questions? - Comixed - 4 panel comic strip (yonkoma or</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/comixed.com/2010/04/05/4-koma-comic-strip-any-questions/">5 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2l5Cex/comixed.com/2010/04/05/4-koma-comic-strip-any-questions/t:4bc517398d128;src:tag:humor" >comixed.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Yeah, can we start the Twilight bonfire now?
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/comixed.com/2010/04/05/4-koma-comic-strip-any-questions/" title="20,726 views">
+					<span>21K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2l5Cex/comixed.com/2010/04/05/4-koma-comic-strip-any-questions/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/75/46963075.jpg" alt="  Any Questions? - Comixed - 4 panel comic strip (yonkoma or 4koma)"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="41289132" class="9lj9Lm"></var>						
+			<div class="text">							
+									<a class="avatar" id="908659" href="/stumbler/Katrus/" 
+						title="Katrus">
+						<img src="http://cdn.stumble-upon.com/superminipics/908659.jpg" width="32px" alt="Katrus" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/9lj9Lm/www.joystiq.com/2010/04/08/pixels-short-film-imagines-the-coolest-apocalypse-ever/t:4bc517398d128;src:tag:humor" >Pixels short film imagines the coolest apocalypse ever -- Jo</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.joystiq.com/2010/04/08/pixels-short-film-imagines-the-coolest-apocalypse-ever/">16 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/9lj9Lm/www.joystiq.com/2010/04/08/pixels-short-film-imagines-the-coolest-apocalypse-ever/t:4bc517398d128;src:tag:humor" >joystiq.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												If you haven&#039;t seen it yet, you should.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.joystiq.com/2010/04/08/pixels-short-film-imagines-the-coolest-apocalypse-ever/" title="47,770 views">
+					<span>48K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/9lj9Lm/www.joystiq.com/2010/04/08/pixels-short-film-imagines-the-coolest-apocalypse-ever/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/278/47126278.jpg" alt="Pixels short film imagines the coolest apocalypse ever -- Joystiq"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  last">
+				
+			<var id="41242582" class="3FJ7UK"></var>						
+			<div class="text">							
+									<a class="avatar" id="1757998" href="/stumbler/Thorminator/" 
+						title="Thorminator">
+						<img src="http://cdn.stumble-upon.com/superminipics/1757998.jpg" width="32px" alt="Thorminator" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/3FJ7UK/www.break.com/pictures/infini-tee1813104.html/t:4bc517398d128;src:tag:humor" >Infini Tee | Funny Pictures | Break.com&amp;Picture</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.break.com/pictures/infini-tee1813104.html">12 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/3FJ7UK/www.break.com/pictures/infini-tee1813104.html/t:4bc517398d128;src:tag:humor" >break.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												LOL! I want one!
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.break.com/pictures/infini-tee1813104.html" title="37,566 views">
+					<span>38K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/3FJ7UK/www.break.com/pictures/infini-tee1813104.html/t:4bc517398d128;src:tag:humor" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/248/47139248.jpg" alt="Infini Tee | Funny Pictures | Break.com&amp;Picture"/>
+				</a>
+			</span>																				
+			
+											</li>
+					
+</ul>
+
+			
+	<ul class="module modulePagination clearfix">
+						<li><a id="paginationNext" href="/discover/humor/10/">Next &raquo;</a>
+				</ul>
+
+<script language="javascript">
+function navigate_blog(e)
+{
+        var kcode;
+
+        if (e == null)
+        {
+                // IE
+                if (typeof(event.srcElement.type != 'undefined') && (event.srcElement.type == 'text' || event.srcElement.type == 'textarea'))
+                        return true;
+
+                kcode = event.keyCode;
+                if (typeof(event.srcElement.type) != 'undefined' && (event.srcElement.id == 'search_q' || event.srcElement.id == 'stumblesearch' || event.srcElement.id == 'searchtext' || event.srcElement.id == 'tagtext' || event.srcElement.id == 'blogContent' || event.srcElement.id == 'blogContentFCK' || event.srcElement.id == 'newtags' || event.srcElement.id == 'addTag' || event.srcElement.id == 'qmsg_ta' ))
+                        return true;
+        }
+        else
+        {
+                // Mozilla
+                if (e.altKey || e.ctrlKey)
+                {
+                        return true; // moz doesn't override ctrl keys
+                }
+                kcode = e.which;
+
+                if (typeof(e.target.type != 'undefined') && (e.target.type == 'text' || e.target.type == 'textarea'))
+                        return true;
+
+                if (typeof(e.target.type) != 'undefined' && (e.target.id == 'search_q' || e.target.id == 'stumblesearch' || e.target.id == 'searchtext' || e.target.id == 'tagtext' || e.target.id == 'blogContent' || e.target.id == 'blogContentFCK' || e.target.id == 'newtags' || e.target.id == 'addTag' || e.target.id == 'qmsg_ta' ))
+                        return true;
+        }
+        var key = String.fromCharCode(kcode).toLowerCase();
+        var keyCode = document.layers ? e.which :
+                        document.all ? event.keyCode :
+                        document.getElementById ? e.keyCode : 0;
+
+        var n = null;
+        if(keyCode == 39)
+        {
+                if (n = document.getElementById('paginationNext'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+        if(keyCode == 37)
+        {
+                if (n = document.getElementById('paginationPrevious'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+
+        return true;
+}
+
+document.onkeydown = navigate_blog;
+
+</script>
+
+
+		</div> <!-- end colMain -->		
+    </div> <!-- end content -->
+</div> <!-- end wrapperContent -->
+<div id="wrapperFooter">
+    <div id="footer" class="clearfix">
+<div class="clearfix colFour">	
+	<ul class="col">
+		<li class="header">About StumbleUpon</li>
+		<li><a href="/aboutus/">About Us</a></li>	
+		<li><a href="/productdemo/">Take a Tour</a></li>	
+		<li><a href="/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/press/">Press Information</a>
+		<li><a href="http://blog.stumbleupon.com/">Official Blog</a></li>	
+		<li><a href="/devblog/">Developers Blog</a></li>	
+	</ul>
+
+	<ul class="col">
+		<li class="header">Explore StumbleUpon</li>
+		<li><a href="/tag/">Tags</a>, <a href="/book/">Books</a>, <a href="/music/">Music</a>, <a href="/movie/">Movies</a></li>	
+		<li><a href="/tv/">TV Shows</a>, <a href="/city/">Cities</a>, <a href="/country/">Countries</a></li>	
+		<li class="header">Community</li>
+		<li><a href="/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/topstumblers/">Top Stumblers</a></li>	
+		<li>
+			<a href="/groups/">Groups</a>		</li>
+		<li><a href="/aboutus/community_rules">Community Rules</a></li>	
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Tools and Services</li>
+				<li><a href="/ads/">StumbleUpon Ads</a></li>
+		<li><a href="/buttons/">Stumble Badges</a></li>	
+		<li><a href="/stumblethru/">StumbleThru</a></li>	
+		<li><a href="http://su.pr">Su.pr</a></li>
+		<li class="header">Your Profile</li>
+		<li><a href="/findfriends/">Connect with Friends</a></li>	
+				<li><a href="/settings/">Account Preferences</a></li>		
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Help</li>
+		<li><a href="/help/">Help Center</a></li>
+		<li><a href="/feedback/">Contact Us</a></li>	
+		<li class="header">Company</li>
+		<li><a href="/jobs/">Jobs at StumbleUpon</a></li>	
+		<li><a href="/management/">Management</a></li>
+		<li><a href="/terms/">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy</a></li>	
+	</ul>
+</div>
+	<p class="copyright">&copy; StumbleUpon 2001 - 2010</p>
+</div> <!-- end footer -->
+</div> <!-- end wrapperFooter -->
+
+
+	</div> <!-- end wrapper -->
+		
+		<script type="text/javascript" charset="utf-8" src="http://cdn.stumble-upon.com/js/attach_su.js?v=su.5.04.11"></script>
+		
+			
+<script type="text/javascript" src="http://www.stumbleupon.com/js/s_code.js"></script>
+<script type="text/javascript"><!--
+s.pageName="Tag v4";
+s.eVar9 = 'Visitor';
+s.prop9 = 'Visitor';
+if(window.tp_variation !== undefined && window.tp_variation != ""){s.prop10=tp_variation;s.eVar10=tp_variation;}
+if(window.hp_variation !== undefined && window.hp_variation != ""){s.pageName=hp_variation;}
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+</script>
+
+<!-- Start Quantcast tag --> 
+			 <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> 
+			 <script type="text/javascript">_qacct="p-dez5MJMQSF95o";quantserve();</script> 
+			 <noscript> 
+			 	<a href="http://www.quantcast.com/p-dez5MJMQSF95o" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-dez5MJMQSF95o.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a> 
+			</noscript> 
+			<!-- End Quantcast tag -->
+		
+		
+		
+    
+			<img src="/spacer" width=0 height=0 />
+	
+	<span id="__su_server_time__" class="1271207737"></span>
+</body>
+</html>

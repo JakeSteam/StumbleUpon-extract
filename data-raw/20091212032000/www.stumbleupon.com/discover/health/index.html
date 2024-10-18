@@ -1,0 +1,1049 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+	<link rel="stylesheet" href="/css/global_su.css?v=su.31" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/css/print_su.css?v=su.31" type="text/css" media="print" />
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" href="/css/ie_su.css?v=su.31" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/css/ie7_su.css?v=su.31" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="/css/ie8_su.css?v=su.31" type="text/css" media="screen, projection" />
+	<![endif]-->
+				<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="/js/global_su.js?v=su.31"></script>
+	<script type="text/javascript" src="/js/plugins_su.js?v=su.31"></script>
+	
+	<title>Discover - Recent Activity</title>
+
+        <script type="text/javascript"> 
+         
+        function trk(u) {  
+                if (document.images) 
+                { 
+                        (new Image).src=u;  
+                } 
+                return true; 
+        } 
+         
+        </script> 
+</head>
+<body class="discover">
+	<div id="inflator"></div>
+	<div id="wrapperPanel">
+		<a id="closePanel" class="close" href="javascript:void(0);">close</a>
+		<div class="panel">
+			
+			<iframe name="panel" frameborder="0" src="" scrolling="yes" noresize="0"></iframe>			
+			
+			<script type="text/javascript">
+				$('#closePanel').click(function(){
+					$('.listStumble .active').each(function () {
+						$(this).removeClass('active');
+						$('.open').slideUp(200);                
+						}
+					);
+					$('#inflator.open').slideUp(200).removeClass('open');
+					$('#addContent.open').slideUp(200).removeClass('open');
+				});
+			</script>
+			
+		</div> <!-- end panel -->
+		<div id="fadeout"></div>
+		<div id="ff-install-helper" style="display: none;">
+		  <img id="close-button" src="/images/close-button.png" alt="x" />
+		  <h2>Installing is Easy!<img src="http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24" /></h2>
+		  <ol>
+			<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
+			<li style="margin-bottom:0.7em;">Click Install Now</li>
+			<li style="color:#666;">After installing, Restart Firefox</li>
+		  </ol>
+		</div>
+	</div> <!-- end wrapperWebToolbar -->	
+		<div id="wrapper">
+			<div id="wrapperHeader">
+	<div id="header" class="">	
+	   	<a id="logo" href="/">StumbleUpon</a> <!-- end logo -->
+	   				<div id="headerLogin" class="hidden">
+			 	<form action="/login.php" name="formLogin" method="post" id="formLogin">			 		
+			 		<ul>
+			 			<li class="iefix">
+			 				<label for="username">Email or username</label>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value="" />			 			</li>			 			
+			 			<li class="iefix" id="wrapperPassword">
+			 				<label for="password">Password</label>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16" />
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch" />
+			 			</li>
+			 			<li>
+			 				<input class="btnGreen" type="submit" name="login" value="Login" />
+							<input type="hidden" name="rememberme" value="1" />
+			 			</li>
+			 		</ul>			 												 		
+			 	</form>
+			</div>	
+			<p id="loginLinks">
+	   			<a class="signin" href="/sign_up.php">Join StumbleUpon</a>
+	   			<span class="separator">&bull;</span>
+	   			<a class="login" href="/login.php">Login</a>
+	   		</p>
+			</div>  <!-- end header -->
+</div> <!-- end wrapperHeader -->
+
+
+<div id="wrapperNav">
+	<ul id="navMain">
+		<li class="discover first"><a href="/discover/toprated/">Discover</a></li>
+		<li class="favorites"><a href="/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/stumblers/onlinenow/">Stumblers</a></li>
+		<li id="searchNav" class="last">
+			<form method="get" action="/search">
+				<fieldset>
+					<label for="searchNavUser">Search Favorites</label>
+					<input type="text" value="" id="searchNavUser" name="q" class="text"/>
+					<input type="image" alt="Search" src="http://cdn.stumble-upon.com/i/btn/btnSearch.gif" id="searchNavSubmit"/>
+									</fieldset>
+			</form>
+		</li>
+	</ul> <!-- end navMain -->  
+</div> <!-- end wrapperNav -->
+<div id="wrapperContent">
+	<div id="content" class="hasColRight topic clearfix">
+		<div class="colRight">
+						
+							<div class="box">
+					<a id="subscribeBtn" class="subscribe submit btnWhite" href="/sign_up.php?pre2=subscribe_tag">Subscribe</a>
+				</div>
+						<div class="box borderBottom">
+	<h4>Related Topics</h4>
+	<ul class="listTopics">
+					<li>
+				<a href="/discover/cooking/">Cooking</a>			</li>
+					<li>
+				<a href="/discover/fitness/">Fitness</a>			</li>
+					<li>
+				<a href="/discover/humor/">Humor</a>			</li>
+					<li>
+				<a href="/discover/internet/">Internet</a>			</li>
+					<li>
+				<a href="/discover/nutrition/">Nutrition</a>			</li>
+					<li>
+				<a href="/discover/self-improvement/">Self Improvement</a>			</li>
+			</ul>
+</div>
+
+		</div> <!-- end colRight -->
+		
+		<div class="colMain">				
+			<ul class="headerControls">
+				<li>
+											<a href="/to/stumble/metatopic:health" class="btnYellow" title="Stumble &gt; Health">Stumble &gt;</a></li>
+									<li><h1>Health</h1></li>
+			</ul>
+
+							<div id="navSecondary" class="clearfix">
+	<ul class="left">
+		<li>People who like this</li>
+			</ul>
+	<ul class="right">
+						<li><a href="/discover/health/people/">See more</a></li>
+			</ul>
+</div>	<!-- end navSecondary -->
+				
+<div class="box">	
+	<ul class="gridUsers clearfix">
+	
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Worzel/" title="Worzel - 46 - Cowansville - 5735 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/351426.jpg) ;">
+					Worzel
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Worzel/" title="Worzel">Worzel</a><br />
+				5,735 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/earthwormken/" title="earthwormken - 48 - Saint Louis - 20366 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/4254060.jpg) ;">
+					earthwormken
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/earthwormken/" title="earthwormken">earthw...</a><br />
+				20K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/antirrhesis/" title="antirrhesis - 33 - Houston - 16206 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/2410588.jpg) ;">
+					antirrhesis
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/antirrhesis/" title="antirrhesis">antirr...</a><br />
+				16K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/catcaley/" title="catcaley - 6906 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/8146006.jpg) ;">
+					catcaley
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/catcaley/" title="catcaley">catcaley</a><br />
+				6,906 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/prairiegirl66/" title="prairiegirl66 - Southwestern - 8151 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/656948.jpg) ;">
+					prairiegirl66
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/prairiegirl66/" title="prairiegirl66">prairi...</a><br />
+				8,151 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Deaf258/" title="Deaf258 - 36 - Phoenix - 6041 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/160327.jpg) ;">
+					Deaf258
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Deaf258/" title="Deaf258">Deaf258</a><br />
+				6,041 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/mommakitty9/" title="mommakitty9 - 1527 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/6834702.jpg) ;">
+					mommakitty9
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/mommakitty9/" title="mommakitty9">mommak...</a><br />
+				1,527 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/TangleElfglow/" title="TangleElfglow - 28 - Grand Rapids - 180 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/6637900.jpg) ;">
+					TangleElfglow
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/TangleElfglow/" title="TangleElfglow">Tangle...</a><br />
+				180 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/ClintonTyler/" title="ClintonTyler - 24 - Orlando - 2525 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/6151752.jpg) ;">
+					ClintonTyler
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/ClintonTyler/" title="ClintonTyler">Clinto...</a><br />
+				2,525 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Sheeds/" title="Sheeds - 19 - Kingston - 7190 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/2193382.jpg) ;">
+					Sheeds
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Sheeds/" title="Sheeds">Sheeds</a><br />
+				7,190 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+	 
+	</ul>
+	
+	</div> <!-- end box -->
+						<div id="navSecondary">
+				<ul class="left">
+					<li>Health pages</li>
+				</ul>
+			</div>
+			<ul class="listStumble">
+	<li id="addContent">		
+		<form>
+			<fieldset class="labelLeft">				
+				<div class="wrapperInput">
+					<label for="url">URL</label>
+					<div class="iefix">
+						<input class="text" type="text" name="url" value="" id="url" />						
+					</div>
+				</div> <!-- end wrapperInput --> 
+				<div class="wrapperInput">
+					<label for="review">Review</label>
+					<div class="iefix">
+						<textarea cols="40" rows="6" id="review" name="review"></textarea>
+					</div>
+				</div> <!-- end wrapperInput --> 
+								<ul>
+					<li class="submit first iefix"><a class="submit btnWhite" href="javascript:void(0);">Add a site &gt;</a></li>					
+					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
+					
+					<li class="sticky last">
+						<label class="checkbox">					
+							<input type="checkbox" name="sticky" value="" id="sticky" />
+							Sticky
+						</label>
+					</li>
+					<li class="blog right">
+						<label class="checkbox">					
+							<input type="checkbox" name="blog_mode" value="" class="blogMode" />
+							Blog mode
+						</label>
+					</li>
+				</ul>								 
+			</fieldset>
+		</form>
+	</li>
+
+				
+							
+							
+		
+		<li class="listLi  first">
+				
+			<var id="38159777" class="2MllsK"></var>						
+			<div class="text">							
+									<a class="avatar" id="8610989" href="/stumbler/BuyAthletes/" 
+						title="BuyAthletes">
+						<img src="http://cdn.stumble-upon.com/superminipics/8610989.jpg" width="32px" alt="BuyAthletes" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2MllsK/health.yahoo.com/experts/eatthis/39474/americas-cheapest-health-foods/t:4b230be021ae9;src:tag:health" >Americas Cheapest Health Foods on Yahoo! Health</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/health.yahoo.com/experts/eatthis/39474/americas-cheapest-health-foods/">6 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2MllsK/health.yahoo.com/experts/eatthis/39474/americas-cheapest-health-foods/t:4b230be021ae9;src:tag:health" >yahoo.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Good cheap &amp; healthy food tips...
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/health.yahoo.com/experts/eatthis/39474/americas-cheapest-health-foods/" title="12,979 views">
+					<span>13K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2MllsK/health.yahoo.com/experts/eatthis/39474/americas-cheapest-health-foods/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/950/41181950.jpg" alt="Americas Cheapest Health Foods on Yahoo! Health"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="38235569" class="1JJtEp"></var>						
+			<div class="text">							
+									<a class="avatar" id="8496240" href="/stumbler/quietandpeace/" 
+						title="quietandpeace">
+						<img src="http://cdn.stumble-upon.com/superminipics/8496240.jpg" width="32px" alt="quietandpeace" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1JJtEp/www.alternet.org/blogs/healthwellness/144389/cops_taze_disturbed,_unarmed_naked_man_to_death_for_%22walking_toward_them%27/t:4b230be021ae9;src:tag:health" >Cops Taze Disturbed, Unarmed Naked Man to Death for...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.alternet.org/blogs/healthwellness/144389/cops_taze_disturbed%252C_unarmed_naked_man_to_death_for_%252522walking_toward_them%252527">4 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1JJtEp/www.alternet.org/blogs/healthwellness/144389/cops_taze_disturbed,_unarmed_naked_man_to_death_for_%22walking_toward_them%27/t:4b230be021ae9;src:tag:health" >alternet.org</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												to serve and protect. 
+who was threatened? 
+who were they serving?
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.alternet.org/blogs/healthwellness/144389/cops_taze_disturbed%252C_unarmed_naked_man_to_death_for_%252522walking_toward_them%252527" title="4,069 views">
+					<span>4,069</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1JJtEp/www.alternet.org/blogs/healthwellness/144389/cops_taze_disturbed,_unarmed_naked_man_to_death_for_%22walking_toward_them%27/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/100/41342100.jpg" alt="Cops Taze Disturbed, Unarmed Naked Man to Death for &quot;Walking Toward Them | Health and Wellness | AlterNet"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="38188733" class="2u8zbi"></var>						
+			<div class="text">							
+									<a class="avatar" id="7971782" href="/stumbler/Virgo-Paritura/" 
+						title="Virgo-Paritura">
+						<img src="http://cdn.stumble-upon.com/superminipics/7971782.jpg" width="32px" alt="Virgo-Paritura" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2u8zbi/www.care2.com/greenliving/8-morning-activities-to-keep-you-present-all-day.html/t:4b230be021ae9;src:tag:health" >8 Morning Activities to Keep You Present All Day |...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.care2.com/greenliving/8-morning-activities-to-keep-you-present-all-day.html">7 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2u8zbi/www.care2.com/greenliving/8-morning-activities-to-keep-you-present-all-day.html/t:4b230be021ae9;src:tag:health" >care2.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Good practices
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.care2.com/greenliving/8-morning-activities-to-keep-you-present-all-day.html" title="9,367 views">
+					<span>9,367</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2u8zbi/www.care2.com/greenliving/8-morning-activities-to-keep-you-present-all-day.html/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/226/41291226.jpg" alt="8 Morning Activities to Keep You Present All Day | Healthy and Green Living"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="38104824" class="2i95zW"></var>						
+			<div class="text">							
+									<a class="avatar" id="1461589" href="/stumbler/andy60607/" 
+						title="andy60607">
+						<img src="http://cdn.stumble-upon.com/superminipics/1461589.jpg" width="32px" alt="andy60607" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2i95zW/www.buzzfeed.com/awesomer/have-yourself-a-horribly-traumatic-little-christma/t:4b230be021ae9;src:tag:health" >Have Yourself A Horribly Traumatic Little Christmas:...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.buzzfeed.com/awesomer/have-yourself-a-horribly-traumatic-little-christma">22 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2i95zW/www.buzzfeed.com/awesomer/have-yourself-a-horribly-traumatic-little-christma/t:4b230be021ae9;src:tag:health" >buzzfeed.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												i will think of this every time christmas becomes too overbearing this season. and i think this should be an annual effigy burning.
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.buzzfeed.com/awesomer/have-yourself-a-horribly-traumatic-little-christma" title="26,956 views">
+					<span>27K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2i95zW/www.buzzfeed.com/awesomer/have-yourself-a-horribly-traumatic-little-christma/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/948/41088948.jpg" alt="Have Yourself A Horribly Traumatic Little Christmas: Pics, Videos, Links, News"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="38297643" class="1zyJ4n"></var>						
+			<div class="text">							
+									<a class="avatar" id="5166635" href="/stumbler/Firechyld/" 
+						title="Firechyld">
+						<img src="http://cdn.stumble-upon.com/superminipics/5166635.jpg" width="32px" alt="Firechyld" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1zyJ4n/arkitipintel.com/2008/01/14/rape-axe-the-anti-rape-condom/t:4b230be021ae9;src:tag:health" >Rape-aXe: The Anti-Rape Condom |  Arkitip Intel</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/arkitipintel.com/2008/01/14/rape-axe-the-anti-rape-condom/">74 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1zyJ4n/arkitipintel.com/2008/01/14/rape-axe-the-anti-rape-condom/t:4b230be021ae9;src:tag:health" >arkitipintel.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												I think this is a great idea. And anyone who thinks that it is wrong because it &quot;mutilates&quot; the rapers&#039; genitals is ridiculous. Anyone who would rape another should be punished in some way, and this way seems very fitting. However, I do see it just causing more... <a href="/stumbler/Firechyld/review/38297643/">more</a>
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/arkitipintel.com/2008/01/14/rape-axe-the-anti-rape-condom/" title="41,182 views">
+					<span>41K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1zyJ4n/arkitipintel.com/2008/01/14/rape-axe-the-anti-rape-condom/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/121/41007121.jpg" alt="Rape-aXe: The Anti-Rape Condom |  Arkitip Intel"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="37959669" class="2oxeEK"></var>						
+			<div class="text">							
+									<a class="avatar" id="1371728" href="/stumbler/JIR/" 
+						title="JIR">
+						<img src="http://cdn.stumble-upon.com/superminipics/1371728.jpg" width="32px" alt="JIR" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2oxeEK/www.mnn.com/lifestyle/health/stories/new-antibiotic-bandage-dissolves-when-wound-heals/t:4b230be021ae9;src:tag:health" >New antibiotic bandage dissolves when wound heals | MNN -...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.mnn.com/lifestyle/health/stories/new-antibiotic-bandage-dissolves-when-wound-heals">10 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2oxeEK/www.mnn.com/lifestyle/health/stories/new-antibiotic-bandage-dissolves-when-wound-heals/t:4b230be021ae9;src:tag:health" >mnn.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page:
+Dressing wounds can be a dirty business. Not only do emergency rooms around the world create countless tons of biohazardous waste from used bandages, but persistent wounds can become infected if tainted bandages aren&#039;t replaced in a timely manner.
+
+Now... <a href="/stumbler/JIR/review/37959669/">more</a>
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.mnn.com/lifestyle/health/stories/new-antibiotic-bandage-dissolves-when-wound-heals" title="19,227 views">
+					<span>19K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2oxeEK/www.mnn.com/lifestyle/health/stories/new-antibiotic-bandage-dissolves-when-wound-heals/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/204/40862204.jpg" alt="New antibiotic bandage dissolves when wound heals | MNN - Mother Nature Network"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="37966932" class="38xQUs"></var>						
+			<div class="text">							
+									<a class="avatar" id="5289146" href="/stumbler/timethief/" 
+						title="timethief">
+						<img src="http://cdn.stumble-upon.com/superminipics/5289146.jpg" width="32px" alt="timethief" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/38xQUs/www.budgetlife.com/blog/healthy-lifehacks/t:4b230be021ae9;src:tag:health" >50 Lifehacks to Help You Live Longer and Healthier</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.budgetlife.com/blog/healthy-lifehacks/">30 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/38xQUs/www.budgetlife.com/blog/healthy-lifehacks/t:4b230be021ae9;src:tag:health" >budgetlife.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: &quot;Lifehacks act as your own personal shortcuts to a healthier lifestyle. These simple, out-of-the-box methods for improving the quality of your life are everywhere; you just have to know where to look. Here are 50 such lifehacks designed to keep you in... <a href="/stumbler/timethief/review/37966932/">more</a>
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.budgetlife.com/blog/healthy-lifehacks/" title="27,175 views">
+					<span>27K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/38xQUs/www.budgetlife.com/blog/healthy-lifehacks/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/541/40833541.jpg" alt="50 Lifehacks to Help You Live Longer and Healthier"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="37943670" class="2VHg0h"></var>						
+			<div class="text">							
+									<a class="avatar" id="6275559" href="/stumbler/julietalks/" 
+						title="julietalks">
+						<img src="http://cdn.stumble-upon.com/superminipics/6275559.jpg" width="32px" alt="julietalks" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2VHg0h/www.theluxuryspot.com/2009/11/24/lifecycle-of-a-guido/t:4b230be021ae9;src:tag:health" >The Luxury Spot &amp; FEATURES   &amp; Lifecycle of a Guido</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.theluxuryspot.com/2009/11/24/lifecycle-of-a-guido/">4 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2VHg0h/www.theluxuryspot.com/2009/11/24/lifecycle-of-a-guido/t:4b230be021ae9;src:tag:health" >theluxuryspot.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												nice!
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.theluxuryspot.com/2009/11/24/lifecycle-of-a-guido/" title="3,873 views">
+					<span>3,873</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2VHg0h/www.theluxuryspot.com/2009/11/24/lifecycle-of-a-guido/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/303/40842303.jpg" alt="The Luxury Spot &amp; FEATURES   &amp; Lifecycle of a Guido"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="37911864" class="9VvSBJ"></var>						
+			<div class="text">							
+									<a class="avatar" id="6745979" href="/stumbler/SearchAndLearn/" 
+						title="SearchAndLearn">
+						<img src="http://cdn.stumble-upon.com/superminipics/6745979.jpg" width="32px" alt="SearchAndLearn" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/9VvSBJ/www.mrxstitch.com/2009/11/20/stitchgasm-craftivist-collective/t:4b230be021ae9;src:tag:health" >Stitchgasm! - Craftivist Collective</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.mrxstitch.com/2009/11/20/stitchgasm-craftivist-collective/">2 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/9VvSBJ/www.mrxstitch.com/2009/11/20/stitchgasm-craftivist-collective/t:4b230be021ae9;src:tag:health" >mrxstitch.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												under 400 ppl die of swine flue and everybody wants to wear a mask. over 33 million ppl live iwth hiv/aids and nobody want to wear a condom- LOVE IT
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.mrxstitch.com/2009/11/20/stitchgasm-craftivist-collective/" title="6,329 views">
+					<span>6,329</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/9VvSBJ/www.mrxstitch.com/2009/11/20/stitchgasm-craftivist-collective/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/476/40746476.jpg" alt="Stitchgasm! - Craftivist Collective"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  last">
+				
+			<var id="37883687" class="21nehf"></var>						
+			<div class="text">							
+									<a class="avatar" id="4732032" href="/stumbler/purplegem/" 
+						title="purplegem">
+						<img src="http://cdn.stumble-upon.com/superminipics/4732032.jpg" width="32px" alt="purplegem" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/21nehf/www.zmescience.com/ecology/devils-claw-brings-new-hope-for-arthritis/t:4b230be021ae9;src:tag:health" >Devil&#039;s Claw brings new hope for arthritis | ZME...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.zmescience.com/ecology/devils-claw-brings-new-hope-for-arthritis/">2 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/21nehf/www.zmescience.com/ecology/devils-claw-brings-new-hope-for-arthritis/t:4b230be021ae9;src:tag:health" >zmescience.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: Deep in one of the warmest places on the planet, in the Kalahari desert, there lies the &quot;Devil&#039;s Claw&quot;, a plant that may hold the key to effective treatment to arthritis, tendonitis and numerous related illnesses that affect millions and millions... <a href="/stumbler/purplegem/review/37883687/">more</a>
+																								</div>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.zmescience.com/ecology/devils-claw-brings-new-hope-for-arthritis/" title="1,684 views">
+					<span>1,684</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/21nehf/www.zmescience.com/ecology/devils-claw-brings-new-hope-for-arthritis/t:4b230be021ae9;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/203/40736203.jpg" alt="Devil&#039;s Claw brings new hope for arthritis | ZME Science"/>
+				</a>
+			</span>																				
+			
+											</li>
+					
+</ul>
+			
+	<ul class="module modulePagination clearfix">
+						<li><a id="paginationNext" href="/discover/health/10/">Next &raquo;</a>
+				</ul>
+
+<script language="javascript">
+function navigate_blog(e)
+{
+        var kcode;
+
+        if (e == null)
+        {
+                // IE
+                if (typeof(event.srcElement.type != 'undefined') && (event.srcElement.type == 'text' || event.srcElement.type == 'textarea'))
+                        return true;
+
+                kcode = event.keyCode;
+                if (typeof(event.srcElement.type) != 'undefined' && (event.srcElement.id == 'search_q' || event.srcElement.id == 'stumblesearch' || event.srcElement.id == 'searchtext' || event.srcElement.id == 'tagtext' || event.srcElement.id == 'blogContent' || event.srcElement.id == 'blogContentFCK' || event.srcElement.id == 'newtags' || event.srcElement.id == 'addTag' || event.srcElement.id == 'qmsg_ta' ))
+                        return true;
+        }
+        else
+        {
+                // Mozilla
+                if (e.altKey || e.ctrlKey)
+                {
+                        return true; // moz doesn't override ctrl keys
+                }
+                kcode = e.which;
+
+                if (typeof(e.target.type != 'undefined') && (e.target.type == 'text' || e.target.type == 'textarea'))
+                        return true;
+
+                if (typeof(e.target.type) != 'undefined' && (e.target.id == 'search_q' || e.target.id == 'stumblesearch' || e.target.id == 'searchtext' || e.target.id == 'tagtext' || e.target.id == 'blogContent' || e.target.id == 'blogContentFCK' || e.target.id == 'newtags' || e.target.id == 'addTag' || e.target.id == 'qmsg_ta' ))
+                        return true;
+        }
+        var key = String.fromCharCode(kcode).toLowerCase();
+        var keyCode = document.layers ? e.which :
+                        document.all ? event.keyCode :
+                        document.getElementById ? e.keyCode : 0;
+
+        var n = null;
+        if(keyCode == 39)
+        {
+                if (n = document.getElementById('paginationNext'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+        if(keyCode == 37)
+        {
+                if (n = document.getElementById('paginationPrevious'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+
+        return true;
+}
+
+document.onkeydown = navigate_blog;
+
+</script>
+
+
+		</div> <!-- end colMain -->		
+    </div> <!-- end content -->
+</div> <!-- end wrapperContent -->
+<div id="wrapperFooter">
+    <div id="footer" class="clearfix">
+<div class="clearfix colFour">	
+	<ul class="col">
+		<li class="header">About StumbleUpon</li>
+		<li><a href="/aboutus/">About Us</a></li>	
+		<li><a href="/productdemo/">Take a Tour</a></li>	
+		<li><a href="/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/press/">Press Information</a>
+		<li><a href="http://blog.stumbleupon.com/">Official Blog</a></li>	
+		<li><a href="/devblog/">Developers Blog</a></li>	
+	</ul>
+
+	<ul class="col">
+		<li class="header">Explore StumbleUpon</li>
+		<li><a href="/tag/">Tags</a>, <a href="/book/">Books</a>, <a href="/music/">Music</a>, <a href="/movie/">Movies</a></li>	
+		<li><a href="/tv/">TV Shows</a>, <a href="/city/">Cities</a>, <a href="/country/">Countries</a></li>	
+		<li class="header">Community</li>
+		<li><a href="/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/topstumblers/">Top Stumblers</a></li>	
+		<li>
+			<a href="/groups/">Groups</a>		</li>
+		<li><a href="/aboutus/community_rules">Community Rules</a></li>	
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Tools and Services</li>
+				<li><a href="/ads/">StumbleUpon Advertising</a></li>	
+		<li><a href="/about/partnerprogram/">Stumble Badges</a></li>	
+		<li><a href="/stumblethru/">StumbleThru</a></li>	
+		<li class="header">Your Profile</li>
+		<li><a href="/findfriends/">Connect with Friends</a></li>	
+				<li><a href="/settings/">Account Preferences</a></li>		
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Help</li>
+		<li><a href="/faq.html">FAQ</a></li>	
+		<li class="header">Company</li>
+		<li><a href="/jobs/">Jobs at StumbleUpon</a></li>	
+		<li><a href="/management/">Management</a></li>
+		<li><a href="/terms/">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy</a></li>	
+			
+	</ul>
+</div>
+
+	<p class="copyright">&copy; StumbleUpon 2001-2009</p>
+</div> <!-- end footer -->
+</div> <!-- end wrapperFooter -->
+
+
+	</div> <!-- end wrapper -->
+	<script type="text/javascript" charset="utf-8" src="/js/attach_su.js?v=su.31"></script>
+	
+<script type="text/javascript" src="http://www.stumbleupon.com/js/s_code.js"></script>
+<script type="text/javascript"><!--
+s.pageName="Tag v4";
+s.eVar9 = 'Visitor';
+s.prop9 = 'Visitor';
+if(window.tp_variation !== undefined && window.tp_variation != ""){s.prop10=tp_variation;s.eVar10=tp_variation;}
+if(window.hp_variation !== undefined && window.hp_variation != ""){s.pageName=hp_variation;}
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+</script>
+
+<!-- Start Quantcast tag --> 
+			 <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> 
+			 <script type="text/javascript">_qacct="p-dez5MJMQSF95o";quantserve();</script> 
+			 <noscript> 
+			 	<a href="http://www.quantcast.com/p-dez5MJMQSF95o" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-dez5MJMQSF95o.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a> 
+			</noscript> 
+			<!-- End Quantcast tag -->
+	<script type="text/javascript" charset="utf-8">
+	
+	  var is_ssl = ("https:" == document.location.protocol);
+	  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+	  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+
+	<script type="text/javascript" charset="utf-8">
+	
+
+		
+	  var feedback_widget_options = {};
+	  feedback_widget_options.display = "overlay";
+	  feedback_widget_options.company = "stumbleupon";
+	  feedback_widget_options.placement = "right";
+	  feedback_widget_options.color = "#222";
+	  feedback_widget_options.style = "idea";
+	  feedback_widget_options.product = "stumbleupon_stumbleupon";
+	  feedback_widget_options.limit = "3";
+	  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+	
+	</script>
+        </body>
+</html>

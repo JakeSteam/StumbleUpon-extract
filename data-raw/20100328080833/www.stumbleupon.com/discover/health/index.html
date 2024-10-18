@@ -1,0 +1,990 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+	
+				<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/global_su.css?v=su.25.03.10" type="text/css" media="screen, projection" />
+		<!--[if lte IE 6]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie_su.css?v=su.25.03.10" type="text/css" media="screen, projection" />
+		<![endif]-->
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie7_su.css?v=su.25.03.10" type="text/css" media="screen, projection" />
+		<![endif]-->
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/ie8_su.css?v=su.25.03.10" type="text/css" media="screen, projection" />
+		<![endif]-->
+				
+				
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+				<!--[if lte IE 6]>
+			<script type="text/javascript" src="http://cdn.stumble-upon.com/js/json2.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="http://cdn.stumble-upon.com/js/plugins_su.js?v=su.25.03.10"></script>
+		
+		
+		
+	
+	
+	
+
+	<title>Discover - Recent Activity</title>
+
+    <script type="text/javascript"> 
+     
+        function trk(u) {  
+            if (document.images) 
+            { 
+                    (new Image).src=u;  
+            } 
+            return true; 
+        } 
+     
+    </script> 
+    
+    
+</head>
+<body class="discover">
+	<div id="inflator"></div>
+	<div id="wrapperPanel">
+					<a id="closePanel" class="close" href="javascript:void(0);">close</a>
+			<div class="panel">
+				
+				<iframe name="panel" frameborder="0" src="" scrolling="yes" noresize="0"></iframe>			
+				
+				<script type="text/javascript">
+					$('#closePanel').click(function(){
+						$('.listStumble .active').each(function () {
+							$(this).removeClass('active');
+							$('.open').slideUp(200);                
+							}
+						);
+						$('#inflator.open').slideUp(200).removeClass('open');
+						$('#addContent.open').slideUp(200).removeClass('open');
+					});
+				</script>
+				
+			</div> <!-- end panel -->
+			<div id="fadeout"></div>
+			<div id="ff-install-helper" style="display: none;">
+				<img id="close-button" src="http://cdn.stumble-upon.com/images/close-button.png" alt="x" />
+				<h2>Installing is Easy!<img src="http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24" /></h2>
+				<ol>
+					<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
+					<li style="margin-bottom:0.7em;">Click Install Now</li>
+					<li style="color:#666;">After installing, Restart Firefox</li>
+				</ol>
+			</div>
+			</div> <!-- end wrapperWebToolbar -->	
+
+	 
+
+		<div id="wrapper">
+			<div id="wrapperHeader">
+	<div id="header" class="">	
+	   	<a id="logo" href="/">StumbleUpon</a> <!-- end logo -->
+	   	
+			<div id="headerLogin" class="hidden">
+				<a style="margin-right: 62px; font-size: 10px; text-decoration: none;" href="/recover_password.php">Forgot your password?</a>
+			 	<form action="/login.php" name="formLogin" method="post" id="formLogin">			 		
+			 		<ul>
+			 			<li class="iefix">
+			 				<label for="username">Email or username</label>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value="" />			 			</li>			 			
+			 			<li class="iefix" id="wrapperPassword">
+			 				<label for="password">Password</label>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16" />
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch" />
+			 				
+			 			</li>			 			
+			 			<li>
+			 				<input class="btnGreen" type="submit" name="login" value="Login" />
+							<input type="hidden" name="rememberme" value="1" />
+			 			</li>
+			 		</ul>			 												 		
+			 	</form>
+			</div>
+
+			<p id="loginLinks">
+	   			<a class="signin" href="/signup/">Join StumbleUpon</a>
+	   			<span class="separator">&bull;</span>
+	   			<a class="login" href="/login.php">Login</a>
+
+				
+			</p>
+			</div>  <!-- end header -->
+</div> <!-- end wrapperHeader -->
+
+
+<div id="wrapperNav">
+	<ul id="navMain">
+		<li class="discover first"><a href="/discover/toprated/">Discover</a></li>
+		<li class="favorites"><a href="/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/stumblers/onlinenow/">Stumblers</a></li>
+			</ul> <!-- end navMain -->  
+</div> <!-- end wrapperNav -->
+<div id="wrapperContent">
+	<div id="content" class="hasColRight topic clearfix">
+		<div class="colRight">
+						
+							<div class="box">
+					<a id="subscribeBtn" class="subscribe submit btnWhite" href="/sign_up.php?pre2=subscribe_tag">Subscribe</a>
+				</div>
+						<div class="box borderBottom">
+	<h4>Related Topics</h4>
+	<ul class="listTopics">
+					<li>
+				<a href="/discover/cooking/">Cooking</a>			</li>
+					<li>
+				<a href="/discover/fitness/">Fitness</a>			</li>
+					<li>
+				<a href="/discover/humor/">Humor</a>			</li>
+					<li>
+				<a href="/discover/internet/">Internet</a>			</li>
+					<li>
+				<a href="/discover/nutrition/">Nutrition</a>			</li>
+					<li>
+				<a href="/discover/self-improvement/">Self Improvement</a>			</li>
+			</ul>
+</div>
+
+		</div> <!-- end colRight -->
+		
+		<div class="colMain">				
+			<ul class="headerControls">
+				<li>
+											<a href="/to/stumble/metatopic:health" class="btnYellow" title="Stumble &gt; Health">Stumble &gt;</a></li>
+									<li><h1>Health</h1></li>
+			</ul>
+
+							<div id="navSecondary" class="clearfix">
+	<ul class="left">
+		<li>People who like this</li>
+			</ul>
+	<ul class="right">
+						<li><a href="/discover/health/people/">See more</a></li>
+			</ul>
+</div>	<!-- end navSecondary -->
+				
+<div class="box">	
+	<ul class="gridUsers clearfix">
+	
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/railmeat/" title="railmeat - 65-Degrees-North - 7509 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/4611448.jpg) ;">
+					railmeat
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/railmeat/" title="railmeat">railmeat</a><br />
+				7,509 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Normn8or/" title="Normn8or - 43 - 4380 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/7656223.jpg) ;">
+					Normn8or
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Normn8or/" title="Normn8or">Normn8or</a><br />
+				4,380 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Casee/" title="Casee - 6477 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/4081584.jpg) ;">
+					Casee
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Casee/" title="Casee">Casee</a><br />
+				6,477 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/cwolfsheep/" title="cwolfsheep - 28 - Orlando - 6786 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/213789.jpg) ;">
+					cwolfsheep
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/cwolfsheep/" title="cwolfsheep">cwolfs...</a><br />
+				6,786 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/ReneeNevermore/" title="ReneeNevermore - 18 - 28100 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/7372529.jpg) ;">
+					ReneeNevermore
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/ReneeNevermore/" title="ReneeNevermore">ReneeN...</a><br />
+				28K Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Thebubbley1/" title="Thebubbley1 - 28 - 2106 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/1390916.jpg) ;">
+					Thebubbley1
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Thebubbley1/" title="Thebubbley1">Thebub...</a><br />
+				2,106 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/sarahannewoo/" title="sarahannewoo - 23 - 4325 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/7741488.jpg) ;">
+					sarahannewoo
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/sarahannewoo/" title="sarahannewoo">saraha...</a><br />
+				4,325 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/gr8audioguy/" title="gr8audioguy - 52 - Mandeville - 1430 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/7565445.jpg) ;">
+					gr8audioguy
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/gr8audioguy/" title="gr8audioguy">gr8aud...</a><br />
+				1,430 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/ichoose/" title="ichoose - 6098 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/2907775.jpg) ;">
+					ichoose
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/ichoose/" title="ichoose">ichoose</a><br />
+				6,098 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Achromasia/" title="Achromasia - 17 - 4268 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/6078575.jpg) ;">
+					Achromasia
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Achromasia/" title="Achromasia">Achrom...</a><br />
+				4,268 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+	 
+	</ul>
+	
+	</div> <!-- end box -->
+						<div id="navSecondary">
+				<ul class="left">
+					<li>Health pages</li>
+				</ul>
+			</div>
+			<ul class="listStumble">
+	<li id="addContent">		
+		<form>
+			<fieldset class="labelLeft">				
+				<div class="wrapperInput">
+					<label for="url">URL</label>
+					<div class="iefix">
+						<input class="text" type="text" name="url" value="" id="url" />						
+					</div>
+				</div> <!-- end wrapperInput --> 
+				<div class="wrapperInput">
+					<label for="review">Review</label>
+					<div class="iefix">
+						<textarea cols="40" rows="6" id="review" name="review"></textarea>
+					</div>
+				</div> <!-- end wrapperInput --> 
+								<ul>
+					<li class="submit first iefix"><a class="submit btnWhite" href="javascript:void(0);">Add a site &gt;</a></li>					
+					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
+					
+					<li class="sticky last">
+						<label class="checkbox">					
+							<input type="checkbox" name="sticky" value="" id="sticky" />
+							Sticky
+						</label>
+					</li>
+					<li class="blog right">
+						<label class="checkbox">					
+							<input type="checkbox" name="blog_mode" value="" class="blogMode" />
+							Blog mode
+						</label>
+					</li>
+				</ul>								 
+			</fieldset>
+		</form>
+	</li>
+
+				
+							
+							
+		
+		<li class="listLi  first">
+				
+			<var id="40849035" class="5xx9FW"></var>						
+			<div class="text">							
+									<a class="avatar" id="612958" href="/stumbler/apodder/" 
+						title="apodder">
+						<img src="http://cdn.stumble-upon.com/superminipics/612958.jpg" width="32px" alt="apodder" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/5xx9FW/www.webdesignerdepot.com/2010/03/the-amazing-art-of-disabled-artists/t:4baf0e809b47e;src:tag:health" >The Amazing Art of Disabled Artists | Webdesigner Depot</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.webdesignerdepot.com/2010/03/the-amazing-art-of-disabled-artists/">2 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/5xx9FW/www.webdesignerdepot.com/2010/03/the-amazing-art-of-disabled-artists/t:4baf0e809b47e;src:tag:health" >webdesignerdepot.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Does lupus count as a disability? It&#039;s a disease!
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.webdesignerdepot.com/2010/03/the-amazing-art-of-disabled-artists/" title="3,407 views">
+					<span>3,407</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/5xx9FW/www.webdesignerdepot.com/2010/03/the-amazing-art-of-disabled-artists/t:4baf0e809b47e;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/110/45981110.jpg" alt="The Amazing Art of Disabled Artists | Webdesigner Depot"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40864483" class="80mAP5"></var>						
+			<div class="text">							
+									<a class="avatar" id="4254060" href="/stumbler/earthwormken/" 
+						title="earthwormken">
+						<img src="http://cdn.stumble-upon.com/superminipics/4254060.jpg" width="32px" alt="earthwormken" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/80mAP5/gizmodo.com/5501103/this-is-the-future-of-the-fight-against-cancer/t:4baf0e809b47e;src:tag:health" >This Is the Future of the Fight Against Cancer - Nanobots...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/gizmodo.com/5501103/this-is-the-future-of-the-fight-against-cancer">3 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/80mAP5/gizmodo.com/5501103/this-is-the-future-of-the-fight-against-cancer/t:4baf0e809b47e;src:tag:health" >gizmodo.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Using nanotechnology to treat cancer. 
+
+&quot;70-nanometer attack bots made with two polymers and a protein that attaches to the cancerous cell&#039;s surface carry a piece of RNA called small-interfering RNA (siRNA), which deactivates the production of a protein, starving the... <a href="/stumbler/earthwormken/review/40864483/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/gizmodo.com/5501103/this-is-the-future-of-the-fight-against-cancer" title="11,016 views">
+					<span>11K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/80mAP5/gizmodo.com/5501103/this-is-the-future-of-the-fight-against-cancer/t:4baf0e809b47e;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/280/46381280.jpg" alt="This Is the Future of the Fight Against Cancer - Nanobots - Gizmodo"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40781909" class="1DNZs6"></var>						
+			<div class="text">							
+									<a class="avatar" id="7345591" href="/stumbler/ZagatBuzz/" 
+						title="ZagatBuzz">
+						<img src="http://cdn.stumble-upon.com/superminipics/7345591.jpg" width="32px" alt="ZagatBuzz" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1DNZs6/www.theatlantic.com/food/archive/2010/03/obesity-initiative-sends-companies-scrambling/37695/t:4baf0e809b47e;src:tag:health" >Obesity Initiative Sends Companies Scrambling - Food -...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.theatlantic.com/food/archive/2010/03/obesity-initiative-sends-companies-scrambling/37695/">7 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1DNZs6/www.theatlantic.com/food/archive/2010/03/obesity-initiative-sends-companies-scrambling/37695/t:4baf0e809b47e;src:tag:health" >theatlantic.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Food companies wanting to do something to prevent childhood obesity are in a bind. Preventing obesity means staying active, eating real, not processed, foods, and reserving sugary drinks for special occasions. None of this is good for the processed food business.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.theatlantic.com/food/archive/2010/03/obesity-initiative-sends-companies-scrambling/37695/" title="2,661 views">
+					<span>2,661</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1DNZs6/www.theatlantic.com/food/archive/2010/03/obesity-initiative-sends-companies-scrambling/37695/t:4baf0e809b47e;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/54/46262054.jpg" alt="Obesity Initiative Sends Companies Scrambling - Food - The Atlantic"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40769474" class="2cbhnm"></var>						
+			<div class="text">							
+									<a class="avatar" id="797330" href="/stumbler/Stonefly/" 
+						title="Stonefly">
+						<img src="http://cdn.stumble-upon.com/superminipics/797330.jpg" width="32px" alt="Stonefly" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2cbhnm/www.khou.com/news/health/FDA-to-reconsider-ban-on-gays-donating-blood-88198837.html/t:4baf0e809b47e;src:tag:health" >          FDA to reconsider ban on gays donating blood |...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.khou.com/news/health/FDA-to-reconsider-ban-on-gays-donating-blood-88198837.html">4 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2cbhnm/www.khou.com/news/health/FDA-to-reconsider-ban-on-gays-donating-blood-88198837.html/t:4baf0e809b47e;src:tag:health" >khou.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												what the hell?
+
+From the page: For years, male donors have had to disclose whether they&#039;ve had sex with another man in a three-page questionnaire before donating. Anyone who answers &quot;yes&quot; to that question is banned for life as a blood donor under current FDA... <a href="/stumbler/Stonefly/review/40769474/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.khou.com/news/health/FDA-to-reconsider-ban-on-gays-donating-blood-88198837.html" title="1,344 views">
+					<span>1,344</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2cbhnm/www.khou.com/news/health/FDA-to-reconsider-ban-on-gays-donating-blood-88198837.html/t:4baf0e809b47e;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/448/46163448.jpg" alt="          FDA to reconsider ban on gays donating blood |     khou.com | Houston News, Local News, Breaking News, Weather    | Health News "/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40695617" class="9RWWy8"></var>						
+			<div class="text">							
+									<a class="avatar" id="9563291" href="/stumbler/Lounaistuuli/" 
+						title="Lounaistuuli">
+						<img src="http://cdn.stumble-upon.com/superminipics/9563291.jpg" width="32px" alt="Lounaistuuli" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/9RWWy8/www.popsci.com/science/article/2010-03/humans-could-regenerate-tissue-newts-switchin-single-gene/t:4baf0e809b47e;src:tag:health" >Humans Could Regenerate Tissue Like Newts By Switching...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.popsci.com/science/article/2010-03/humans-could-regenerate-tissue-newts-switchin-single-gene">13 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/9RWWy8/www.popsci.com/science/article/2010-03/humans-could-regenerate-tissue-newts-switchin-single-gene/t:4baf0e809b47e;src:tag:health" >popsci.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Regrowing Tissues Like Newt
+By shutting off a single gene, researchers think humans could regenerate damaged tissue just as newts do.  J. Carmichael  
+
+From the page:
+Essentially, switching off the p21 gene allows adult cells to behave like pluripotent stem cells, reorienting... <a href="/stumbler/Lounaistuuli/review/40695617/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.popsci.com/science/article/2010-03/humans-could-regenerate-tissue-newts-switchin-single-gene" title="42,765 views">
+					<span>43K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/9RWWy8/www.popsci.com/science/article/2010-03/humans-could-regenerate-tissue-newts-switchin-single-gene/t:4baf0e809b47e;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/501/46002501.jpg" alt="Humans Could Regenerate Tissue Like Newts By Switching Off a Single Gene | Popular Science"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40395549" class="2c5YtU"></var>						
+			<div class="text">							
+									<a class="avatar" id="6241309" href="/stumbler/Ripi/" 
+						title="Ripi">
+						<img src="http://cdn.stumble-upon.com/superminipics/6241309.jpg" width="32px" alt="Ripi" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2c5YtU/www.billingsgazette.com/news/state-and-regional/montana/article_1e2b7ec4-1276-11df-9740-001cc4c03286.html/t:4baf0e809b47e;src:tag:health" >Bozeman officer buys groceries for shoplifting suspect </a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.billingsgazette.com/news/state-and-regional/montana/article_1e2b7ec4-1276-11df-9740-001cc4c03286.html">16 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2c5YtU/www.billingsgazette.com/news/state-and-regional/montana/article_1e2b7ec4-1276-11df-9740-001cc4c03286.html/t:4baf0e809b47e;src:tag:health" >billingsgazette.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												It&#039;s just good to read GOOD NEWS every once in a while.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.billingsgazette.com/news/state-and-regional/montana/article_1e2b7ec4-1276-11df-9740-001cc4c03286.html" title="22,230 views">
+					<span>22K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2c5YtU/www.billingsgazette.com/news/state-and-regional/montana/article_1e2b7ec4-1276-11df-9740-001cc4c03286.html/t:4baf0e809b47e;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/654/45501654.jpg" alt="Bozeman officer buys groceries for shoplifting suspect "/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40238236" class="15ip7h"></var>						
+			<div class="text">							
+									<a class="avatar" id="797330" href="/stumbler/Stonefly/" 
+						title="Stonefly">
+						<img src="http://cdn.stumble-upon.com/superminipics/797330.jpg" width="32px" alt="Stonefly" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/15ip7h/www.kontraband.com/jokes/21540/Hospital-Know-It-All/t:4baf0e809b47e;src:tag:health" >Hospital Know It All at Kontraband </a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.kontraband.com/jokes/21540/Hospital-Know-It-All/">6 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/15ip7h/www.kontraband.com/jokes/21540/Hospital-Know-It-All/t:4baf0e809b47e;src:tag:health" >kontraband.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: At the end of the tax year, the IRS office sent an inspector to audit the books of a local hospital.
+
+While the IRS agent was checking the books he turned to the CFO of the hospital and said, &quot;I notice you buy a lot of bandages. What do you do with the end... <a href="/stumbler/Stonefly/review/40238236/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.kontraband.com/jokes/21540/Hospital-Know-It-All/" title="7,282 views">
+					<span>7,282</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/15ip7h/www.kontraband.com/jokes/21540/Hospital-Know-It-All/t:4baf0e809b47e;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/171/44927171.jpg" alt="Hospital Know It All at Kontraband "/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40234193" class="3ixYg0"></var>						
+			<div class="text">							
+									<a class="avatar" id="7350383" href="/stumbler/BjornAntonio/" 
+						title="BjornAntonio">
+						<img src="http://cdn.stumble-upon.com/superminipics/7350383.jpg" width="32px" alt="BjornAntonio" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/3ixYg0/www.berkeley.edu/news/media/releases/2010/02/22_naps_boost_learning_capacity.shtml/t:4baf0e809b47e;src:tag:health" >UC Berkeley Press Release</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.berkeley.edu/news/media/releases/2010/02/22_naps_boost_learning_capacity.shtml">29 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/3ixYg0/www.berkeley.edu/news/media/releases/2010/02/22_naps_boost_learning_capacity.shtml/t:4baf0e809b47e;src:tag:health" >berkeley.edu</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: 
+
+If you see a student dozing in the library or a co-worker catching 40 winks in her cubicle, don&#039;t roll your eyes. New research from the University of California, Berkeley, shows that an hour&#039;s nap can dramatically boost and restore your brain power.... <a href="/stumbler/BjornAntonio/review/40234193/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.berkeley.edu/news/media/releases/2010/02/22_naps_boost_learning_capacity.shtml" title="45,826 views">
+					<span>46K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/3ixYg0/www.berkeley.edu/news/media/releases/2010/02/22_naps_boost_learning_capacity.shtml/t:4baf0e809b47e;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/780/44912780.jpg" alt="UC Berkeley Press Release"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  last">
+				
+			<var id="40856869" class="315Dqg"></var>						
+			<div class="text">							
+									<a class="avatar" id="7375883" href="/stumbler/ArmenS/" 
+						title="ArmenS">
+						<img src="http://cdn.stumble-upon.com/superminipics/7375883.jpg" width="32px" alt="ArmenS" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/315Dqg/pass-forward.blogspot.com/2010/02/9010-principle.html/t:4baf0e809b47e;src:tag:health" >Forwarded Messages: The 90/10 Principle</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/pass-forward.blogspot.com/2010/02/9010-principle.html">37 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/315Dqg/pass-forward.blogspot.com/2010/02/9010-principle.html/t:4baf0e809b47e;src:tag:health" >blogspot.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: Do not let people fool you.
+YOU can control how you react.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/pass-forward.blogspot.com/2010/02/9010-principle.html" title="63,171 views">
+					<span>63K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/315Dqg/pass-forward.blogspot.com/2010/02/9010-principle.html/t:4baf0e809b47e;src:tag:health" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/543/44831543.jpg" alt="Forwarded Messages: The 90/10 Principle"/>
+				</a>
+			</span>																				
+			
+											</li>
+					
+</ul>
+
+			
+	<ul class="module modulePagination clearfix">
+						<li><a id="paginationNext" href="/discover/health/10/">Next &raquo;</a>
+				</ul>
+
+<script language="javascript">
+function navigate_blog(e)
+{
+        var kcode;
+
+        if (e == null)
+        {
+                // IE
+                if (typeof(event.srcElement.type != 'undefined') && (event.srcElement.type == 'text' || event.srcElement.type == 'textarea'))
+                        return true;
+
+                kcode = event.keyCode;
+                if (typeof(event.srcElement.type) != 'undefined' && (event.srcElement.id == 'search_q' || event.srcElement.id == 'stumblesearch' || event.srcElement.id == 'searchtext' || event.srcElement.id == 'tagtext' || event.srcElement.id == 'blogContent' || event.srcElement.id == 'blogContentFCK' || event.srcElement.id == 'newtags' || event.srcElement.id == 'addTag' || event.srcElement.id == 'qmsg_ta' ))
+                        return true;
+        }
+        else
+        {
+                // Mozilla
+                if (e.altKey || e.ctrlKey)
+                {
+                        return true; // moz doesn't override ctrl keys
+                }
+                kcode = e.which;
+
+                if (typeof(e.target.type != 'undefined') && (e.target.type == 'text' || e.target.type == 'textarea'))
+                        return true;
+
+                if (typeof(e.target.type) != 'undefined' && (e.target.id == 'search_q' || e.target.id == 'stumblesearch' || e.target.id == 'searchtext' || e.target.id == 'tagtext' || e.target.id == 'blogContent' || e.target.id == 'blogContentFCK' || e.target.id == 'newtags' || e.target.id == 'addTag' || e.target.id == 'qmsg_ta' ))
+                        return true;
+        }
+        var key = String.fromCharCode(kcode).toLowerCase();
+        var keyCode = document.layers ? e.which :
+                        document.all ? event.keyCode :
+                        document.getElementById ? e.keyCode : 0;
+
+        var n = null;
+        if(keyCode == 39)
+        {
+                if (n = document.getElementById('paginationNext'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+        if(keyCode == 37)
+        {
+                if (n = document.getElementById('paginationPrevious'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+
+        return true;
+}
+
+document.onkeydown = navigate_blog;
+
+</script>
+
+
+		</div> <!-- end colMain -->		
+    </div> <!-- end content -->
+</div> <!-- end wrapperContent -->
+<div id="wrapperFooter">
+    <div id="footer" class="clearfix">
+<div class="clearfix colFour">	
+	<ul class="col">
+		<li class="header">About StumbleUpon</li>
+		<li><a href="/aboutus/">About Us</a></li>	
+		<li><a href="/productdemo/">Take a Tour</a></li>	
+		<li><a href="/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/press/">Press Information</a>
+		<li><a href="http://blog.stumbleupon.com/">Official Blog</a></li>	
+		<li><a href="/devblog/">Developers Blog</a></li>	
+	</ul>
+
+	<ul class="col">
+		<li class="header">Explore StumbleUpon</li>
+		<li><a href="/tag/">Tags</a>, <a href="/book/">Books</a>, <a href="/music/">Music</a>, <a href="/movie/">Movies</a></li>	
+		<li><a href="/tv/">TV Shows</a>, <a href="/city/">Cities</a>, <a href="/country/">Countries</a></li>	
+		<li class="header">Community</li>
+		<li><a href="/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/topstumblers/">Top Stumblers</a></li>	
+		<li>
+			<a href="/groups/">Groups</a>		</li>
+		<li><a href="/aboutus/community_rules">Community Rules</a></li>	
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Tools and Services</li>
+				<li><a href="/ads/">StumbleUpon Advertising</a></li>	
+		<li><a href="http://su.pr">Su.pr</a></li>	
+		<li><a href="/buttons/">Stumble Badges</a></li>	
+		<li><a href="/stumblethru/">StumbleThru</a></li>	
+		<li class="header">Your Profile</li>
+		<li><a href="/findfriends/">Connect with Friends</a></li>	
+				<li><a href="/settings/">Account Preferences</a></li>		
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Help</li>
+		<li><a href="/help/">Help Center</a></li>
+		<li><a href="/feedback/">Contact Us</a></li>	
+		<li class="header">Company</li>
+		<li><a href="/jobs/">Jobs at StumbleUpon</a></li>	
+		<li><a href="/management/">Management</a></li>
+		<li><a href="/terms/">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy</a></li>	
+	</ul>
+</div>
+	<p class="copyright">&copy; StumbleUpon 2001 - 2010</p>
+</div> <!-- end footer -->
+</div> <!-- end wrapperFooter -->
+
+
+	</div> <!-- end wrapper -->
+		
+		<script type="text/javascript" charset="utf-8" src="http://cdn.stumble-upon.com/js/attach_su.js?v=su.25.03.10"></script>
+		
+			
+<script type="text/javascript" src="http://www.stumbleupon.com/js/s_code.js"></script>
+<script type="text/javascript"><!--
+s.pageName="Tag v4";
+s.eVar9 = 'Visitor';
+s.prop9 = 'Visitor';
+if(window.tp_variation !== undefined && window.tp_variation != ""){s.prop10=tp_variation;s.eVar10=tp_variation;}
+if(window.hp_variation !== undefined && window.hp_variation != ""){s.pageName=hp_variation;}
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+</script>
+
+<!-- Start Quantcast tag --> 
+			 <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> 
+			 <script type="text/javascript">_qacct="p-dez5MJMQSF95o";quantserve();</script> 
+			 <noscript> 
+			 	<a href="http://www.quantcast.com/p-dez5MJMQSF95o" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-dez5MJMQSF95o.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a> 
+			</noscript> 
+			<!-- End Quantcast tag -->
+		
+		
+		
+    
+			<img src="/spacer" width=0 height=0 />
+	
+	<span id="__su_server_time__" class="1269763712"></span>
+</body>
+</html>
