@@ -1,0 +1,1002 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+		<link rel="stylesheet" href="http://cdn.stumble-upon.com/css/global_su.css?v=su.19.02.10d" type="text/css" media="screen, projection" />
+		<!--[if lte IE 6]>
+	<link rel="stylesheet" href="/css/ie_su.css?v=su.19.02.10d" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/css/ie7_su.css?v=su.19.02.10d" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<!--[if IE 8]>
+	<link rel="stylesheet" href="/css/ie8_su.css?v=su.19.02.10d" type="text/css" media="screen, projection" />
+	<![endif]-->
+				
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<!--[if lte IE 6]>
+		<script type="text/javascript" src="/js/json2.js"></script>
+	<![endif]-->
+	
+		<script type="text/javascript" src="http://cdn.stumble-upon.com/js/plugins_su.js?v=su.19.02.10d"></script>
+		
+	<title>Discover - Recent Activity</title>
+
+        <script type="text/javascript"> 
+         
+        function trk(u) {  
+                if (document.images) 
+                { 
+                        (new Image).src=u;  
+                } 
+                return true; 
+        } 
+         
+        </script> 
+</head>
+<body class="discover">
+	<div id="inflator"></div>
+	<div id="wrapperPanel">
+		<a id="closePanel" class="close" href="javascript:void(0);">close</a>
+		<div class="panel">
+			
+			<iframe name="panel" frameborder="0" src="" scrolling="yes" noresize="0"></iframe>			
+			
+			<script type="text/javascript">
+				$('#closePanel').click(function(){
+					$('.listStumble .active').each(function () {
+						$(this).removeClass('active');
+						$('.open').slideUp(200);                
+						}
+					);
+					$('#inflator.open').slideUp(200).removeClass('open');
+					$('#addContent.open').slideUp(200).removeClass('open');
+				});
+			</script>
+			
+		</div> <!-- end panel -->
+		<div id="fadeout"></div>
+		<div id="ff-install-helper" style="display: none;">
+			<img id="close-button" src="http://cdn.stumble-upon.com/images/close-button.png" alt="x" />
+			<h2>Installing is Easy!<img src="http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24" /></h2>
+			<ol>
+				<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
+				<li style="margin-bottom:0.7em;">Click Install Now</li>
+				<li style="color:#666;">After installing, Restart Firefox</li>
+			</ol>
+		</div>
+	</div> <!-- end wrapperWebToolbar -->	
+		<div id="wrapper">
+			<div id="wrapperHeader">
+	<div id="header" class="">	
+	   	<a id="logo" href="/">StumbleUpon</a> <!-- end logo -->
+	   	
+			<div id="headerLogin" class="hidden">
+				<a style="margin-right: 62px; font-size: 10px; text-decoration: none;" href="/recover_password.php">Forgot your password?</a>
+			 	<form action="/login.php" name="formLogin" method="post" id="formLogin">			 		
+			 		<ul>
+			 			<li class="iefix">
+			 				<label for="username">Email or username</label>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value="" />			 			</li>			 			
+			 			<li class="iefix" id="wrapperPassword">
+			 				<label for="password">Password</label>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16" />
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch" />
+			 				
+			 			</li>			 			
+			 			<li>
+			 				<input class="btnGreen" type="submit" name="login" value="Login" />
+							<input type="hidden" name="rememberme" value="1" />
+			 			</li>
+			 		</ul>			 												 		
+			 	</form>
+			</div>
+
+			<p id="loginLinks">
+	   			<a class="signin" href="/signup/">Join StumbleUpon</a>
+	   			<span class="separator">&bull;</span>
+	   			<a class="login" href="/login.php">Login</a>
+
+				
+			</p>
+			</div>  <!-- end header -->
+</div> <!-- end wrapperHeader -->
+
+
+<div id="wrapperNav">
+	<ul id="navMain">
+		<li class="discover first"><a href="/discover/toprated/">Discover</a></li>
+		<li class="favorites"><a href="/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/stumblers/onlinenow/">Stumblers</a></li>
+			</ul> <!-- end navMain -->  
+</div> <!-- end wrapperNav -->
+<div id="wrapperContent">
+	<div id="content" class="hasColRight topic clearfix">
+		<div class="colRight">
+						
+							<div class="box">
+					<a id="subscribeBtn" class="subscribe submit btnWhite" href="/sign_up.php?pre2=subscribe_tag">Subscribe</a>
+				</div>
+						<div class="box borderBottom">
+	<h4>Related Topics</h4>
+	<ul class="listTopics">
+					<li>
+				<a href="/discover/activism/">Activism</a>			</li>
+					<li>
+				<a href="/discover/government/">Government</a>			</li>
+					<li>
+				<a href="/discover/liberal-politics/">Liberal Politics</a>			</li>
+					<li>
+				<a href="/discover/liberties/">Liberties</a>			</li>
+					<li>
+				<a href="/discover/political-science/">Political Science</a>			</li>
+					<li>
+				<a href="/discover/satire/">Satire</a>			</li>
+			</ul>
+</div>
+
+		</div> <!-- end colRight -->
+		
+		<div class="colMain">				
+			<ul class="headerControls">
+				<li>
+											<a href="/to/stumble/topic:Politics" class="btnYellow" title="Stumble &gt; Politics">Stumble &gt;</a></li>
+									<li><h1>Politics</h1></li>
+			</ul>
+
+							<div id="navSecondary" class="clearfix">
+	<ul class="left">
+		<li>People who like this</li>
+			</ul>
+	<ul class="right">
+						<li><a href="/discover/politics/people/">See more</a></li>
+			</ul>
+</div>	<!-- end navSecondary -->
+				
+<div class="box">	
+	<ul class="gridUsers clearfix">
+	
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/surlyotter/" title="surlyotter - 29 - Boston - 10237 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/1809745.jpg) ;">
+					surlyotter
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/surlyotter/" title="surlyotter">surlyo...</a><br />
+				10K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/elledark/" title="elledark - perilously up a palm tree in the - 3360 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/3399897.jpg) ;">
+					elledark
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/elledark/" title="elledark">elledark</a><br />
+				3,360 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Spocko/" title="Spocko - 48 - Shikahr, Vulcan - 90012 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/143965.jpg) ;">
+					Spocko
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Spocko/" title="Spocko">Spocko</a><br />
+				90K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Sniffles/" title="Sniffles - Louisville - 36004 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/830511.jpg) ;">
+					Sniffles
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Sniffles/" title="Sniffles">Sniffles</a><br />
+				36K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/CharlesHB/" title="CharlesHB - Charlestown - 15151 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/148832.jpg) ;">
+					CharlesHB
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/CharlesHB/" title="CharlesHB">CharlesHB</a><br />
+				15K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/charistsevis/" title="charistsevis - 42 - Athens - 20393 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/4848669.jpg) ;">
+					charistsevis
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/charistsevis/" title="charistsevis">charis...</a><br />
+				20K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Arpana-INFJ/" title="Arpana-INFJ - 63 - Birmingham - 10926 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/2007424.jpg) ;">
+					Arpana-INFJ
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Arpana-INFJ/" title="Arpana-INFJ">Arpana...</a><br />
+				11K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/cgsheldon/" title="cgsheldon - 27 - Dubai - 27668 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/2165061.jpg) ;">
+					cgsheldon
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/cgsheldon/" title="cgsheldon">cgsheldon</a><br />
+				28K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Captain-Murphy/" title="Captain-Murphy - 23 - Dover - 25297 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/1674677.jpg) ;">
+					Captain-Murphy
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Captain-Murphy/" title="Captain-Murphy">Captai...</a><br />
+				25K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Cleppie/" title="Cleppie - 22 - N. Dartmouth - 5782 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/776476.jpg) ;">
+					Cleppie
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Cleppie/" title="Cleppie">Cleppie</a><br />
+				5,782 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+	 
+	</ul>
+	
+	</div> <!-- end box -->
+						<div id="navSecondary">
+				<ul class="left">
+					<li>Politics pages</li>
+				</ul>
+			</div>
+			<ul class="listStumble">
+	<li id="addContent">		
+		<form>
+			<fieldset class="labelLeft">				
+				<div class="wrapperInput">
+					<label for="url">URL</label>
+					<div class="iefix">
+						<input class="text" type="text" name="url" value="" id="url" />						
+					</div>
+				</div> <!-- end wrapperInput --> 
+				<div class="wrapperInput">
+					<label for="review">Review</label>
+					<div class="iefix">
+						<textarea cols="40" rows="6" id="review" name="review"></textarea>
+					</div>
+				</div> <!-- end wrapperInput --> 
+								<ul>
+					<li class="submit first iefix"><a class="submit btnWhite" href="javascript:void(0);">Add a site &gt;</a></li>					
+					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
+					
+					<li class="sticky last">
+						<label class="checkbox">					
+							<input type="checkbox" name="sticky" value="" id="sticky" />
+							Sticky
+						</label>
+					</li>
+					<li class="blog right">
+						<label class="checkbox">					
+							<input type="checkbox" name="blog_mode" value="" class="blogMode" />
+							Blog mode
+						</label>
+					</li>
+				</ul>								 
+			</fieldset>
+		</form>
+	</li>
+
+				
+							
+							
+		
+		<li class="listLi  first">
+				
+			<var id="40016990" class="8u5Sd4"></var>						
+			<div class="text">							
+									<a class="avatar" id="1785526" href="/stumbler/NeedsMoreCoffee/" 
+						title="NeedsMoreCoffee">
+						<img src="http://cdn.stumble-upon.com/superminipics/1785526.jpg" width="32px" alt="NeedsMoreCoffee" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/8u5Sd4/www.huffingtonpost.com/2010/02/18/family-guy-actress-respon_n_468331.html/t:4b81a12c50760;src:tag:politics" >Family Guy Actress Responds To Sarah Palins Criticism</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.huffingtonpost.com/2010/02/18/family-guy-actress-respon_n_468331.html">19 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/8u5Sd4/www.huffingtonpost.com/2010/02/18/family-guy-actress-respon_n_468331.html/t:4b81a12c50760;src:tag:politics" >huffingtonpost.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												You go, girl!
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.huffingtonpost.com/2010/02/18/family-guy-actress-respon_n_468331.html" title="16,380 views">
+					<span>16K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/8u5Sd4/www.huffingtonpost.com/2010/02/18/family-guy-actress-respon_n_468331.html/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/380/44731380.jpg" alt="Family Guy Actress Responds To Sarah Palins Criticism"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="39974243" class="1mCgdZ"></var>						
+			<div class="text">							
+									<a class="avatar" id="7366878" href="/stumbler/tlkshwhst/" 
+						title="tlkshwhst">
+						<img src="http://cdn.stumble-upon.com/superminipics/7366878.jpg" width="32px" alt="tlkshwhst" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1mCgdZ/wonkette.com/413753/black-man-puts-his-feet-on-desk-wingnuts-furious/t:4b81a12c50760;src:tag:politics" >            Wonkette : Black Man Puts His Feet On Desk,...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/wonkette.com/413753/black-man-puts-his-feet-on-desk-wingnuts-furious">13 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1mCgdZ/wonkette.com/413753/black-man-puts-his-feet-on-desk-wingnuts-furious/t:4b81a12c50760;src:tag:politics" >wonkette.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												the wingnuts are up in arms over Obama putting his feet on his desk (but it was OK when W. did it)
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/wonkette.com/413753/black-man-puts-his-feet-on-desk-wingnuts-furious" title="6,965 views">
+					<span>6,965</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1mCgdZ/wonkette.com/413753/black-man-puts-his-feet-on-desk-wingnuts-furious/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/164/44664164.jpg" alt="            Wonkette : Black Man Puts His Feet On Desk, Wingnuts Furious        "/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="" class="AhjugB"></var>						
+			<div class="text">							
+				                                				<h4><a href="http://www.stumbleupon.com/to/AhjugB/thinkprogress.org/2010/02/16/beck-uk/t:4b81a12c50760;src:tag:politics" >   Think Progress          &amp; Beck loses 103 sponsors...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showStumble">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/thinkprogress.org/2010/02/16/beck-uk/">18 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/AhjugB/thinkprogress.org/2010/02/16/beck-uk/t:4b81a12c50760;src:tag:politics" >thinkprogress.org</a>
+                                               					
+
+				</p>
+
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/thinkprogress.org/2010/02/16/beck-uk/" title="14,390 views">
+					<span>14K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/AhjugB/thinkprogress.org/2010/02/16/beck-uk/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/310/44623310.jpg" alt="   Think Progress          &amp; Beck loses 103 sponsors as his UK television broadcast runs for five days straight without any ads.       "/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="40013732" class="1IE6HC"></var>						
+			<div class="text">							
+									<a class="avatar" id="4848669" href="/stumbler/charistsevis/" 
+						title="charistsevis">
+						<img src="http://cdn.stumble-upon.com/superminipics/4848669.jpg" width="32px" alt="charistsevis" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1IE6HC/www.commondreams.org/view/2010/02/16-3/t:4b81a12c50760;src:tag:politics" >Dear Sarah: Say It Is So, Run for President |...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.commondreams.org/view/2010/02/16-3">37 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1IE6HC/www.commondreams.org/view/2010/02/16-3/t:4b81a12c50760;src:tag:politics" >commondreams.org</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: Mrs. Palin, you are an avatar of the shameless hypocrisy and cognitive disconnection that have driven our politics for the last decade, a process of stupidification creeping like kudzu over our national life.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.commondreams.org/view/2010/02/16-3" title="23,092 views">
+					<span>23K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1IE6HC/www.commondreams.org/view/2010/02/16-3/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/912/44645912.jpg" alt="Dear Sarah: Say It Is So, Run for President | CommonDreams.org"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="39877343" class="9tjR57"></var>						
+			<div class="text">							
+									<a class="avatar" id="7338418" href="/stumbler/beatnut2k4/" 
+						title="beatnut2k4">
+						<img src="http://cdn.stumble-upon.com/superminipics/7338418.jpg" width="32px" alt="beatnut2k4" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/9tjR57/www.guardian.co.uk/environment/2010/feb/13/algae-solve-pentagon-fuel-problem/t:4b81a12c50760;src:tag:politics" >   Algae to solve the Pentagons jet fuel problem |...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.guardian.co.uk/environment/2010/feb/13/algae-solve-pentagon-fuel-problem">5 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/9tjR57/www.guardian.co.uk/environment/2010/feb/13/algae-solve-pentagon-fuel-problem/t:4b81a12c50760;src:tag:politics" >guardian.co.uk</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												The work is part of a broader Pentagon effort to reduce the military&#039;s thirst for oil, which runs at between 60 and 75 million barrels of oil a year. Much of that is used to keep the US Air Force in flight. Commercial airlines such as Continental and Virgin Atlantic have... <a href="/stumbler/beatnut2k4/review/39877343/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.guardian.co.uk/environment/2010/feb/13/algae-solve-pentagon-fuel-problem" title="11,203 views">
+					<span>11K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/9tjR57/www.guardian.co.uk/environment/2010/feb/13/algae-solve-pentagon-fuel-problem/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/864/44466864.jpg" alt="   Algae to solve the Pentagons jet fuel problem |    Environment |    The Observer "/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="" class="2KXoH7"></var>						
+			<div class="text">							
+				                                				<h4><a href="http://www.stumbleupon.com/to/2KXoH7/www.flickr.com/photos/23522703@N06/4341764469/t:4b81a12c50760;src:tag:politics" >revolutionary-shot on Flickr - Photo Sharing!</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showStumble">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.flickr.com/photos/23522703%2540N06/4341764469/">5 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2KXoH7/www.flickr.com/photos/23522703@N06/4341764469/t:4b81a12c50760;src:tag:politics" >flickr.com</a>
+                                               					
+
+				</p>
+
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.flickr.com/photos/23522703%2540N06/4341764469/" title="11,346 views">
+					<span>11K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2KXoH7/www.flickr.com/photos/23522703@N06/4341764469/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/760/44373760.jpg" alt="revolutionary-shot on Flickr - Photo Sharing!"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="39832329" class="9zivSd"></var>						
+			<div class="text">							
+									<a class="avatar" id="2575462" href="/stumbler/yobaba/" 
+						title="yobaba">
+						<img src="http://cdn.stumble-upon.com/superminipics/2575462.jpg" width="32px" alt="yobaba" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/9zivSd/www.thenation.com/blogs/edcut/528746/cable_comcast_al_franken_says_hell_no_on_the_nbc_takeover/t:4b81a12c50760;src:tag:politics" >Cable Comcast: Al Franken Says Hell No on the NBC Takeover</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.thenation.com/blogs/edcut/528746/cable_comcast_al_franken_says_hell_no_on_the_nbc_takeover">4 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/9zivSd/www.thenation.com/blogs/edcut/528746/cable_comcast_al_franken_says_hell_no_on_the_nbc_takeover/t:4b81a12c50760;src:tag:politics" >thenation.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Franken has been careful to be a workhorse, not a show horse Senator. He&#039;s kept his history as a comedian and entertainer separate from his work as a legislator. But in the case of the Comcast-NBC merger, Franken speaks with authority and it&#039;s important that his... <a href="/stumbler/yobaba/review/39832329/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.thenation.com/blogs/edcut/528746/cable_comcast_al_franken_says_hell_no_on_the_nbc_takeover" title="7,163 views">
+					<span>7,163</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/9zivSd/www.thenation.com/blogs/edcut/528746/cable_comcast_al_franken_says_hell_no_on_the_nbc_takeover/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/274/44355274.jpg" alt="Cable Comcast: Al Franken Says Hell No on the NBC Takeover"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="39806961" class="2kmhs0"></var>						
+			<div class="text">							
+									<a class="avatar" id="5000963" href="/stumbler/JAELYNN7/" 
+						title="JAELYNN7">
+						<img src="http://cdn.stumble-upon.com/superminipics/5000963.jpg" width="32px" alt="JAELYNN7" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2kmhs0/news.bbc.co.uk/2/hi/in_pictures/8508817.stm/t:4b81a12c50760;src:tag:politics" >BBC News - In pictures: New 9/11 photos released</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/news.bbc.co.uk/2/hi/in_pictures/8508817.stm">4 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2kmhs0/news.bbc.co.uk/2/hi/in_pictures/8508817.stm/t:4b81a12c50760;src:tag:politics" >bbc.co.uk</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												In Remembrance to the many lives that died and their families..a day in History that would never be forgotten..
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/news.bbc.co.uk/2/hi/in_pictures/8508817.stm" title="4,193 views">
+					<span>4,193</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2kmhs0/news.bbc.co.uk/2/hi/in_pictures/8508817.stm/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/712/44323712.jpg" alt="BBC News - In pictures: New 9/11 photos released"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="39787319" class="25OALB"></var>						
+			<div class="text">							
+									<a class="avatar" id="2575462" href="/stumbler/yobaba/" 
+						title="yobaba">
+						<img src="http://cdn.stumble-upon.com/superminipics/2575462.jpg" width="32px" alt="yobaba" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/25OALB/whitenoiseinsanity.com/2009/04/20/remember-when-reagan-met-with-taliban-leaders-in-the-white-house/t:4b81a12c50760;src:tag:politics" >Remember when Reagan met with Taliban leaders in the...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/whitenoiseinsanity.com/2009/04/20/remember-when-reagan-met-with-taliban-leaders-in-the-white-house/">25 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/25OALB/whitenoiseinsanity.com/2009/04/20/remember-when-reagan-met-with-taliban-leaders-in-the-white-house/t:4b81a12c50760;src:tag:politics" >whitenoiseinsanity.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Republicans never disappoint.
+
+
+
+Here&#039;s a picture of the meeting between Reagan and the &#039;freedom fighters&#039; (which is what Reagan referred to the Taliban as back in the 80&#039;s and also considered them to be no different than America&#039;s Founding Fathers) ...
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/whitenoiseinsanity.com/2009/04/20/remember-when-reagan-met-with-taliban-leaders-in-the-white-house/" title="17,903 views">
+					<span>18K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/25OALB/whitenoiseinsanity.com/2009/04/20/remember-when-reagan-met-with-taliban-leaders-in-the-white-house/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/330/44143330.jpg" alt="Remember when Reagan met with Taliban leaders in the White House? &amp; Politics &amp; WHITE NOISE INSANITY"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  last">
+				
+			<var id="" class="2m8nYy"></var>						
+			<div class="text">							
+				                                				<h4><a href="http://www.stumbleupon.com/to/2m8nYy/en.wikipedia.org/wiki/Forbes_Magazine%27s_List_of_The_World%27s_Most_Powerful_People/t:4b81a12c50760;src:tag:politics" >Forbes Magazines List of The Worlds Most Powerful People...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showStumble">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/en.wikipedia.org/wiki/Forbes_Magazine%252527s_List_of_The_World%252527s_Most_Powerful_People">8 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2m8nYy/en.wikipedia.org/wiki/Forbes_Magazine%27s_List_of_The_World%27s_Most_Powerful_People/t:4b81a12c50760;src:tag:politics" >wikipedia.org</a>
+                                               					
+
+				</p>
+
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/en.wikipedia.org/wiki/Forbes_Magazine%252527s_List_of_The_World%252527s_Most_Powerful_People" title="10,960 views">
+					<span>11K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2m8nYy/en.wikipedia.org/wiki/Forbes_Magazine%27s_List_of_The_World%27s_Most_Powerful_People/t:4b81a12c50760;src:tag:politics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/564/44120564.jpg" alt="Forbes Magazines List of The Worlds Most Powerful People - Wikipedia, the free encyclopedia"/>
+				</a>
+			</span>																				
+			
+											</li>
+					
+</ul>
+
+			
+	<ul class="module modulePagination clearfix">
+						<li><a id="paginationNext" href="/discover/politics/10/">Next &raquo;</a>
+				</ul>
+
+<script language="javascript">
+function navigate_blog(e)
+{
+        var kcode;
+
+        if (e == null)
+        {
+                // IE
+                if (typeof(event.srcElement.type != 'undefined') && (event.srcElement.type == 'text' || event.srcElement.type == 'textarea'))
+                        return true;
+
+                kcode = event.keyCode;
+                if (typeof(event.srcElement.type) != 'undefined' && (event.srcElement.id == 'search_q' || event.srcElement.id == 'stumblesearch' || event.srcElement.id == 'searchtext' || event.srcElement.id == 'tagtext' || event.srcElement.id == 'blogContent' || event.srcElement.id == 'blogContentFCK' || event.srcElement.id == 'newtags' || event.srcElement.id == 'addTag' || event.srcElement.id == 'qmsg_ta' ))
+                        return true;
+        }
+        else
+        {
+                // Mozilla
+                if (e.altKey || e.ctrlKey)
+                {
+                        return true; // moz doesn't override ctrl keys
+                }
+                kcode = e.which;
+
+                if (typeof(e.target.type != 'undefined') && (e.target.type == 'text' || e.target.type == 'textarea'))
+                        return true;
+
+                if (typeof(e.target.type) != 'undefined' && (e.target.id == 'search_q' || e.target.id == 'stumblesearch' || e.target.id == 'searchtext' || e.target.id == 'tagtext' || e.target.id == 'blogContent' || e.target.id == 'blogContentFCK' || e.target.id == 'newtags' || e.target.id == 'addTag' || e.target.id == 'qmsg_ta' ))
+                        return true;
+        }
+        var key = String.fromCharCode(kcode).toLowerCase();
+        var keyCode = document.layers ? e.which :
+                        document.all ? event.keyCode :
+                        document.getElementById ? e.keyCode : 0;
+
+        var n = null;
+        if(keyCode == 39)
+        {
+                if (n = document.getElementById('paginationNext'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+        if(keyCode == 37)
+        {
+                if (n = document.getElementById('paginationPrevious'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+
+        return true;
+}
+
+document.onkeydown = navigate_blog;
+
+</script>
+
+
+		</div> <!-- end colMain -->		
+    </div> <!-- end content -->
+</div> <!-- end wrapperContent -->
+<div id="wrapperFooter">
+    <div id="footer" class="clearfix">
+<div class="clearfix colFour">	
+	<ul class="col">
+		<li class="header">About StumbleUpon</li>
+		<li><a href="/aboutus/">About Us</a></li>	
+		<li><a href="/productdemo/">Take a Tour</a></li>	
+		<li><a href="/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/press/">Press Information</a>
+		<li><a href="http://blog.stumbleupon.com/">Official Blog</a></li>	
+		<li><a href="/devblog/">Developers Blog</a></li>	
+	</ul>
+
+	<ul class="col">
+		<li class="header">Explore StumbleUpon</li>
+		<li><a href="/tag/">Tags</a>, <a href="/book/">Books</a>, <a href="/music/">Music</a>, <a href="/movie/">Movies</a></li>	
+		<li><a href="/tv/">TV Shows</a>, <a href="/city/">Cities</a>, <a href="/country/">Countries</a></li>	
+		<li class="header">Community</li>
+		<li><a href="/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/topstumblers/">Top Stumblers</a></li>	
+		<li>
+			<a href="/groups/">Groups</a>		</li>
+		<li><a href="/aboutus/community_rules">Community Rules</a></li>	
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Tools and Services</li>
+				<li><a href="/ads/">StumbleUpon Advertising</a></li>	
+		<li><a href="/about/partnerprogram/">Stumble Badges</a></li>	
+		<li><a href="/stumblethru/">StumbleThru</a></li>	
+		<li class="header">Your Profile</li>
+		<li><a href="/findfriends/">Connect with Friends</a></li>	
+				<li><a href="/settings/">Account Preferences</a></li>		
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Help</li>
+		<li><a href="/faq.html">FAQ</a></li>	
+		<li class="header">Company</li>
+		<li><a href="/jobs/">Jobs at StumbleUpon</a></li>	
+		<li><a href="/management/">Management</a></li>
+		<li><a href="/terms/">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy</a></li>	
+			
+	</ul>
+</div>
+	<p class="copyright">&copy; StumbleUpon 2001 - 2010</p>
+</div> <!-- end footer -->
+</div> <!-- end wrapperFooter -->
+
+
+	</div> <!-- end wrapper -->
+		<script type="text/javascript" charset="utf-8" src="http://cdn.stumble-upon.com/js/attach_su.js?v=su.19.02.10d"></script>
+		
+<script type="text/javascript" src="http://www.stumbleupon.com/js/s_code.js"></script>
+<script type="text/javascript"><!--
+s.pageName="Tag v4";
+s.eVar9 = 'Visitor';
+s.prop9 = 'Visitor';
+if(window.tp_variation !== undefined && window.tp_variation != ""){s.prop10=tp_variation;s.eVar10=tp_variation;}
+if(window.hp_variation !== undefined && window.hp_variation != ""){s.pageName=hp_variation;}
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+</script>
+
+<!-- Start Quantcast tag --> 
+			 <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> 
+			 <script type="text/javascript">_qacct="p-dez5MJMQSF95o";quantserve();</script> 
+			 <noscript> 
+			 	<a href="http://www.quantcast.com/p-dez5MJMQSF95o" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-dez5MJMQSF95o.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a> 
+			</noscript> 
+			<!-- End Quantcast tag -->
+		
+		
+    
+			<img src="/spacer" width=0 height=0 />
+	
+	<span id="__su_server_time__" class="1266786604"></span>
+</body>
+</html>
