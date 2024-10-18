@@ -1,0 +1,1046 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+	<link rel="stylesheet" href="/css/global_su.css?v=su.23.12.09" type="text/css" media="screen, projection" />
+		<!--[if lt IE 7]>
+	<link rel="stylesheet" href="/css/ie_su.css?v=su.23.12.09" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/css/ie7_su.css?v=su.23.12.09" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<!--[if IE 8]>
+	<link rel="stylesheet" href="/css/ie8_su.css?v=su.23.12.09" type="text/css" media="screen, projection" />
+	<![endif]-->
+				
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	
+			
+	<script type="text/javascript" src="/js/plugins_su.js?v=su.23.12.09"></script>
+	
+	<title>Discover - Recent Activity</title>
+
+        <script type="text/javascript"> 
+         
+        function trk(u) {  
+                if (document.images) 
+                { 
+                        (new Image).src=u;  
+                } 
+                return true; 
+        } 
+         
+        </script> 
+</head>
+<body class="discover">
+	<div id="inflator"></div>
+	<div id="wrapperPanel">
+		<a id="closePanel" class="close" href="javascript:void(0);">close</a>
+		<div class="panel">
+			
+			<iframe name="panel" frameborder="0" src="" scrolling="yes" noresize="0"></iframe>			
+			
+			<script type="text/javascript">
+				$('#closePanel').click(function(){
+					$('.listStumble .active').each(function () {
+						$(this).removeClass('active');
+						$('.open').slideUp(200);                
+						}
+					);
+					$('#inflator.open').slideUp(200).removeClass('open');
+					$('#addContent.open').slideUp(200).removeClass('open');
+				});
+			</script>
+			
+		</div> <!-- end panel -->
+		<div id="fadeout"></div>
+		<div id="ff-install-helper" style="display: none;">
+			<img id="close-button" src="http://cdn.stumble-upon.com/images/close-button.png" alt="x" />
+			<h2>Installing is Easy!<img src="http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24" /></h2>
+			<ol>
+				<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
+				<li style="margin-bottom:0.7em;">Click Install Now</li>
+				<li style="color:#666;">After installing, Restart Firefox</li>
+			</ol>
+		</div>
+	</div> <!-- end wrapperWebToolbar -->	
+		<div id="wrapper">
+			<div id="wrapperHeader">
+	<div id="header" class="">	
+	   	<a id="logo" href="/">StumbleUpon</a> <!-- end logo -->
+	   	
+			<div id="headerLogin" class="hidden">
+			 	<form action="/login.php" name="formLogin" method="post" id="formLogin">			 		
+			 		<ul>
+			 			<li class="iefix">
+			 				<label for="username">Email or username</label>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value="" />			 			</li>			 			
+			 			<li class="iefix" id="wrapperPassword">
+			 				<label for="password">Password</label>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16" />
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch" />
+			 			</li>
+			 			<li>
+			 				<input class="btnGreen" type="submit" name="login" value="Login" />
+							<input type="hidden" name="rememberme" value="1" />
+			 			</li>
+			 		</ul>			 												 		
+			 	</form>
+			</div>
+
+			<p id="loginLinks">
+	   			<a class="signin" href="/signup/">Join StumbleUpon</a>
+	   			<span class="separator">&bull;</span>
+	   			<a class="login" href="/login.php">Login</a>
+
+				
+			</p>
+			</div>  <!-- end header -->
+</div> <!-- end wrapperHeader -->
+
+
+<div id="wrapperNav">
+	<ul id="navMain">
+		<li class="discover first"><a href="/discover/toprated/">Discover</a></li>
+		<li class="favorites"><a href="/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/stumblers/onlinenow/">Stumblers</a></li>
+		<li id="searchNav" class="last">
+			<form method="get" action="/search">
+				<fieldset>
+					<label for="searchNavUser">Search Favorites</label>
+					<input type="text" value="" id="searchNavUser" name="q" class="text"/>
+					<input type="image" alt="Search" src="http://cdn.stumble-upon.com/i/btn/btnSearch.gif" id="searchNavSubmit"/>
+									</fieldset>
+			</form>
+		</li>
+	</ul> <!-- end navMain -->  
+</div> <!-- end wrapperNav -->
+<div id="wrapperContent">
+	<div id="content" class="hasColRight topic clearfix">
+		<div class="colRight">
+						
+							<div class="box">
+					<a id="subscribeBtn" class="subscribe submit btnWhite" href="/sign_up.php?pre2=subscribe_tag">Subscribe</a>
+				</div>
+						<div class="box borderBottom">
+	<h4>Related Topics</h4>
+	<ul class="listTopics">
+					<li>
+				<a href="/discover/bizarre/">Bizarre</a>			</li>
+					<li>
+				<a href="/discover/humor/">Humor</a>			</li>
+					<li>
+				<a href="/discover/philosophy/">Philosophy</a>			</li>
+					<li>
+				<a href="/discover/photography/">Photography</a>			</li>
+					<li>
+				<a href="/discover/satire/">Satire</a>			</li>
+					<li>
+				<a href="/discover/science/">Science</a>			</li>
+			</ul>
+</div>
+
+		</div> <!-- end colRight -->
+		
+		<div class="colMain">				
+			<ul class="headerControls">
+				<li>
+											<a href="/to/stumble/topic:Psychology" class="btnYellow" title="Stumble &gt; Psychology">Stumble &gt;</a></li>
+									<li><h1>Psychology</h1></li>
+			</ul>
+
+							<div id="navSecondary" class="clearfix">
+	<ul class="left">
+		<li>People who like this</li>
+			</ul>
+	<ul class="right">
+						<li><a href="/discover/psychology/people/">See more</a></li>
+			</ul>
+</div>	<!-- end navSecondary -->
+				
+<div class="box">	
+	<ul class="gridUsers clearfix">
+	
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/munkinut/" title="munkinut - 40 - Newcastle Upon Tyne - 4336 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/558198.jpg) ;">
+					munkinut
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/munkinut/" title="munkinut">munkinut</a><br />
+				4,336 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Dysalot/" title="Dysalot - 20 - Omaha - 9210 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/1893842.jpg) ;">
+					Dysalot
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Dysalot/" title="Dysalot">Dysalot</a><br />
+				9,210 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/crilly47/" title="crilly47 - Adelaide - 132 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/8480220.jpg) ;">
+					crilly47
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/crilly47/" title="crilly47">crilly47</a><br />
+				132 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Lepidus25/" title="Lepidus25 - 21 - 6922 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/4834178.jpg) ;">
+					Lepidus25
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Lepidus25/" title="Lepidus25">Lepidus25</a><br />
+				6,922 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/mdesenfants/" title="mdesenfants - 20 - Rapid City - 3679 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/4965776.jpg) ;">
+					mdesenfants
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/mdesenfants/" title="mdesenfants">mdesen...</a><br />
+				3,679 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/AlexPh/" title="AlexPh - 19 - Annandale - 1220 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/1532857.jpg) ;">
+					AlexPh
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/AlexPh/" title="AlexPh">AlexPh</a><br />
+				1,220 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/lazlowsp/" title="lazlowsp - 21 - 1420 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/7955671.jpg) ;">
+					lazlowsp
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/lazlowsp/" title="lazlowsp">lazlowsp</a><br />
+				1,420 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/lpenados/" title="lpenados - 29 - 544 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/3076577.jpg) ;">
+					lpenados
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/lpenados/" title="lpenados">lpenados</a><br />
+				544 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/VixxieMay/" title="VixxieMay - 16 - 6410 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/6075945.jpg) ;">
+					VixxieMay
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/VixxieMay/" title="VixxieMay">VixxieMay</a><br />
+				6,410 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/superseastallion/" title="superseastallion - 15 - 1189 Favs" style="background-image: url(http://cdn.stumble-upon.com/superminipics/8725105.jpg) ;">
+					superseastallion
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/superseastallion/" title="superseastallion">supers...</a><br />
+				1,189 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+	 
+	</ul>
+	
+	</div> <!-- end box -->
+						<div id="navSecondary">
+				<ul class="left">
+					<li>Psychology pages</li>
+				</ul>
+			</div>
+			<ul class="listStumble">
+	<li id="addContent">		
+		<form>
+			<fieldset class="labelLeft">				
+				<div class="wrapperInput">
+					<label for="url">URL</label>
+					<div class="iefix">
+						<input class="text" type="text" name="url" value="" id="url" />						
+					</div>
+				</div> <!-- end wrapperInput --> 
+				<div class="wrapperInput">
+					<label for="review">Review</label>
+					<div class="iefix">
+						<textarea cols="40" rows="6" id="review" name="review"></textarea>
+					</div>
+				</div> <!-- end wrapperInput --> 
+								<ul>
+					<li class="submit first iefix"><a class="submit btnWhite" href="javascript:void(0);">Add a site &gt;</a></li>					
+					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
+					
+					<li class="sticky last">
+						<label class="checkbox">					
+							<input type="checkbox" name="sticky" value="" id="sticky" />
+							Sticky
+						</label>
+					</li>
+					<li class="blog right">
+						<label class="checkbox">					
+							<input type="checkbox" name="blog_mode" value="" class="blogMode" />
+							Blog mode
+						</label>
+					</li>
+				</ul>								 
+			</fieldset>
+		</form>
+	</li>
+
+				
+							
+							
+		
+		<li class="listLi  first">
+				
+			<var id="38552053" class="5qTd7s"></var>						
+			<div class="text">							
+									<a class="avatar" id="4237773" href="/stumbler/shiggywiggy/" 
+						title="shiggywiggy">
+						<img src="http://cdn.stumble-upon.com/superminipics/4237773.jpg" width="32px" alt="shiggywiggy" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/5qTd7s/www.youtube.com/watch?v=38XO7ac9eSs/t:4b32b636c021a;src:tag:psychology" >Experimental Psychology - Change Blindness</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.youtube.com/watch%253Fv%253D38XO7ac9eSs">15 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/5qTd7s/www.youtube.com/watch?v=38XO7ac9eSs/t:4b32b636c021a;src:tag:psychology" >youtube.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												This is just amazing to watch - I&#039;ve never seen it in action so clearly, although, when I was a law student, we had a practical example in a class about Evidence: a mock &quot;assault&quot; by a stranger took place and when students had to recount what they had witnessed,... <a href="/stumbler/shiggywiggy/review/38552053/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.youtube.com/watch%253Fv%253D38XO7ac9eSs" title="40,373 views">
+					<span>40K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/5qTd7s/www.youtube.com/watch?v=38XO7ac9eSs/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/936/41550936.jpg" alt="Experimental Psychology - Change Blindness"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="37669710" class="2LfAAh"></var>						
+			<div class="text">							
+									<a class="avatar" id="4876073" href="/stumbler/xenocrine/" 
+						title="xenocrine">
+						<img src="http://cdn.stumble-upon.com/superminipics/4876073.jpg" width="32px" alt="xenocrine" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2LfAAh/www.latimes.com/news/nationworld/nation/la-sci-depression14-2009nov14,0,7799014.story/t:4b32b636c021a;src:tag:psychology" >Childhood stress can trigger adult depression -- latimes.com</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.latimes.com/news/nationworld/nation/la-sci-depression14-2009nov14%252C0%252C7799014.story">6 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2LfAAh/www.latimes.com/news/nationworld/nation/la-sci-depression14-2009nov14,0,7799014.story/t:4b32b636c021a;src:tag:psychology" >latimes.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												It may be obvious, but now we know the neurochemical reason why.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.latimes.com/news/nationworld/nation/la-sci-depression14-2009nov14%252C0%252C7799014.story" title="13,357 views">
+					<span>13K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2LfAAh/www.latimes.com/news/nationworld/nation/la-sci-depression14-2009nov14,0,7799014.story/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/796/40353796.jpg" alt="Childhood stress can trigger adult depression -- latimes.com"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="37563869" class="2V5vej"></var>						
+			<div class="text">							
+									<a class="avatar" id="9134409" href="/stumbler/LarryGuthrie/" 
+						title="LarryGuthrie">
+						<img src="http://cdn.stumble-upon.com/superminipics/9134409.jpg" width="32px" alt="LarryGuthrie" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2V5vej/www.newscientist.com/article/dn2051/t:4b32b636c021a;src:tag:psychology" >Rejection massively reduces IQ - life - 15 March 2002 -...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.newscientist.com/article/dn2051">9 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2V5vej/www.newscientist.com/article/dn2051/t:4b32b636c021a;src:tag:psychology" >newscientist.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												&quot;Rejection can dramatically reduce a person&#039;s IQ and their ability to reason analytically, while increasing their aggression, according to new research.&quot;   No wonder why the world&#039;s crazy ! nice article.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.newscientist.com/article/dn2051" title="23,668 views">
+					<span>24K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2V5vej/www.newscientist.com/article/dn2051/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/847/40029847.jpg" alt="Rejection massively reduces IQ - life - 15 March 2002 - New Scientist"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="36911122" class="1r2zY3"></var>						
+			<div class="text">							
+									<a class="avatar" id="4732032" href="/stumbler/purplegem/" 
+						title="purplegem">
+						<img src="http://cdn.stumble-upon.com/superminipics/4732032.jpg" width="32px" alt="purplegem" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1r2zY3/www.wired.com/wiredscience/2009/10/speaking-brain/t:4b32b636c021a;src:tag:psychology" >Wires Inserted Into Human Brain Reveal Speech Surprise |...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.wired.com/wiredscience/2009/10/speaking-brain/">5 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1r2zY3/www.wired.com/wiredscience/2009/10/speaking-brain/t:4b32b636c021a;src:tag:psychology" >wired.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: A rare set of high-resolution readouts taken directly from the wired-in brains of epileptics has provided an unprecedented look at how the brain processes language.
+
+Though only a glimpse, it was enough to show that part of the brain&#039;s language center... <a href="/stumbler/purplegem/review/36911122/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.wired.com/wiredscience/2009/10/speaking-brain/" title="14,352 views">
+					<span>14K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1r2zY3/www.wired.com/wiredscience/2009/10/speaking-brain/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/396/38998396.jpg" alt="Wires Inserted Into Human Brain Reveal Speech Surprise | Wired Science | Wired.com"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="36773318" class="2gnyHk"></var>						
+			<div class="text">							
+									<a class="avatar" id="3000152" href="/stumbler/mxe806j02/" 
+						title="mxe806j02">
+						<img src="http://cdn.stumble-upon.com/superminipics/3000152.jpg" width="32px" alt="mxe806j02" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2gnyHk/www.telegraph.co.uk/technology/3304496/Be-lucky---its-an-easy-skill-to-learn.html/t:4b32b636c021a;src:tag:psychology" >Be lucky - its an easy skill to learn - Telegraph</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.telegraph.co.uk/technology/3304496/Be-lucky---its-an-easy-skill-to-learn.html">64 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2gnyHk/www.telegraph.co.uk/technology/3304496/Be-lucky---its-an-easy-skill-to-learn.html/t:4b32b636c021a;src:tag:psychology" >telegraph.co.uk</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: &quot;In the wake of these studies, I think there are three easy techniques that can help to maximise good fortune:
+
+    * Unlucky people often fail to follow their intuition when making a choice, whereas lucky people tend to respect hunches. Lucky people are... <a href="/stumbler/mxe806j02/review/36773318/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.telegraph.co.uk/technology/3304496/Be-lucky---its-an-easy-skill-to-learn.html" title="79,774 views">
+					<span>80K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2gnyHk/www.telegraph.co.uk/technology/3304496/Be-lucky---its-an-easy-skill-to-learn.html/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/491/38802491.jpg" alt="Be lucky - its an easy skill to learn - Telegraph"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="36576450" class="3WCTEL"></var>						
+			<div class="text">							
+									<a class="avatar" id="1575908" href="/stumbler/Aysez/" 
+						title="Aysez">
+						<img src="http://cdn.stumble-upon.com/superminipics/1575908.jpg" width="32px" alt="Aysez" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/3WCTEL/news.yahoo.com/s/ap/20091003/ap_en_ot/us_the_red_book_jung/t:4b32b636c021a;src:tag:psychology" >Carl Jungs Red Book to be displayed for 1st time - Yahoo!...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/news.yahoo.com/s/ap/20091003/ap_en_ot/us_the_red_book_jung">9 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/3WCTEL/news.yahoo.com/s/ap/20091003/ap_en_ot/us_the_red_book_jung/t:4b32b636c021a;src:tag:psychology" >yahoo.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												Carl Jung&#039;s Red Book to be shown in public for the first time. It is an illustrated manuscript of his dreams.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/news.yahoo.com/s/ap/20091003/ap_en_ot/us_the_red_book_jung" title="23,478 views">
+					<span>23K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/3WCTEL/news.yahoo.com/s/ap/20091003/ap_en_ot/us_the_red_book_jung/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/882/38481882.jpg" alt="Carl Jungs Red Book to be displayed for 1st time - Yahoo! News"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="37322403" class="2fKpP1"></var>						
+			<div class="text">							
+									<a class="avatar" id="2194548" href="/stumbler/stevedtrm/" 
+						title="stevedtrm">
+						<img src="http://cdn.stumble-upon.com/superminipics/2194548.jpg" width="32px" alt="stevedtrm" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2fKpP1/chvnx.com/post/170486502/t:4b32b636c021a;src:tag:psychology" >CHVNX - &quot;The so-called â€˜psychotically...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/chvnx.com/post/170486502">78 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2fKpP1/chvnx.com/post/170486502/t:4b32b636c021a;src:tag:psychology" >chvnx.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page:  &quot;The so-called â€psychotically depressedâ€ person who tries to kill herself doesnâ€t do so out of quote â€hopelessnessâ€ or any abstract conviction that lifeâ€s assets and debits do not square. And surely not because death seems suddenly appealing. The... <a href="/stumbler/stevedtrm/review/37322403/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/chvnx.com/post/170486502" title="126,441 views">
+					<span>126K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2fKpP1/chvnx.com/post/170486502/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/422/38098422.jpg" alt="CHVNX - &quot;The so-called â€˜psychotically depressed&#039; person..."/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="36344568" class="1kXRmw"></var>						
+			<div class="text">							
+									<a class="avatar" id="2351731" href="/stumbler/creativeusername/" 
+						title="creativeusername">
+						<img src="http://cdn.stumble-upon.com/superminipics/2351731.jpg" width="32px" alt="creativeusername" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1kXRmw/www.eatmedaily.com/2009/09/psychological-experiments-in-self-control-the-marshmallow-test/t:4b32b636c021a;src:tag:psychology" >The Marshmallow Test: Psychological Experiments in...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.eatmedaily.com/2009/09/psychological-experiments-in-self-control-the-marshmallow-test/">100 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1kXRmw/www.eatmedaily.com/2009/09/psychological-experiments-in-self-control-the-marshmallow-test/t:4b32b636c021a;src:tag:psychology" >eatmedaily.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: &quot;We can&#039;t control the world, but we can control how we think about it.&quot;    
+
+S&#039;agood motto.
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.eatmedaily.com/2009/09/psychological-experiments-in-self-control-the-marshmallow-test/" title="182,178 views">
+					<span>182K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1kXRmw/www.eatmedaily.com/2009/09/psychological-experiments-in-self-control-the-marshmallow-test/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/94/38072094.jpg" alt="The Marshmallow Test: Psychological Experiments in Self-Control - Eat Me Daily"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="38281254" class="2CkCif"></var>						
+			<div class="text">							
+									<a class="avatar" id="9064441" href="/stumbler/sylkot/" 
+						title="sylkot">
+						<img src="http://cdn.stumble-upon.com/superminipics/9064441.jpg" width="32px" alt="sylkot" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2CkCif/www.ananova.com/news/story/sm_3486992.html?menu/t:4b32b636c021a;src:tag:psychology" >      Ananova - Women cant keep secrets - study    </a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.ananova.com/news/story/sm_3486992.html%253Fmenu">42 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2CkCif/www.ananova.com/news/story/sm_3486992.html?menu/t:4b32b636c021a;src:tag:psychology" >ananova.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												&quot;Researchers found women will typically spill the beans to at least one other person in 47 hours and 15 minutes, reports the Daily Telegraph..... The study of 3,000 women, aged between 18 and 65, also found that four out of ten admitted they were unable to keep a secret -... <a href="/stumbler/sylkot/review/38281254/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.ananova.com/news/story/sm_3486992.html%253Fmenu" title="27,962 views">
+					<span>28K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2CkCif/www.ananova.com/news/story/sm_3486992.html?menu/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/77/37777077.jpg" alt="      Ananova - Women cant keep secrets - study    "/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  last">
+				
+			<var id="36345289" class="2I7nTz"></var>						
+			<div class="text">							
+									<a class="avatar" id="2357042" href="/stumbler/escapiiist/" 
+						title="escapiiist">
+						<img src="http://cdn.stumble-upon.com/superminipics/2357042.jpg" width="32px" alt="escapiiist" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2I7nTz/www.dashndem.com/dr_whippy.html/t:4b32b636c021a;src:tag:psychology" >DR_WHIPPY</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+										 
+					
+																		<a href="http://www.stumbleupon.com/url/www.dashndem.com/dr_whippy.html">60 reviews</a>
+											
+					    
+						
+						
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2I7nTz/www.dashndem.com/dr_whippy.html/t:4b32b636c021a;src:tag:psychology" >dashndem.com</a>
+                                               					
+
+				</p>
+
+									<div class="review">
+																												From the page: &quot;Dr. Whippy is a machine which proffers soft scoop ice cream according to the perceived unhappiness level of the customer. Employing a voice-stress analysis of the userâ€s answers to specific questions, varying degrees of unhappiness are measured and the... <a href="/stumbler/escapiiist/review/36345289/">more</a>
+																								</div>
+									
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.dashndem.com/dr_whippy.html" title="122,182 views">
+					<span>122K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2I7nTz/www.dashndem.com/dr_whippy.html/t:4b32b636c021a;src:tag:psychology" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/411/37618411.jpg" alt="DR_WHIPPY"/>
+				</a>
+			</span>																				
+			
+											</li>
+					
+</ul>
+			
+	<ul class="module modulePagination clearfix">
+						<li><a id="paginationNext" href="/discover/psychology/10/">Next &raquo;</a>
+				</ul>
+
+<script language="javascript">
+function navigate_blog(e)
+{
+        var kcode;
+
+        if (e == null)
+        {
+                // IE
+                if (typeof(event.srcElement.type != 'undefined') && (event.srcElement.type == 'text' || event.srcElement.type == 'textarea'))
+                        return true;
+
+                kcode = event.keyCode;
+                if (typeof(event.srcElement.type) != 'undefined' && (event.srcElement.id == 'search_q' || event.srcElement.id == 'stumblesearch' || event.srcElement.id == 'searchtext' || event.srcElement.id == 'tagtext' || event.srcElement.id == 'blogContent' || event.srcElement.id == 'blogContentFCK' || event.srcElement.id == 'newtags' || event.srcElement.id == 'addTag' || event.srcElement.id == 'qmsg_ta' ))
+                        return true;
+        }
+        else
+        {
+                // Mozilla
+                if (e.altKey || e.ctrlKey)
+                {
+                        return true; // moz doesn't override ctrl keys
+                }
+                kcode = e.which;
+
+                if (typeof(e.target.type != 'undefined') && (e.target.type == 'text' || e.target.type == 'textarea'))
+                        return true;
+
+                if (typeof(e.target.type) != 'undefined' && (e.target.id == 'search_q' || e.target.id == 'stumblesearch' || e.target.id == 'searchtext' || e.target.id == 'tagtext' || e.target.id == 'blogContent' || e.target.id == 'blogContentFCK' || e.target.id == 'newtags' || e.target.id == 'addTag' || e.target.id == 'qmsg_ta' ))
+                        return true;
+        }
+        var key = String.fromCharCode(kcode).toLowerCase();
+        var keyCode = document.layers ? e.which :
+                        document.all ? event.keyCode :
+                        document.getElementById ? e.keyCode : 0;
+
+        var n = null;
+        if(keyCode == 39)
+        {
+                if (n = document.getElementById('paginationNext'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+        if(keyCode == 37)
+        {
+                if (n = document.getElementById('paginationPrevious'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+
+        return true;
+}
+
+document.onkeydown = navigate_blog;
+
+</script>
+
+
+		</div> <!-- end colMain -->		
+    </div> <!-- end content -->
+</div> <!-- end wrapperContent -->
+<div id="wrapperFooter">
+    <div id="footer" class="clearfix">
+<div class="clearfix colFour">	
+	<ul class="col">
+		<li class="header">About StumbleUpon</li>
+		<li><a href="/aboutus/">About Us</a></li>	
+		<li><a href="/productdemo/">Take a Tour</a></li>	
+		<li><a href="/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/press/">Press Information</a>
+		<li><a href="http://blog.stumbleupon.com/">Official Blog</a></li>	
+		<li><a href="/devblog/">Developers Blog</a></li>	
+	</ul>
+
+	<ul class="col">
+		<li class="header">Explore StumbleUpon</li>
+		<li><a href="/tag/">Tags</a>, <a href="/book/">Books</a>, <a href="/music/">Music</a>, <a href="/movie/">Movies</a></li>	
+		<li><a href="/tv/">TV Shows</a>, <a href="/city/">Cities</a>, <a href="/country/">Countries</a></li>	
+		<li class="header">Community</li>
+		<li><a href="/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/topstumblers/">Top Stumblers</a></li>	
+		<li>
+			<a href="/groups/">Groups</a>		</li>
+		<li><a href="/aboutus/community_rules">Community Rules</a></li>	
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Tools and Services</li>
+				<li><a href="/ads/">StumbleUpon Advertising</a></li>	
+		<li><a href="/about/partnerprogram/">Stumble Badges</a></li>	
+		<li><a href="/stumblethru/">StumbleThru</a></li>	
+		<li class="header">Your Profile</li>
+		<li><a href="/findfriends/">Connect with Friends</a></li>	
+				<li><a href="/settings/">Account Preferences</a></li>		
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Help</li>
+		<li><a href="/faq.html">FAQ</a></li>	
+		<li class="header">Company</li>
+		<li><a href="/jobs/">Jobs at StumbleUpon</a></li>	
+		<li><a href="/management/">Management</a></li>
+		<li><a href="/terms/">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy</a></li>	
+			
+	</ul>
+</div>
+
+	<p class="copyright">&copy; StumbleUpon 2001-2009</p>
+</div> <!-- end footer -->
+</div> <!-- end wrapperFooter -->
+
+
+	</div> <!-- end wrapper -->
+	<script type="text/javascript" charset="utf-8" src="/js/attach_su.js?v=su.23.12.09"></script>
+	
+<script type="text/javascript" src="http://www.stumbleupon.com/js/s_code.js"></script>
+<script type="text/javascript"><!--
+s.pageName="Tag v4";
+s.eVar9 = 'Visitor';
+s.prop9 = 'Visitor';
+if(window.tp_variation !== undefined && window.tp_variation != ""){s.prop10=tp_variation;s.eVar10=tp_variation;}
+if(window.hp_variation !== undefined && window.hp_variation != ""){s.pageName=hp_variation;}
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+</script>
+
+<!-- Start Quantcast tag --> 
+			 <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> 
+			 <script type="text/javascript">_qacct="p-dez5MJMQSF95o";quantserve();</script> 
+			 <noscript> 
+			 	<a href="http://www.quantcast.com/p-dez5MJMQSF95o" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-dez5MJMQSF95o.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a> 
+			</noscript> 
+			<!-- End Quantcast tag -->
+	<script type="text/javascript" charset="utf-8">
+	
+	  var is_ssl = ("https:" == document.location.protocol);
+	  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+	  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+
+	<script type="text/javascript" charset="utf-8">
+	
+
+		
+	  var feedback_widget_options = {};
+	  feedback_widget_options.display = "overlay";
+	  feedback_widget_options.company = "stumbleupon";
+	  feedback_widget_options.placement = "right";
+	  feedback_widget_options.color = "#222";
+	  feedback_widget_options.style = "idea";
+	  feedback_widget_options.product = "stumbleupon_stumbleupon";
+	  feedback_widget_options.limit = "3";
+	  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+	
+	</script>
+        			<img src="/spacer" width=0 height=0 />
+	</body>
+</html>
