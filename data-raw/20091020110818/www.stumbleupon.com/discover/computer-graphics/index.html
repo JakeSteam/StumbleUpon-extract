@@ -1,0 +1,987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+	<link rel="stylesheet" href="/css/global_su.css?v=super.10" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="/css/print_su.css?v=super.10" type="text/css" media="print" />
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" href="/css/ie_su.css?v=super.10" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/css/ie7_su.css?v=super.10" type="text/css" media="screen, projection" />
+	<![endif]-->
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="/css/ie8_su.css?v=super.10" type="text/css" media="screen, projection" />
+	<![endif]-->
+				<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="/js/global_su.js?v=super.10"></script>
+	<script type="text/javascript" src="/js/plugins_su.js?v=super.10"></script>
+	
+	<title>Discover - Recent Activity</title>
+
+        <script type="text/javascript"> 
+         
+        function trk(u) {  
+                if (document.images) 
+                { 
+                        (new Image).src=u;  
+                } 
+                return true; 
+        } 
+         
+        </script> 
+</head>
+<body class="discover">
+	<div id="inflator"></div>
+	<div id="wrapperPanel">
+		<div class="panel">
+			<a id="closePanel" class="close" href="javascript:void(0);">close</a>
+			<iframe name="panel" frameborder="0" src="" scrolling="no" noresize="0" style="width: 100%; height: 198px;"></iframe>			
+			
+			<script type="text/javascript">
+				$('#closePanel').click(function(){
+					$('.listStumble .active').each(function () {
+						$(this).removeClass('active');
+						$('.open').slideUp(200);                
+						}
+					);
+					$('#inflator.open').slideUp(200).removeClass('open');
+					$('#addContent.open').slideUp(200).removeClass('open');
+				});
+			</script>
+			
+		</div> <!-- end panel -->
+		<div id="fadeout"></div>
+		<div id="ff-install-helper" style="display: none;">
+		  <img id="close-button" src="/images/close-button.png" alt="x" />
+		  <h2>Installing is Easy!<img src="http://cdn.stumble-upon.com/images/s.gif" class="iconArrow24" /></h2>
+		  <ol>
+			<li style="margin-bottom:0.7em;margin-top:0.7em;">Click Allow</li>
+			<li style="margin-bottom:0.7em;">Click Install Now</li>
+			<li style="color:#666;">After installing, Restart Firefox</li>
+		  </ol>
+		</div>
+	</div> <!-- end wrapperWebToolbar -->	
+	<div id="wrapper">
+			<div id="wrapperHeader">
+	<div id="header" class="">	
+	   	<a id="logo" href="/">StumbleUpon</a> <!-- end logo -->
+	   				<div id="headerLogin" class="hidden">
+			 	<form action="/login.php" name="formLogin" method="post" id="formLogin">			 		
+			 		<ul>
+			 			<li class="iefix">
+			 				<label for="username">Email or username</label>
+			 				<input class="text" type="text" name="username" tabindex="0" id="username" value="" />			 			</li>			 			
+			 			<li class="iefix" id="wrapperPassword">
+			 				<label for="password">Password</label>
+			 				<input class="text" type="password" id="passwordHeader" name="password" maxlength="16" />
+			 				<input class="text hidden" type="text" value="Password" tabindex="0" name="dummyPassword" id="switch" />
+			 			</li>
+			 			<li>
+			 				<input class="btnGreen" type="submit" name="login" value="Login" />
+							<input type="hidden" name="rememberme" value="1" />
+			 			</li>
+			 		</ul>			 												 		
+			 	</form>
+			</div>	
+			<p id="loginLinks">
+	   			<a class="signin" href="/sign_up.php">Join StumbleUpon</a>
+	   			<span class="separator">&bull;</span>
+	   			<a class="login" href="/login.php">Login</a>
+	   		</p>
+			</div>  <!-- end header -->
+</div> <!-- end wrapperHeader -->
+
+
+<div id="wrapperNav">
+	<ul id="navMain">
+		<li class="discover first"><a href="/discover/toprated/">Discover</a></li>
+		<li class="favorites"><a href="/favorites/">Favorites</a></li>
+		<li class="stumblers"><a href="/stumblers/onlinenow/">Stumblers</a></li>
+		<li id="searchNav" class="last">
+			<form method="get" action="/search">
+				<fieldset>
+					<label for="searchNavUser">Search Favorites</label>
+					<input type="text" value="" id="searchNavUser" name="q" class="text"/>
+					<input type="image" alt="Search" src="/i/btn/btnSearch.gif" id="searchNavSubmit"/>
+									</fieldset>
+			</form>
+		</li>
+	</ul> <!-- end navMain -->  
+</div> <!-- end wrapperNav -->
+<div id="wrapperContent">
+	<div id="content" class="hasColRight topic clearfix">
+		<div class="colRight">
+						
+							<div class="box">
+					<a id="subscribeBtn" class="subscribe submit btnWhite" href="/sign_up.php?pre2=subscribe_tag">Subscribe</a>
+				</div>
+						<div class="box borderBottom">
+	<h4>Related Topics</h4>
+	<ul class="listTopics">
+					<li>
+				<a href="/discover/computer-hardware/">Computer Hardware</a>			</li>
+					<li>
+				<a href="/discover/computers/">Computers</a>			</li>
+					<li>
+				<a href="/discover/graphic-design/">Graphic Design</a>			</li>
+					<li>
+				<a href="/discover/humor/">Humor</a>			</li>
+					<li>
+				<a href="/discover/internet/">Internet</a>			</li>
+					<li>
+				<a href="/discover/multimedia/">Multimedia</a>			</li>
+			</ul>
+</div>
+
+		</div> <!-- end colRight -->
+		
+		<div class="colMain">				
+			<ul class="headerControls">
+				<li>
+											<a href="/s/#topic:" class="btnYellow" title="Stumble Computer-graphics">Stumble &gt;</a></li>
+									<li><h1>Computer Graphics</h1></li>
+			</ul>
+
+							<div id="navSecondary" class="clearfix">
+	<ul class="left">
+		<li>People who like this</li>
+			</ul>
+	<ul class="right">
+						<li><a href="/discover/computer-graphics/people/">See more</a></li>
+			</ul>
+</div>	<!-- end navSecondary -->
+				
+<div class="box">	
+	<ul class="gridUsers clearfix">
+	
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Giuliavic/" title="Giuliavic - 23 - 2218 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/8072612.jpg) no-repeat 50% 50%;">
+					Giuliavic
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Giuliavic/" title="Giuliavic">Giuliavic</a><br />
+				2,218 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/yamaska/" title="yamaska - 52385 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/1424334.jpg) no-repeat 50% 50%;">
+					yamaska
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/yamaska/" title="yamaska">yamaska</a><br />
+				52K Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Lovelypurple/" title="Lovelypurple - 3231 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/8324380.jpg) no-repeat 50% 50%;">
+					Lovelypurple
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Lovelypurple/" title="Lovelypurple">Lovelyp...</a><br />
+				3,231 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/charistsevis/" title="charistsevis - 42 - Athens - 17697 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/4848669.jpg) no-repeat 50% 50%;">
+					charistsevis
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/charistsevis/" title="charistsevis">charist...</a><br />
+				18K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/Fluffy2002/" title="Fluffy2002 - Mississauga - 32340 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/1622656.jpg) no-repeat 50% 50%;">
+					Fluffy2002
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/Fluffy2002/" title="Fluffy2002">Fluffy2002</a><br />
+				32K Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/avidchronos/" title="avidchronos - 21 - Utah - 8379 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/1651011.jpg) no-repeat 50% 50%;">
+					avidchronos
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/avidchronos/" title="avidchronos">avidchr...</a><br />
+				8,379 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/mamerevi/" title="mamerevi - 24 - Stavanger - 7025 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/5660173.jpg) no-repeat 50% 50%;">
+					mamerevi
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/mamerevi/" title="mamerevi">mamerevi</a><br />
+				7,025 Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/ClDumbass/" title="ClDumbass - 22 - Astoria - 15735 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/2335502.jpg) no-repeat 50% 50%;">
+					ClDumbass
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/ClDumbass/" title="ClDumbass">ClDumbass</a><br />
+				16K Favs<br />
+																			</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/firescorpio114/" title="firescorpio114 - 19 - 2703 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/7349157.jpg) no-repeat 50% 50%;">
+					firescorpio114
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/firescorpio114/" title="firescorpio114">firesco...</a><br />
+				2,703 Favs<br />
+													<span class="iconOnlineNow" title="Recently online">Recently online</span>
+															</p>
+		</li>
+			<li class="">	
+			<span class="img">
+				<a href="/stumbler/KarlaLacomba/" title="KarlaLacomba - 24 - Mexico City - 123 Favs" style="background: #fff url(http://cdn.stumble-upon.com/superminipics/6832249.jpg) no-repeat 50% 50%;">
+					KarlaLacomba
+				</a>
+			</span>	
+						<p>
+				<a href="/stumbler/KarlaLacomba/" title="KarlaLacomba">KarlaLa...</a><br />
+				123 Favs<br />
+																			</p>
+		</li>
+	 
+	</ul>
+	
+	</div> <!-- end box -->
+						<div id="navSecondary">
+				<ul class="left">
+					<li>Computer Graphics pages</li>
+				</ul>
+			</div>
+			<ul class="listStumble">
+	<li id="addContent">		
+		<form>
+			<fieldset class="labelLeft">				
+				<div class="wrapperInput">
+					<label for="url">URL</label>
+					<div class="iefix">
+						<input class="text" type="text" name="url" value="" id="url" />						
+					</div>
+				</div> <!-- end wrapperInput --> 
+				<div class="wrapperInput">
+					<label for="review">Review</label>
+					<div class="iefix">
+						<textarea cols="40" rows="6" id="review" name="review"></textarea>
+					</div>
+				</div> <!-- end wrapperInput --> 
+								<ul>
+					<li class="submit first iefix"><a class="submit btnWhite" href="javascript:void(0);">Add a site &gt;</a></li>					
+					<li><a class="cancel" href="javascript:void(0);">Cancel</a></li>
+					
+					<li class="sticky last">
+						<label class="checkbox">					
+							<input type="checkbox" name="sticky" value="" id="sticky" />
+							Sticky
+						</label>
+					</li>
+					<li class="blog right">
+						<label class="checkbox">					
+							<input type="checkbox" name="blog_mode" value="" class="blogMode" />
+							Blog mode
+						</label>
+					</li>
+				</ul>								 
+			</fieldset>
+		</form>
+	</li>
+
+				
+							
+							
+		
+		<li class="listLi  first">
+				
+			<var id="35935625" class="1RUhxQ"></var>						
+			<div class="text">							
+									<a class="avatar" id="7259863" href="/stumbler/Jamal82/" 
+						title="Jamal82">
+						<img src="http://cdn.stumble-upon.com/superminipics/7259863.jpg" width="32px" alt="Jamal82" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1RUhxQ/abduzeedo.com/amazing-retro-futuristic-space-collection/t:4add9a21e6871;src:tag:computer-graphics" >Amazing Retro-Futuristic Space Collection | Abduzeedo |...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+											 
+						
+																					<a href="http://www.stumbleupon.com/url/abduzeedo.com/amazing-retro-futuristic-space-collection">18 reviews</a>
+													
+					    
+								
+
+
+								
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1RUhxQ/abduzeedo.com/amazing-retro-futuristic-space-collection/t:4add9a21e6871;src:tag:computer-graphics" >abduzeedo.com</a>
+                                               					
+
+				</p>
+
+									<p class="review">
+																												retro space illustrations
+																								</p>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/abduzeedo.com/amazing-retro-futuristic-space-collection" title="25,951 views">
+					<span>26K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1RUhxQ/abduzeedo.com/amazing-retro-futuristic-space-collection/t:4add9a21e6871;src:tag:computer-graphics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/44/37408044.jpg" alt="Amazing Retro-Futuristic Space Collection | Abduzeedo | Graphic Design Inspiration and Photoshop Tutorials"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="" class="8WUgG5"></var>						
+			<div class="text">							
+				                                				<h4><a href="http://www.stumbleupon.com/to/8WUgG5/www.graphicmania.net/how-to-draw-anime-complete-guide/t:4add9a21e6871;src:tag:computer-graphics" >How to Draw Anime Complete Guide | Flash, Design, Vector,...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showStumble">
+											 
+						
+																					<a href="http://www.stumbleupon.com/url/www.graphicmania.net/how-to-draw-anime-complete-guide/">16 reviews</a>
+													
+					    
+								
+
+
+								
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/8WUgG5/www.graphicmania.net/how-to-draw-anime-complete-guide/t:4add9a21e6871;src:tag:computer-graphics" >graphicmania.net</a>
+                                               					
+
+				</p>
+
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.graphicmania.net/how-to-draw-anime-complete-guide/" title="33,837 views">
+					<span>34K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/8WUgG5/www.graphicmania.net/how-to-draw-anime-complete-guide/t:4add9a21e6871;src:tag:computer-graphics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/668/36654668.jpg" alt="How to Draw Anime Complete Guide | Flash, Design, Vector, Photoshop, Adobe Tutorials | GraphicMania.net"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="35348319" class="2x0Jgm"></var>						
+			<div class="text">							
+									<a class="avatar" id="7865226" href="/stumbler/barryr666/" 
+						title="barryr666">
+						<img src="http://cdn.stumble-upon.com/superminipics/7865226.jpg" width="32px" alt="barryr666" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2x0Jgm/www.graphicmania.net/amazing-digital-painting-photoshop-tutorials/t:4add9a21e6871;src:tag:computer-graphics" >Amazing Digital Painting Photoshop Tutorials | Flash,...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+											 
+						
+																					<a href="http://www.stumbleupon.com/url/www.graphicmania.net/amazing-digital-painting-photoshop-tutorials/">8 reviews</a>
+													
+					    
+								
+
+
+								
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2x0Jgm/www.graphicmania.net/amazing-digital-painting-photoshop-tutorials/t:4add9a21e6871;src:tag:computer-graphics" >graphicmania.net</a>
+                                               					
+
+				</p>
+
+									<p class="review">
+																												Photoshop digital art tutorials.
+																								</p>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.graphicmania.net/amazing-digital-painting-photoshop-tutorials/" title="15,287 views">
+					<span>15K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2x0Jgm/www.graphicmania.net/amazing-digital-painting-photoshop-tutorials/t:4add9a21e6871;src:tag:computer-graphics" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/968/36096968.jpg" alt="Amazing Digital Painting Photoshop Tutorials | Flash, Design, Vector, Photoshop, Adobe Tutorials | GraphicMania.net"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="35209250" class="2qL3MO"></var>						
+			<div class="text">							
+									<a class="avatar" id="7865226" href="/stumbler/barryr666/" 
+						title="barryr666">
+						<img src="http://cdn.stumble-upon.com/superminipics/7865226.jpg" width="32px" alt="barryr666" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/2qL3MO/abduzeedo.com/node/8858/t:4add9a21e6871;src:tag:computer-graphics" >50 Desktop Wallpapers 3D Inspiradores | Abduzeedo |...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+											 
+						
+																					<a href="http://www.stumbleupon.com/url/abduzeedo.com/node/8858">31 reviews</a>
+													
+					    
+								
+
+
+								
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/2qL3MO/abduzeedo.com/node/8858/t:4add9a21e6871;src:tag:computer-graphics" >abduzeedo.com</a>
+                                               					
+
+				</p>
+
+									<p class="review">
+																												Some cool graphic design wallpapers some of which I have seen before.
+																								</p>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/abduzeedo.com/node/8858" title="63,527 views">
+					<span>64K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/2qL3MO/abduzeedo.com/node/8858/t:4add9a21e6871;src:tag:computer-graphics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/746/35547746.jpg" alt="50 Desktop Wallpapers 3D Inspiradores | Abduzeedo | Graphic Design Inspiration and Photoshop Tutorials"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="34818807" class="1Gucjp"></var>						
+			<div class="text">							
+									<a class="avatar" id="2326041" href="/stumbler/benadamx/" 
+						title="benadamx">
+						<img src="http://cdn.stumble-upon.com/superminipics/2326041.jpg" width="32px" alt="benadamx" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/1Gucjp/www.kottke.org/09/07/vol-libre-an-amazing-cg-film-from-1980/t:4add9a21e6871;src:tag:computer-graphics" >Vol Libre, an amazing CG film from 1980</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+											 
+						
+																					<a href="http://www.stumbleupon.com/url/www.kottke.org/09/07/vol-libre-an-amazing-cg-film-from-1980">18 reviews</a>
+													
+					    
+								
+
+
+								
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/1Gucjp/www.kottke.org/09/07/vol-libre-an-amazing-cg-film-from-1980/t:4add9a21e6871;src:tag:computer-graphics" >kottke.org</a>
+                                               					
+
+				</p>
+
+									<p class="review">
+																												Fournier gave his talk on fractal math, and Loren gave his talk on all the different algorithms there were for generating fractals, and how some were better than others for making lightning bolts or boundaries. &quot;All pretty technical stuff,&quot; recalled Carpenter.... <a href="/stumbler/benadamx/review/34818807/">more</a>
+																								</p>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.kottke.org/09/07/vol-libre-an-amazing-cg-film-from-1980" title="43,659 views">
+					<span>44K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/1Gucjp/www.kottke.org/09/07/vol-libre-an-amazing-cg-film-from-1980/t:4add9a21e6871;src:tag:computer-graphics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/92/35612092.jpg" alt="Vol Libre, an amazing CG film from 1980"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="35144892" class="7ETK8D"></var>						
+			<div class="text">							
+									<a class="avatar" id="131598" href="/stumbler/Divadrummer/" 
+						title="Divadrummer">
+						<img src="http://cdn.stumble-upon.com/superminipics/131598.jpg" width="32px" alt="Divadrummer" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/7ETK8D/www.themostamazingwebsiteontheinternet.com/t:4add9a21e6871;src:tag:computer-graphics" >!@#$!@@@@@@@ MY ISYS PROJECT @@@@@@!%#@!@</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+											 
+						
+																					<a href="http://www.stumbleupon.com/url/www.themostamazingwebsiteontheinternet.com/">90 reviews</a>
+													
+					    
+								
+
+
+								
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/7ETK8D/www.themostamazingwebsiteontheinternet.com/t:4add9a21e6871;src:tag:computer-graphics" >themostamazingwebsiteontheinternet.com</a>
+                                               					
+
+				</p>
+
+									<p class="review">
+																												I should quit my job now, because I will never be as awesome as this.
+																								</p>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.themostamazingwebsiteontheinternet.com/" title="16,538 views">
+					<span>17K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/7ETK8D/www.themostamazingwebsiteontheinternet.com/t:4add9a21e6871;src:tag:computer-graphics" >
+                                					<img src="http://cdn.stumble-upon.com/altmthumb/469/34666469.jpg" alt="!@#$!@@@@@@@ MY ISYS PROJECT @@@@@@!%#@!@"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="33297241" class="4vpmGU"></var>						
+			<div class="text">							
+									<a class="avatar" id="3154872" href="/stumbler/lekahe/" 
+						title="lekahe">
+						<img src="http://cdn.stumble-upon.com/superminipics/3154872.jpg" width="32px" alt="lekahe" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/4vpmGU/illusioncontest.neuralcorrelate.com/2009/the-break-of-the-curveball/t:4add9a21e6871;src:tag:computer-graphics" >The break of the curveball &amp;  Best Visual Illusion of...</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+											 
+						
+																					<a href="http://www.stumbleupon.com/url/illusioncontest.neuralcorrelate.com/2009/the-break-of-the-curveball/">48 reviews</a>
+													
+					    
+								
+
+
+								
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/4vpmGU/illusioncontest.neuralcorrelate.com/2009/the-break-of-the-curveball/t:4add9a21e6871;src:tag:computer-graphics" >neuralcorrelate.com</a>
+                                               					
+
+				</p>
+
+									<p class="review">
+																												An unbelievable optical Illusion!
+																								</p>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/illusioncontest.neuralcorrelate.com/2009/the-break-of-the-curveball/" title="117,897 views">
+					<span>118K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/4vpmGU/illusioncontest.neuralcorrelate.com/2009/the-break-of-the-curveball/t:4add9a21e6871;src:tag:computer-graphics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/461/32529461.jpg" alt="The break of the curveball &amp;  Best Visual Illusion of the Year Contest"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  ">
+				
+			<var id="" class="41LSnV"></var>						
+			<div class="text">							
+				                                				<h4><a href="http://www.stumbleupon.com/to/41LSnV/www.youtube.com/watch?v=KBEXxW3qAMg/t:4add9a21e6871;src:tag:computer-graphics" >YouTube - Core Tools for Augmented Reality</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showStumble">
+											 
+						
+																					<a href="http://www.stumbleupon.com/url/www.youtube.com/watch%253Fv%253DKBEXxW3qAMg">0 reviews</a>
+													
+					    
+								
+
+
+								
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/41LSnV/www.youtube.com/watch?v=KBEXxW3qAMg/t:4add9a21e6871;src:tag:computer-graphics" >youtube.com</a>
+                                               					
+
+				</p>
+
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.youtube.com/watch%253Fv%253DKBEXxW3qAMg" title="3,209 views">
+					<span>3,209</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/41LSnV/www.youtube.com/watch?v=KBEXxW3qAMg/t:4add9a21e6871;src:tag:computer-graphics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/943/31173943.jpg" alt="YouTube - Core Tools for Augmented Reality"/>
+				</a>
+			</span>																				
+			
+											</li>
+				
+							
+							
+		
+		<li class="listLi  last">
+				
+			<var id="30545483" class="8tDDNB"></var>						
+			<div class="text">							
+									<a class="avatar" id="1128964" href="/stumbler/poetofcode/" 
+						title="poetofcode">
+						<img src="http://cdn.stumble-upon.com/superminipics/1128964.jpg" width="32px" alt="poetofcode" />
+					</a>
+				                                				<h4><a href="http://www.stumbleupon.com/to/8tDDNB/www.byhook.com/video/telematics.html/t:4add9a21e6871;src:tag:computer-graphics" >telematics</a></h4>
+                                				
+																														
+								
+													
+
+				<p class="showReview">
+											 
+						
+																					<a href="http://www.stumbleupon.com/url/www.byhook.com/video/telematics.html">170 reviews</a>
+													
+					    
+								
+
+
+								
+                               					           <span class="separator">&bull;</span> <a class="nowrap url" href="http://www.stumbleupon.com/to/8tDDNB/www.byhook.com/video/telematics.html/t:4add9a21e6871;src:tag:computer-graphics" >byhook.com</a>
+                                               					
+
+				</p>
+
+									<p class="review">
+																												Either my Internet connection or this flash video player is buggy, because it wouldn&#039;t play for longer than about 5 seconds at a time, and took at least 10 minutes to buffer completely. But after looking at the reviews here I thought I&#039;d give it time to do its thing... <a href="/stumbler/poetofcode/review/30545483/">more</a>
+																								</p>
+					
+				
+										
+				<ul class="controls clearfix">
+																<li class="first last"><a class="share" href="javascript:void(0);">Share</a></li>
+									</ul>	
+				
+					
+				
+			</div> <!-- end text -->
+						<div class="views">
+				<a href="http://www.stumbleupon.com/url/www.byhook.com/video/telematics.html" title="182,784 views">
+					<span>183K</span> views				</a>
+			</div>	
+			<span class="img">
+                                				<a href="http://www.stumbleupon.com/to/8tDDNB/www.byhook.com/video/telematics.html/t:4add9a21e6871;src:tag:computer-graphics" >
+                                					<img src="http://cdn.stumble-upon.com/mthumb/845/29274845.jpg" alt="telematics"/>
+				</a>
+			</span>																				
+			
+											</li>
+					
+</ul>
+			
+	<ul class="module modulePagination clearfix">
+						<li><a id="paginationNext" href="/discover/computer-graphics/10/">Next &raquo;</a>
+				</ul>
+
+<script language="javascript">
+function navigate_blog(e)
+{
+        var kcode;
+
+        if (e == null)
+        {
+                // IE
+                if (typeof(event.srcElement.type != 'undefined') && (event.srcElement.type == 'text' || event.srcElement.type == 'textarea'))
+                        return true;
+
+                kcode = event.keyCode;
+                if (typeof(event.srcElement.type) != 'undefined' && (event.srcElement.id == 'search_q' || event.srcElement.id == 'stumblesearch' || event.srcElement.id == 'searchtext' || event.srcElement.id == 'tagtext' || event.srcElement.id == 'blogContent' || event.srcElement.id == 'blogContentFCK' || event.srcElement.id == 'newtags' || event.srcElement.id == 'addTag' || event.srcElement.id == 'qmsg_ta' ))
+                        return true;
+        }
+        else
+        {
+                // Mozilla
+                if (e.altKey || e.ctrlKey)
+                {
+                        return true; // moz doesn't override ctrl keys
+                }
+                kcode = e.which;
+
+                if (typeof(e.target.type != 'undefined') && (e.target.type == 'text' || e.target.type == 'textarea'))
+                        return true;
+
+                if (typeof(e.target.type) != 'undefined' && (e.target.id == 'search_q' || e.target.id == 'stumblesearch' || e.target.id == 'searchtext' || e.target.id == 'tagtext' || e.target.id == 'blogContent' || e.target.id == 'blogContentFCK' || e.target.id == 'newtags' || e.target.id == 'addTag' || e.target.id == 'qmsg_ta' ))
+                        return true;
+        }
+        var key = String.fromCharCode(kcode).toLowerCase();
+        var keyCode = document.layers ? e.which :
+                        document.all ? event.keyCode :
+                        document.getElementById ? e.keyCode : 0;
+
+        var n = null;
+        if(keyCode == 39)
+        {
+                if (n = document.getElementById('paginationNext'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+        if(keyCode == 37)
+        {
+                if (n = document.getElementById('paginationPrevious'))
+                {
+                        document.location.href = n.href;
+                }
+                return true;
+        }
+
+        return true;
+}
+
+document.onkeydown = navigate_blog;
+
+</script>
+
+
+		</div> <!-- end colMain -->		
+    </div> <!-- end content -->
+</div> <!-- end wrapperContent -->
+<div id="wrapperFooter">
+    <div id="footer" class="clearfix">
+<div class="clearfix colFour">	
+	<ul class="col">
+		<li class="header">About StumbleUpon</li>
+		<li><a href="/aboutus/">About Us</a></li>	
+		<li><a href="/productdemo/">Take a Tour</a></li>	
+		<li><a href="/technology/">Our Recommendation Engine</a></li>	
+		<li><a href="/press/">Press Information</a>
+		<li><a href="http://blog.stumbleupon.com/">Official Blog</a></li>	
+		<li><a href="/devblog/">Developers Blog</a></li>	
+	</ul>
+
+	<ul class="col">
+		<li class="header">Explore StumbleUpon</li>
+		<li><a href="/tag/">Tags</a>, <a href="/book/">Books</a>, <a href="/music/">Music</a>, <a href="/movie/">Movies</a></li>	
+		<li><a href="/tv/">TV Shows</a>, <a href="/city/">Cities</a>, <a href="/country/">Countries</a></li>	
+		<li class="header">Community</li>
+		<li><a href="/stumblers/onlinenow/">Recent Stumblers</a></li>	
+		<li><a href="/topstumblers/">Top Stumblers</a></li>	
+		<li>
+			<a href="/groups/">Groups</a>		</li>
+		<li><a href="/aboutus/community_rules">Community Rules</a></li>	
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Tools and Services</li>
+				<li><a href="/ads/">StumbleUpon Advertising</a></li>	
+		<li><a href="/about/partnerprogram/">Stumble Badges</a></li>	
+		<li><a href="/stumblethru/">StumbleThru</a></li>	
+		<li class="header">Your Profile</li>
+		<li><a href="/findfriends/">Connect with Friends</a></li>	
+				<li><a href="/settings/">Account Preferences</a></li>		
+	</ul>
+
+
+	<ul class="col">
+		<li class="header">Help</li>
+		<li><a href="/faq.html">FAQ</a></li>	
+		<li class="header">Company</li>
+		<li><a href="/jobs/">Jobs at StumbleUpon</a></li>	
+		<li><a href="/management/">Management</a></li>
+		<li><a href="/terms/">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy</a></li>	
+			
+	</ul>
+</div>
+
+	<p class="copyright">&copy; StumbleUpon 2001-2009</p>
+</div> <!-- end footer -->
+</div> <!-- end wrapperFooter -->
+
+
+	</div> <!-- end wrapper -->
+	<script type="text/javascript" charset="utf-8" src="/js/attach_su.js?v=super.10"></script>
+	
+<script type="text/javascript" src="http://www.stumbleupon.com/js/s_code.js"></script>
+<script type="text/javascript"><!--
+s.pageName="Tag v4";
+s.eVar9 = 'Visitor';
+s.prop9 = 'Visitor';
+if(window.tp_variation !== undefined && window.tp_variation != ""){s.prop10=tp_variation;s.eVar10=tp_variation;}
+if(window.hp_variation !== undefined && window.hp_variation != ""){s.pageName=hp_variation;}
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+</script>
+
+<!-- Start Quantcast tag --> 
+			 <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script> 
+			 <script type="text/javascript">_qacct="p-dez5MJMQSF95o";quantserve();</script> 
+			 <noscript> 
+			 	<a href="http://www.quantcast.com/p-dez5MJMQSF95o" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-dez5MJMQSF95o.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a> 
+			</noscript> 
+			<!-- End Quantcast tag -->
+	<script type="text/javascript" charset="utf-8">
+	
+	  var is_ssl = ("https:" == document.location.protocol);
+	  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+	  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+
+	<script type="text/javascript" charset="utf-8">
+	
+
+		
+	  var feedback_widget_options = {};
+	  feedback_widget_options.display = "overlay";
+	  feedback_widget_options.company = "stumbleupon";
+	  feedback_widget_options.placement = "right";
+	  feedback_widget_options.color = "#222";
+	  feedback_widget_options.style = "idea";
+	  feedback_widget_options.product = "stumbleupon_stumbleupon";
+	  feedback_widget_options.limit = "3";
+	  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+	
+	</script>
+        </body>
+</html>
