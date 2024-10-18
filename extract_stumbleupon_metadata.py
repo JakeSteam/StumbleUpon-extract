@@ -3,7 +3,7 @@ import csv
 from bs4 import BeautifulSoup
 
 root_dir = r'data-raw'
-max_files = 10
+max_files = 999999
 stumbleupon_prefix = 'http://www.stumbleupon.com/url/'
 output_csv = 'data-parsed/toprated.csv'
 
@@ -18,7 +18,7 @@ def extract_metadata(file_path):
             reviews = item.find(class_='showReview') or item.find(class_='showStumble')
             views = item.find(class_='views')
             
-            # Assumes relative path `data-raw\20091011113141\www.stumbleupon.com\discover\toprated`
+            # Assumes relative path `data-raw\20091011113141\www.stumbleupon.com\discover\toprated\index.html`
             path_parts = file_path.split(os.sep)
             
             metadata = {
@@ -27,10 +27,10 @@ def extract_metadata(file_path):
                 'title': item.find("span", class_='img').find("img")["alt"],
                 'review_count': int(''.join(filter(str.isdigit, reviews.find('a').get_text(strip=True).split()[0]))),
                 'view_count': int(''.join(filter(str.isdigit, views.find('a')['title'].split()[0]))),
-                'date': int(path_parts[-4]),
+                'date': int(path_parts[-5]),
                 'user_id': int(user['id']) if user else -1, 
                 'user_name': user['title'] if user else 'Unavailable', 
-                'source': path_parts[-1]
+                'source': path_parts[-2]
             }
             metadata_list.append(metadata)
         print(f"Processed {len(list_items)} items from {file_path}")
