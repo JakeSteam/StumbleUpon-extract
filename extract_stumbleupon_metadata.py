@@ -7,7 +7,7 @@ from urllib.parse import unquote
 root_dir = r'data-raw'
 max_files = 9999
 stumbleupon_prefix = 'http://www.stumbleupon.com/url/'
-output_csv = 'data-parsed/toprated.csv'
+output_csv = 'data-parsed/parsed.csv'
 
 def extract_metadata(file_path):
     with open(file_path, 'r', encoding='utf-8', errors='ignore') as file:
@@ -24,8 +24,9 @@ def extract_metadata(file_path):
             # Assumes relative path `data-raw\20091011113141\www.stumbleupon.com\discover\toprated\index.html`
             path_parts = file_path.split(os.sep)
             
+            ######## problem caused by "toprated" overlapping with others! ##########
             metadata = {
-                'id': item.find('var')['class'][0],
+                'id': f"{item.find('var')['class'][0]}_{item.find('var')['id']}",
                 'url': unquote(unquote(raw_url)),
                 'title': item.find("span", class_='img').find("img")["alt"].strip(),
                 'review_count': int(''.join(filter(str.isdigit, reviews.find('a').get_text(strip=True).split()[0]))),
