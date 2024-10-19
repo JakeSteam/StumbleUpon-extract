@@ -1,9 +1,10 @@
 import os
 import csv
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 root_dir = r'data-raw'
-max_files = 999999
+max_files = 9999
 stumbleupon_prefix = 'http://www.stumbleupon.com/url/'
 output_csv = 'data-parsed/toprated.csv'
 
@@ -33,7 +34,6 @@ def extract_metadata(file_path):
                 'source': path_parts[-2]
             }
             metadata_list.append(metadata)
-        print(f"Processed {len(list_items)} items from {file_path}")
         return metadata_list
 
 # Ensure the output directory exists
@@ -59,5 +59,7 @@ with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:
                 for data in metadata_list:
                     writer.writerow(data)
                 file_count += 1
+                current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                print(f"{current_time}: Processed {len(metadata_list)} items from #{file_count}: {file_path}")
         if file_count >= max_files:
             break
