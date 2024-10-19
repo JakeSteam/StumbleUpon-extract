@@ -2,6 +2,7 @@ import os
 import csv
 from bs4 import BeautifulSoup
 from datetime import datetime
+from urllib.parse import unquote
 
 root_dir = r'data-raw'
 max_files = 9999
@@ -17,6 +18,7 @@ def extract_metadata(file_path):
         for item in list_items:
             user = item.find(class_='avatar')
             reviews = item.find(class_='showReview') or item.find(class_='showStumble')
+            raw_url = f'https://{reviews.find("a")["href"][len(stumbleupon_prefix):]}'
             views = item.find(class_='views')
             
             # Assumes relative path `data-raw\20091011113141\www.stumbleupon.com\discover\toprated\index.html`
@@ -24,8 +26,8 @@ def extract_metadata(file_path):
             
             metadata = {
                 'id': item.find('var')['class'][0],
-                'url': f'https://{reviews.find("a")["href"][len(stumbleupon_prefix):]}',
-                'title': item.find("span", class_='img').find("img")["alt"],
+                'url': unquote(unquote(raw_url)),
+                'title': item.find("span", class_='img').find("img")["alt"].strip(),
                 'review_count': int(''.join(filter(str.isdigit, reviews.find('a').get_text(strip=True).split()[0]))),
                 'view_count': int(''.join(filter(str.isdigit, views.find('a')['title'].split()[0]))),
                 'date': int(path_parts[-5]),
