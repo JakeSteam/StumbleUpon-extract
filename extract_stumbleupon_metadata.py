@@ -24,7 +24,6 @@ def extract_metadata(file_path):
             # Assumes relative path `data-raw\20091011113141\www.stumbleupon.com\discover\toprated\index.html`
             path_parts = file_path.split(os.sep)
             
-            ######## problem caused by "toprated" overlapping with others! ##########
             metadata = {
                 'id': f"{item.find('var')['class'][0]}_{item.find('var')['id']}",
                 'url': unquote(unquote(raw_url)),
