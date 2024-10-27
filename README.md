@@ -11,6 +11,7 @@ Fully processed StumbleUpon data extracted from the Wayback Machine, for [an art
 - `/samples/`: Examples of the downloaded HTML, an individual StumbleUpon link, and the resulting CSV data.
 - `clean_stumbleupon_metadata.py`: Tool to deduplicate a CSV by `id` field (convert `parsed.csv` into `parsed-cleaned.csv`).
 - `extract_stumbleupon_metadata.py`: Tool to extract contents of downloaded StumbleUpon pages (convert `data-raw` contents into `parsed.csv`).
+- `analyse_stumbleupon_metadata.py`: Misc code to analyse the parsed data. This changes as required, full scripts available in original article.
 
 ## How to recreate results?
 
