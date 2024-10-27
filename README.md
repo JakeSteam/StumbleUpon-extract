@@ -9,6 +9,7 @@ Fully processed StumbleUpon data extracted from the Wayback Machine, for [an art
   - `parsed.csv`: Data before deduplication.
 - `/data-raw/`: Output of `waybackpack`, organised by timestamp and URL.
 - `/samples/`: Examples of the downloaded HTML, an individual StumbleUpon link, and the resulting CSV data.
+- `/url-analysis/`: The raw URLs from `parsed-cleaned.csv`, plus their status codes using `vl`.
 - `clean_stumbleupon_metadata.py`: Tool to deduplicate a CSV by `id` field (convert `parsed.csv` into `parsed-cleaned.csv`).
 - `extract_stumbleupon_metadata.py`: Tool to extract contents of downloaded StumbleUpon pages (convert `data-raw` contents into `parsed.csv`).
 - `analyse_stumbleupon_metadata.py`: Misc code to analyse the parsed data. This changes as required, full scripts available in original article.
